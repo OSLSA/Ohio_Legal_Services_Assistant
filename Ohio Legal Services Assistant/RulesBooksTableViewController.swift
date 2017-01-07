@@ -24,9 +24,9 @@ class RulesBooksTableViewController: UITableViewController {
     }
     
     func getTitleKeys() -> [String] {
-        var titleKeys: [String] = titlesDict.allKeys as! [String]
-        
-        return titleKeys
+        let titleKeys: [String] = titlesDict.allKeys as! [String]
+        let sortedArray = titleKeys.sorted { $0.localizedCaseInsensitiveCompare($1) == ComparisonResult.orderedAscending }
+        return sortedArray
     }
     
     // MARK: - Table view data source
