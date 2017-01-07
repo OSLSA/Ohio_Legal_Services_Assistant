@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>Ohio Legal Services Assistant.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>0</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>69BCB2EC1C208798005DD6E2</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>69BCB3001C208799005DD6E2</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>69BCB30B1C208799005DD6E2</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>FedCivPro</key>
+	<string>Federal Civil Procedure</string>
+	<key>FedEvid</key>
+	<string>Federal Evidence</string>
+	<key>OhioAppRules</key>
+	<string>Ohio Appellate Rules</string>
+	<key>OhioCivR</key>
+	<string>Ohio Civil Procedure</string>
+	<key>OhioEvidence</key>
+	<string>Ohio Evidence</string>
+	<key>JuvRules</key>
+	<string>Ohio Juvenile Rules</string>
+	<key>OhioProfResponsibility</key>
+	<string>Ohio Professional Responsibility</string>
+</dict>
+</plist>

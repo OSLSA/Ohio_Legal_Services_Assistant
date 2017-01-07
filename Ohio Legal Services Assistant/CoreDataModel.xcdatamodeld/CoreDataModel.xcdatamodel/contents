@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="11759" systemVersion="16C67" minimumToolsVersion="Xcode 7.0" sourceLanguage="Objective-C" userDefinedModelVersionIdentifier="">
+    <entity name="Forms" syncable="YES">
+        <attribute name="fileName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="formName" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="PikaURL" syncable="YES">
+        <attribute name="address" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="PushNotifications" representedClassName=".MyPushPushNotifications" syncable="YES">
+        <attribute name="subscribedToAttorney" optional="YES" attributeType="Boolean" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="subscribedToLegalServices" optional="YES" attributeType="Boolean" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="subscribedToServiceProvider" optional="YES" attributeType="Boolean" usesScalarValueType="NO" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Forms" positionX="-63" positionY="-18" width="128" height="75"/>
+        <element name="PushNotifications" positionX="-63" positionY="0" width="128" height="88"/>
+        <element name="PikaURL" positionX="-63" positionY="9" width="128" height="60"/>
+    </elements>
+</model>

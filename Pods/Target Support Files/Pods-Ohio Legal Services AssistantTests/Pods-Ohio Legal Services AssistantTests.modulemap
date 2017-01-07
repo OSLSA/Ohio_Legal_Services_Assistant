@@ -1,0 +1,6 @@
+framework module Pods_Ohio_Legal_Services_AssistantTests {
+  umbrella header "Pods-Ohio Legal Services AssistantTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

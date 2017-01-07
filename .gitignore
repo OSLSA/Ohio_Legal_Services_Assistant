@@ -1,0 +1,5 @@
+build/*
+.DS_Store
+*.xcuserdatad
+**/testGit4
+**/Ohio Legal Services Assistant/GoogleService-Info.plist

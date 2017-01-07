@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>paymentStandard</key>
+    <array>
+        <integer>0</integer>
+        <integer>282</integer>
+        <integer>386</integer>
+        <integer>473</integer>
+        <integer>582</integer>
+        <integer>682</integer>
+        <integer>759</integer>
+        <integer>848</integer>
+        <integer>940</integer>
+        <integer>1034</integer>
+        <integer>1127</integer>
+        <integer>1218</integer>
+        <integer>1312</integer>
+    </array>
+	<key>eligibilityStandard</key>
+	<array>
+		<integer>0</integer>
+		<integer>491</integer>
+		<integer>664</integer>
+		<integer>838</integer>
+		<integer>1011</integer>
+		<integer>1184</integer>
+		<integer>1358</integer>
+		<integer>1531</integer>
+		<integer>1704</integer>
+		<integer>1878</integer>
+		<integer>2051</integer>
+		<integer>2224</integer>
+		<integer>2398</integer>
+	</array>
+</dict>
+</plist>

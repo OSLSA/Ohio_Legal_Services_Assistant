@@ -1,0 +1,1005 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		511D91D61CFB16500030C815 /* SearchTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 511D91D51CFB16500030C815 /* SearchTableViewController.swift */; };
+		511D91D81CFB170A0030C815 /* SearchTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 511D91D71CFB170A0030C815 /* SearchTableViewCell.swift */; };
+		517EB5891D0C8DA30053D593 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 517EB5881D0C8DA30053D593 /* SettingsViewController.swift */; };
+		517EB5901D0CA3000053D593 /* MyPushPushNotifications+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 517EB58E1D0CA3000053D593 /* MyPushPushNotifications+CoreDataProperties.swift */; };
+		517EB5911D0CA3000053D593 /* MyPushPushNotifications.swift in Sources */ = {isa = PBXBuildFile; fileRef = 517EB58F1D0CA3000053D593 /* MyPushPushNotifications.swift */; };
+		5187C2821E211D8700A6DC73 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5187C2811E211D8700A6DC73 /* GoogleService-Info.plist */; };
+		5198E0BD1D14D49400081180 /* OhioAppRules.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5198E0BC1D14D49400081180 /* OhioAppRules.plist */; };
+		5198E0BF1D1557BA00081180 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5198E0BE1D1557BA00081180 /* HomeViewController.swift */; };
+		519FF27D1D10DC7500E36DE8 /* OhioProfResponsibility.plist in Resources */ = {isa = PBXBuildFile; fileRef = 519FF27C1D10DC7400E36DE8 /* OhioProfResponsibility.plist */; };
+		519FF2811D10E11F00E36DE8 /* OhioCivR.plist in Resources */ = {isa = PBXBuildFile; fileRef = 519FF2801D10E11F00E36DE8 /* OhioCivR.plist */; };
+		519FF2851D14C7A800E36DE8 /* OhioEvidence.plist in Resources */ = {isa = PBXBuildFile; fileRef = 519FF2841D14C7A800E36DE8 /* OhioEvidence.plist */; };
+		519FF2871D14C86E00E36DE8 /* FedEvid.plist in Resources */ = {isa = PBXBuildFile; fileRef = 519FF2861D14C86E00E36DE8 /* FedEvid.plist */; };
+		519FF2891D14CA3700E36DE8 /* FedCivPro.plist in Resources */ = {isa = PBXBuildFile; fileRef = 519FF2881D14CA3700E36DE8 /* FedCivPro.plist */; };
+		51AA566D1C20FFA900BFDEE3 /* FederalPovertyLevelController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51AA566C1C20FFA900BFDEE3 /* FederalPovertyLevelController.swift */; };
+		51AA566F1C2100E900BFDEE3 /* FederalPovertyLevelCalculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51AA566E1C2100E900BFDEE3 /* FederalPovertyLevelCalculator.swift */; };
+		51AA56711C21014100BFDEE3 /* CalculatorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51AA56701C21014100BFDEE3 /* CalculatorViewController.swift */; };
+		51AA80561DBA288C00766BD3 /* FoodStamps10-01-2016.plist in Resources */ = {isa = PBXBuildFile; fileRef = 51AA80551DBA288C00766BD3 /* FoodStamps10-01-2016.plist */; };
+		51B5B0DC1D9C8E44002625A8 /* ResourceTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51B5B0DB1D9C8E44002625A8 /* ResourceTableViewController.swift */; };
+		51B5B0DE1D9D29E6002625A8 /* ResourcesTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51B5B0DD1D9D29E6002625A8 /* ResourcesTableViewCell.swift */; };
+		51B5B0E01DA11CA5002625A8 /* CountyListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51B5B0DF1DA11CA5002625A8 /* CountyListTableViewController.swift */; };
+		51B5B0E31DA11CF4002625A8 /* CountyListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51B5B0E21DA11CF4002625A8 /* CountyListTableViewCell.swift */; };
+		51B5B0E51DA12428002625A8 /* Counties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51B5B0E41DA12427002625A8 /* Counties.swift */; };
+		51B5B0E71DA1D3AE002625A8 /* LocalResource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51B5B0E61DA1D3AE002625A8 /* LocalResource.swift */; };
+		51B5B0E91DA1DBF8002625A8 /* CategoriesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51B5B0E81DA1DBF8002625A8 /* CategoriesTableViewController.swift */; };
+		51B5B0EB1DA1DC12002625A8 /* CategoriesTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51B5B0EA1DA1DC12002625A8 /* CategoriesTableViewCell.swift */; };
+		51B5B0ED1DA1EC1A002625A8 /* ResourceDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51B5B0EC1DA1EC1A002625A8 /* ResourceDetailViewController.swift */; };
+		51E048671DB4450100F6D9CE /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51E048661DB4450000F6D9CE /* Constants.swift */; };
+		51E7093A1DBB796700F21AE8 /* APRCalculatorPayment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51E709391DBB796700F21AE8 /* APRCalculatorPayment.swift */; };
+		51EC72841CA75FDD0013D757 /* FormsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51EC72831CA75FDD0013D757 /* FormsTableViewController.swift */; };
+		51EC72861CA7615D0013D757 /* FormsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51EC72851CA7615D0013D757 /* FormsTableViewCell.swift */; };
+		51F486771C2631E000E882AC /* GarnishmentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51F486761C2631E000E882AC /* GarnishmentViewController.swift */; };
+		51F486791C26325700E882AC /* GarnishmentCalculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51F486781C26325700E882AC /* GarnishmentCalculator.swift */; };
+		51F4867B1C26343E00E882AC /* OWFViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51F4867A1C26343E00E882AC /* OWFViewController.swift */; };
+		51F4867D1C26349900E882AC /* OWFCalculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51F4867C1C26349900E882AC /* OWFCalculator.swift */; };
+		51F486801C26369F00E882AC /* APRCalculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51F4867F1C26369F00E882AC /* APRCalculator.swift */; };
+		51F486821C26374B00E882AC /* APRViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51F486811C26374B00E882AC /* APRViewController.swift */; };
+		51F486861C26395C00E882AC /* FoodStampCalculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51F486851C26395C00E882AC /* FoodStampCalculator.swift */; };
+		51F486881C263C2A00E882AC /* ACAViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51F486871C263C2A00E882AC /* ACAViewController.swift */; };
+		51F4868A1C263C6E00E882AC /* ACACalculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51F486891C263C6E00E882AC /* ACACalculator.swift */; };
+		51F4868E1C263D7700E882AC /* OWF01-15.plist in Resources */ = {isa = PBXBuildFile; fileRef = 51F4868C1C263D7700E882AC /* OWF01-15.plist */; };
+		51F4868F1C263D7700E882AC /* OWF07-14.plist in Resources */ = {isa = PBXBuildFile; fileRef = 51F4868D1C263D7700E882AC /* OWF07-14.plist */; };
+		51F486911C263DB800E882AC /* FoodStamps10-01-2014.plist in Resources */ = {isa = PBXBuildFile; fileRef = 51F486901C263DB800E882AC /* FoodStamps10-01-2014.plist */; };
+		51F486991C2C0E8500E882AC /* RulesDetailTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51F486981C2C0E8500E882AC /* RulesDetailTableViewController.swift */; };
+		51F4869B1C2C14F000E882AC /* RulesDetailTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51F4869A1C2C14F000E882AC /* RulesDetailTableViewCell.swift */; };
+		51F4869E1C2C1E7C00E882AC /* RulesBooksTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51F4869D1C2C1E7C00E882AC /* RulesBooksTableViewController.swift */; };
+		51F486A01C2C1FAB00E882AC /* RuleBooks.plist in Resources */ = {isa = PBXBuildFile; fileRef = 51F4869F1C2C1FAB00E882AC /* RuleBooks.plist */; };
+		51F486A21C2CD0C000E882AC /* JuvRules.plist in Resources */ = {isa = PBXBuildFile; fileRef = 51F486A11C2CD0C000E882AC /* JuvRules.plist */; };
+		51F486A41C2CD86000E882AC /* RulesBooksTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51F486A31C2CD86000E882AC /* RulesBooksTableViewCell.swift */; };
+		51F486A61C2D65FA00E882AC /* RulesToCTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51F486A51C2D65FA00E882AC /* RulesToCTableViewController.swift */; };
+		51F486A81C2D680000E882AC /* RulesToCTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51F486A71C2D680000E882AC /* RulesToCTableViewCell.swift */; };
+		6909ABB51C3D9AB300FDD7E3 /* FoodStampsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6909ABB41C3D9AB300FDD7E3 /* FoodStampsTableViewController.swift */; };
+		690DB8891DB64E7800B185D1 /* MyTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 690DB8881DB64E7800B185D1 /* MyTabBarViewController.swift */; };
+		693FC6201E1D74B500E6A499 /* MyPikaURLDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 693FC61F1E1D74B500E6A499 /* MyPikaURLDataProperties.swift */; };
+		693FC6221E1D756400E6A499 /* MyPikaURL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 693FC6211E1D756400E6A499 /* MyPikaURL.swift */; };
+		6942257A1D196A9E00C89352 /* OWF01-16.plist in Resources */ = {isa = PBXBuildFile; fileRef = 694225791D196A9E00C89352 /* OWF01-16.plist */; };
+		6942257C1D244A9300C89352 /* FoodStamps10-01-2015.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6942257B1D244A9300C89352 /* FoodStamps10-01-2015.plist */; };
+		6953C6131E200F6000686C17 /* medicaid_help_sheet.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 6953C6121E200F6000686C17 /* medicaid_help_sheet.pdf */; };
+		6953C6151E200F7700686C17 /* standards_help_sheet.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 6953C6141E200F7700686C17 /* standards_help_sheet.pdf */; };
+		697520281DC7A0AC00484440 /* OWF07-16.plist in Resources */ = {isa = PBXBuildFile; fileRef = 697520271DC7A0AC00484440 /* OWF07-16.plist */; };
+		69923FE41CB90BA300460C8B /* FormsDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69923FE31CB90BA300460C8B /* FormsDetailViewController.swift */; };
+		69923FE71CB976F600460C8B /* CoreDataModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 69923FE51CB976F600460C8B /* CoreDataModel.xcdatamodeld */; };
+		69BCB2F11C208798005DD6E2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69BCB2F01C208798005DD6E2 /* AppDelegate.swift */; };
+		69BCB2F31C208798005DD6E2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69BCB2F21C208798005DD6E2 /* ViewController.swift */; };
+		69BCB2F61C208798005DD6E2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 69BCB2F41C208798005DD6E2 /* Main.storyboard */; };
+		69BCB2F81C208798005DD6E2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 69BCB2F71C208798005DD6E2 /* Assets.xcassets */; };
+		69BCB2FB1C208799005DD6E2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 69BCB2F91C208799005DD6E2 /* LaunchScreen.storyboard */; };
+		69BCB3061C208799005DD6E2 /* Ohio_Legal_Services_AssistantTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69BCB3051C208799005DD6E2 /* Ohio_Legal_Services_AssistantTests.swift */; };
+		69BCB3111C208799005DD6E2 /* Ohio_Legal_Services_AssistantUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69BCB3101C208799005DD6E2 /* Ohio_Legal_Services_AssistantUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		69BCB3021C208799005DD6E2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 69BCB2E51C208798005DD6E2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 69BCB2EC1C208798005DD6E2;
+			remoteInfo = "Ohio Legal Services Assistant";
+		};
+		69BCB30D1C208799005DD6E2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 69BCB2E51C208798005DD6E2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 69BCB2EC1C208798005DD6E2;
+			remoteInfo = "Ohio Legal Services Assistant";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		146FC2A91826CF9189980D21 /* Pods-Ohio Legal Services Assistant.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Ohio Legal Services Assistant.release.xcconfig"; path = "Pods/Target Support Files/Pods-Ohio Legal Services Assistant/Pods-Ohio Legal Services Assistant.release.xcconfig"; sourceTree = "<group>"; };
+		511D91D51CFB16500030C815 /* SearchTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchTableViewController.swift; sourceTree = "<group>"; };
+		511D91D71CFB170A0030C815 /* SearchTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchTableViewCell.swift; sourceTree = "<group>"; };
+		517EB5881D0C8DA30053D593 /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		517EB58E1D0CA3000053D593 /* MyPushPushNotifications+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "MyPushPushNotifications+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		517EB58F1D0CA3000053D593 /* MyPushPushNotifications.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyPushPushNotifications.swift; sourceTree = "<group>"; };
+		5187C2811E211D8700A6DC73 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		5198E0BC1D14D49400081180 /* OhioAppRules.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = OhioAppRules.plist; sourceTree = "<group>"; };
+		5198E0BE1D1557BA00081180 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		519FF27C1D10DC7400E36DE8 /* OhioProfResponsibility.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = OhioProfResponsibility.plist; sourceTree = "<group>"; };
+		519FF2801D10E11F00E36DE8 /* OhioCivR.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = OhioCivR.plist; sourceTree = "<group>"; };
+		519FF2841D14C7A800E36DE8 /* OhioEvidence.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = OhioEvidence.plist; sourceTree = "<group>"; };
+		519FF2861D14C86E00E36DE8 /* FedEvid.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = FedEvid.plist; sourceTree = "<group>"; };
+		519FF2881D14CA3700E36DE8 /* FedCivPro.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = FedCivPro.plist; sourceTree = "<group>"; };
+		51AA566C1C20FFA900BFDEE3 /* FederalPovertyLevelController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FederalPovertyLevelController.swift; sourceTree = "<group>"; };
+		51AA566E1C2100E900BFDEE3 /* FederalPovertyLevelCalculator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FederalPovertyLevelCalculator.swift; sourceTree = "<group>"; };
+		51AA56701C21014100BFDEE3 /* CalculatorViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalculatorViewController.swift; sourceTree = "<group>"; };
+		51AA80551DBA288C00766BD3 /* FoodStamps10-01-2016.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "FoodStamps10-01-2016.plist"; sourceTree = "<group>"; };
+		51B5B0DB1D9C8E44002625A8 /* ResourceTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResourceTableViewController.swift; sourceTree = "<group>"; };
+		51B5B0DD1D9D29E6002625A8 /* ResourcesTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResourcesTableViewCell.swift; sourceTree = "<group>"; };
+		51B5B0DF1DA11CA5002625A8 /* CountyListTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CountyListTableViewController.swift; sourceTree = "<group>"; };
+		51B5B0E21DA11CF4002625A8 /* CountyListTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CountyListTableViewCell.swift; sourceTree = "<group>"; };
+		51B5B0E41DA12427002625A8 /* Counties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Counties.swift; sourceTree = "<group>"; };
+		51B5B0E61DA1D3AE002625A8 /* LocalResource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocalResource.swift; sourceTree = "<group>"; };
+		51B5B0E81DA1DBF8002625A8 /* CategoriesTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CategoriesTableViewController.swift; sourceTree = "<group>"; };
+		51B5B0EA1DA1DC12002625A8 /* CategoriesTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CategoriesTableViewCell.swift; sourceTree = "<group>"; };
+		51B5B0EC1DA1EC1A002625A8 /* ResourceDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResourceDetailViewController.swift; sourceTree = "<group>"; };
+		51D718D21DE8D41900505541 /* Ohio Legal Services Assistant.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Ohio Legal Services Assistant.entitlements"; sourceTree = "<group>"; };
+		51E048661DB4450000F6D9CE /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		51E709391DBB796700F21AE8 /* APRCalculatorPayment.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APRCalculatorPayment.swift; sourceTree = "<group>"; };
+		51EC72831CA75FDD0013D757 /* FormsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FormsTableViewController.swift; sourceTree = "<group>"; };
+		51EC72851CA7615D0013D757 /* FormsTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FormsTableViewCell.swift; sourceTree = "<group>"; };
+		51F486761C2631E000E882AC /* GarnishmentViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GarnishmentViewController.swift; sourceTree = "<group>"; };
+		51F486781C26325700E882AC /* GarnishmentCalculator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GarnishmentCalculator.swift; sourceTree = "<group>"; };
+		51F4867A1C26343E00E882AC /* OWFViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OWFViewController.swift; sourceTree = "<group>"; };
+		51F4867C1C26349900E882AC /* OWFCalculator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OWFCalculator.swift; sourceTree = "<group>"; };
+		51F4867F1C26369F00E882AC /* APRCalculator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APRCalculator.swift; sourceTree = "<group>"; };
+		51F486811C26374B00E882AC /* APRViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APRViewController.swift; sourceTree = "<group>"; };
+		51F486851C26395C00E882AC /* FoodStampCalculator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FoodStampCalculator.swift; sourceTree = "<group>"; };
+		51F486871C263C2A00E882AC /* ACAViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ACAViewController.swift; sourceTree = "<group>"; };
+		51F486891C263C6E00E882AC /* ACACalculator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ACACalculator.swift; sourceTree = "<group>"; };
+		51F4868C1C263D7700E882AC /* OWF01-15.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "OWF01-15.plist"; sourceTree = "<group>"; };
+		51F4868D1C263D7700E882AC /* OWF07-14.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "OWF07-14.plist"; sourceTree = "<group>"; };
+		51F486901C263DB800E882AC /* FoodStamps10-01-2014.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "FoodStamps10-01-2014.plist"; sourceTree = "<group>"; };
+		51F486981C2C0E8500E882AC /* RulesDetailTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RulesDetailTableViewController.swift; path = ../RulesDetailTableViewController.swift; sourceTree = "<group>"; };
+		51F4869A1C2C14F000E882AC /* RulesDetailTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RulesDetailTableViewCell.swift; sourceTree = "<group>"; };
+		51F4869D1C2C1E7C00E882AC /* RulesBooksTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RulesBooksTableViewController.swift; sourceTree = "<group>"; };
+		51F4869F1C2C1FAB00E882AC /* RuleBooks.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = RuleBooks.plist; sourceTree = "<group>"; };
+		51F486A11C2CD0C000E882AC /* JuvRules.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = JuvRules.plist; sourceTree = "<group>"; };
+		51F486A31C2CD86000E882AC /* RulesBooksTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RulesBooksTableViewCell.swift; sourceTree = "<group>"; };
+		51F486A51C2D65FA00E882AC /* RulesToCTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RulesToCTableViewController.swift; sourceTree = "<group>"; };
+		51F486A71C2D680000E882AC /* RulesToCTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RulesToCTableViewCell.swift; sourceTree = "<group>"; };
+		6909ABB41C3D9AB300FDD7E3 /* FoodStampsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FoodStampsTableViewController.swift; sourceTree = "<group>"; };
+		690DB8881DB64E7800B185D1 /* MyTabBarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyTabBarViewController.swift; sourceTree = "<group>"; };
+		693FC61F1E1D74B500E6A499 /* MyPikaURLDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyPikaURLDataProperties.swift; sourceTree = "<group>"; };
+		693FC6211E1D756400E6A499 /* MyPikaURL.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyPikaURL.swift; sourceTree = "<group>"; };
+		694225791D196A9E00C89352 /* OWF01-16.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "OWF01-16.plist"; sourceTree = "<group>"; };
+		6942257B1D244A9300C89352 /* FoodStamps10-01-2015.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "FoodStamps10-01-2015.plist"; sourceTree = "<group>"; };
+		6953C6121E200F6000686C17 /* medicaid_help_sheet.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = medicaid_help_sheet.pdf; sourceTree = "<group>"; };
+		6953C6141E200F7700686C17 /* standards_help_sheet.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = standards_help_sheet.pdf; sourceTree = "<group>"; };
+		697520271DC7A0AC00484440 /* OWF07-16.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "OWF07-16.plist"; sourceTree = "<group>"; };
+		69923FE31CB90BA300460C8B /* FormsDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FormsDetailViewController.swift; sourceTree = "<group>"; };
+		69923FE61CB976F600460C8B /* CoreDataModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CoreDataModel.xcdatamodel; sourceTree = "<group>"; };
+		69BCB2ED1C208798005DD6E2 /* Ohio Legal Services Assistant.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Ohio Legal Services Assistant.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		69BCB2F01C208798005DD6E2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		69BCB2F21C208798005DD6E2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		69BCB2F51C208798005DD6E2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		69BCB2F71C208798005DD6E2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		69BCB2FA1C208799005DD6E2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		69BCB2FC1C208799005DD6E2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		69BCB3011C208799005DD6E2 /* Ohio Legal Services AssistantTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Ohio Legal Services AssistantTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		69BCB3051C208799005DD6E2 /* Ohio_Legal_Services_AssistantTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ohio_Legal_Services_AssistantTests.swift; sourceTree = "<group>"; };
+		69BCB3071C208799005DD6E2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		69BCB30C1C208799005DD6E2 /* Ohio Legal Services AssistantUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Ohio Legal Services AssistantUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		69BCB3101C208799005DD6E2 /* Ohio_Legal_Services_AssistantUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ohio_Legal_Services_AssistantUITests.swift; sourceTree = "<group>"; };
+		69BCB3121C208799005DD6E2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9498F6980C72D9B58F0E6FA3 /* Pods-Ohio Legal Services AssistantTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Ohio Legal Services AssistantTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Ohio Legal Services AssistantTests/Pods-Ohio Legal Services AssistantTests.debug.xcconfig"; sourceTree = "<group>"; };
+		981A22357A5D1289FF292973 /* Pods-Ohio Legal Services AssistantUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Ohio Legal Services AssistantUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Ohio Legal Services AssistantUITests/Pods-Ohio Legal Services AssistantUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		A378700272FCA1F7C7D25C0D /* Pods-Ohio Legal Services AssistantUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Ohio Legal Services AssistantUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Ohio Legal Services AssistantUITests/Pods-Ohio Legal Services AssistantUITests.release.xcconfig"; sourceTree = "<group>"; };
+		C122C06FBFCFC12C29B9B947 /* Pods-Ohio Legal Services AssistantTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Ohio Legal Services AssistantTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Ohio Legal Services AssistantTests/Pods-Ohio Legal Services AssistantTests.release.xcconfig"; sourceTree = "<group>"; };
+		F6B50EEBAEAF9CAC69AD257F /* Pods-Ohio Legal Services Assistant.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Ohio Legal Services Assistant.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Ohio Legal Services Assistant/Pods-Ohio Legal Services Assistant.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		69BCB2EA1C208798005DD6E2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		69BCB2FE1C208799005DD6E2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		69BCB3091C208799005DD6E2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		51B5B0E11DA11CBA002625A8 /* Local Resources Files */ = {
+			isa = PBXGroup;
+			children = (
+				51B5B0DF1DA11CA5002625A8 /* CountyListTableViewController.swift */,
+				51B5B0DD1D9D29E6002625A8 /* ResourcesTableViewCell.swift */,
+				51B5B0DB1D9C8E44002625A8 /* ResourceTableViewController.swift */,
+				51B5B0E21DA11CF4002625A8 /* CountyListTableViewCell.swift */,
+				51B5B0E41DA12427002625A8 /* Counties.swift */,
+				51B5B0E61DA1D3AE002625A8 /* LocalResource.swift */,
+				51B5B0E81DA1DBF8002625A8 /* CategoriesTableViewController.swift */,
+				51B5B0EA1DA1DC12002625A8 /* CategoriesTableViewCell.swift */,
+				51B5B0EC1DA1EC1A002625A8 /* ResourceDetailViewController.swift */,
+			);
+			name = "Local Resources Files";
+			sourceTree = "<group>";
+		};
+		51EC727C1CA759A20013D757 /* Forms */ = {
+			isa = PBXGroup;
+			children = (
+				6953C6141E200F7700686C17 /* standards_help_sheet.pdf */,
+				6953C6121E200F6000686C17 /* medicaid_help_sheet.pdf */,
+			);
+			name = Forms;
+			sourceTree = "<group>";
+		};
+		51F4867E1C2635C300E882AC /* Calculator Files */ = {
+			isa = PBXGroup;
+			children = (
+				51AA56701C21014100BFDEE3 /* CalculatorViewController.swift */,
+				51F486891C263C6E00E882AC /* ACACalculator.swift */,
+				51F486871C263C2A00E882AC /* ACAViewController.swift */,
+				51F4867F1C26369F00E882AC /* APRCalculator.swift */,
+				51F486811C26374B00E882AC /* APRViewController.swift */,
+				51AA566C1C20FFA900BFDEE3 /* FederalPovertyLevelController.swift */,
+				51AA566E1C2100E900BFDEE3 /* FederalPovertyLevelCalculator.swift */,
+				6909ABB41C3D9AB300FDD7E3 /* FoodStampsTableViewController.swift */,
+				51F486851C26395C00E882AC /* FoodStampCalculator.swift */,
+				51F486761C2631E000E882AC /* GarnishmentViewController.swift */,
+				51F486781C26325700E882AC /* GarnishmentCalculator.swift */,
+				51F4867C1C26349900E882AC /* OWFCalculator.swift */,
+				51F4867A1C26343E00E882AC /* OWFViewController.swift */,
+				51E709391DBB796700F21AE8 /* APRCalculatorPayment.swift */,
+			);
+			name = "Calculator Files";
+			sourceTree = "<group>";
+		};
+		51F4868B1C263CE500E882AC /* Supporting plists */ = {
+			isa = PBXGroup;
+			children = (
+				51F486901C263DB800E882AC /* FoodStamps10-01-2014.plist */,
+				51F4868C1C263D7700E882AC /* OWF01-15.plist */,
+				51F4868D1C263D7700E882AC /* OWF07-14.plist */,
+				51F4869F1C2C1FAB00E882AC /* RuleBooks.plist */,
+				51F486A11C2CD0C000E882AC /* JuvRules.plist */,
+				519FF27C1D10DC7400E36DE8 /* OhioProfResponsibility.plist */,
+				519FF2801D10E11F00E36DE8 /* OhioCivR.plist */,
+				519FF2841D14C7A800E36DE8 /* OhioEvidence.plist */,
+				519FF2861D14C86E00E36DE8 /* FedEvid.plist */,
+				519FF2881D14CA3700E36DE8 /* FedCivPro.plist */,
+				5198E0BC1D14D49400081180 /* OhioAppRules.plist */,
+				694225791D196A9E00C89352 /* OWF01-16.plist */,
+				6942257B1D244A9300C89352 /* FoodStamps10-01-2015.plist */,
+				51AA80551DBA288C00766BD3 /* FoodStamps10-01-2016.plist */,
+				697520271DC7A0AC00484440 /* OWF07-16.plist */,
+			);
+			name = "Supporting plists";
+			sourceTree = "<group>";
+		};
+		51F4869C1C2C1B7300E882AC /* Rules Files */ = {
+			isa = PBXGroup;
+			children = (
+				51F486981C2C0E8500E882AC /* RulesDetailTableViewController.swift */,
+				51F4869A1C2C14F000E882AC /* RulesDetailTableViewCell.swift */,
+				51F4869D1C2C1E7C00E882AC /* RulesBooksTableViewController.swift */,
+				51F486A31C2CD86000E882AC /* RulesBooksTableViewCell.swift */,
+				51F486A51C2D65FA00E882AC /* RulesToCTableViewController.swift */,
+				51F486A71C2D680000E882AC /* RulesToCTableViewCell.swift */,
+				511D91D51CFB16500030C815 /* SearchTableViewController.swift */,
+				511D91D71CFB170A0030C815 /* SearchTableViewCell.swift */,
+			);
+			name = "Rules Files";
+			sourceTree = "<group>";
+		};
+		69BCB2E41C208798005DD6E2 = {
+			isa = PBXGroup;
+			children = (
+				693FC6211E1D756400E6A499 /* MyPikaURL.swift */,
+				693FC61F1E1D74B500E6A499 /* MyPikaURLDataProperties.swift */,
+				517EB58E1D0CA3000053D593 /* MyPushPushNotifications+CoreDataProperties.swift */,
+				517EB58F1D0CA3000053D593 /* MyPushPushNotifications.swift */,
+				69BCB2EF1C208798005DD6E2 /* Ohio Legal Services Assistant */,
+				69BCB3041C208799005DD6E2 /* Ohio Legal Services AssistantTests */,
+				69BCB30F1C208799005DD6E2 /* Ohio Legal Services AssistantUITests */,
+				69BCB2EE1C208798005DD6E2 /* Products */,
+				7C6ED780967AF35FA462ADA1 /* Pods */,
+				DC70D8BDD784F693A10FF977 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		69BCB2EE1C208798005DD6E2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				69BCB2ED1C208798005DD6E2 /* Ohio Legal Services Assistant.app */,
+				69BCB3011C208799005DD6E2 /* Ohio Legal Services AssistantTests.xctest */,
+				69BCB30C1C208799005DD6E2 /* Ohio Legal Services AssistantUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		69BCB2EF1C208798005DD6E2 /* Ohio Legal Services Assistant */ = {
+			isa = PBXGroup;
+			children = (
+				51D718D21DE8D41900505541 /* Ohio Legal Services Assistant.entitlements */,
+				51B5B0E11DA11CBA002625A8 /* Local Resources Files */,
+				51EC727C1CA759A20013D757 /* Forms */,
+				51F4869C1C2C1B7300E882AC /* Rules Files */,
+				51F4868B1C263CE500E882AC /* Supporting plists */,
+				51F4867E1C2635C300E882AC /* Calculator Files */,
+				69BCB2F01C208798005DD6E2 /* AppDelegate.swift */,
+				69BCB2F21C208798005DD6E2 /* ViewController.swift */,
+				69BCB2F41C208798005DD6E2 /* Main.storyboard */,
+				69BCB2F71C208798005DD6E2 /* Assets.xcassets */,
+				69BCB2F91C208799005DD6E2 /* LaunchScreen.storyboard */,
+				69BCB2FC1C208799005DD6E2 /* Info.plist */,
+				5187C2811E211D8700A6DC73 /* GoogleService-Info.plist */,
+				51EC72831CA75FDD0013D757 /* FormsTableViewController.swift */,
+				51EC72851CA7615D0013D757 /* FormsTableViewCell.swift */,
+				69923FE31CB90BA300460C8B /* FormsDetailViewController.swift */,
+				69923FE51CB976F600460C8B /* CoreDataModel.xcdatamodeld */,
+				517EB5881D0C8DA30053D593 /* SettingsViewController.swift */,
+				5198E0BE1D1557BA00081180 /* HomeViewController.swift */,
+				51E048661DB4450000F6D9CE /* Constants.swift */,
+				690DB8881DB64E7800B185D1 /* MyTabBarViewController.swift */,
+			);
+			path = "Ohio Legal Services Assistant";
+			sourceTree = "<group>";
+		};
+		69BCB3041C208799005DD6E2 /* Ohio Legal Services AssistantTests */ = {
+			isa = PBXGroup;
+			children = (
+				69BCB3051C208799005DD6E2 /* Ohio_Legal_Services_AssistantTests.swift */,
+				69BCB3071C208799005DD6E2 /* Info.plist */,
+			);
+			path = "Ohio Legal Services AssistantTests";
+			sourceTree = "<group>";
+		};
+		69BCB30F1C208799005DD6E2 /* Ohio Legal Services AssistantUITests */ = {
+			isa = PBXGroup;
+			children = (
+				69BCB3101C208799005DD6E2 /* Ohio_Legal_Services_AssistantUITests.swift */,
+				69BCB3121C208799005DD6E2 /* Info.plist */,
+			);
+			path = "Ohio Legal Services AssistantUITests";
+			sourceTree = "<group>";
+		};
+		7C6ED780967AF35FA462ADA1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F6B50EEBAEAF9CAC69AD257F /* Pods-Ohio Legal Services Assistant.debug.xcconfig */,
+				146FC2A91826CF9189980D21 /* Pods-Ohio Legal Services Assistant.release.xcconfig */,
+				9498F6980C72D9B58F0E6FA3 /* Pods-Ohio Legal Services AssistantTests.debug.xcconfig */,
+				C122C06FBFCFC12C29B9B947 /* Pods-Ohio Legal Services AssistantTests.release.xcconfig */,
+				981A22357A5D1289FF292973 /* Pods-Ohio Legal Services AssistantUITests.debug.xcconfig */,
+				A378700272FCA1F7C7D25C0D /* Pods-Ohio Legal Services AssistantUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		DC70D8BDD784F693A10FF977 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		69BCB2EC1C208798005DD6E2 /* Ohio Legal Services Assistant */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 69BCB3151C208799005DD6E2 /* Build configuration list for PBXNativeTarget "Ohio Legal Services Assistant" */;
+			buildPhases = (
+				5A420C22D3B27E91BEE64B86 /* [CP] Check Pods Manifest.lock */,
+				69BCB2E91C208798005DD6E2 /* Sources */,
+				69BCB2EA1C208798005DD6E2 /* Frameworks */,
+				69BCB2EB1C208798005DD6E2 /* Resources */,
+				17CB305299FE42869A7E5720 /* [CP] Embed Pods Frameworks */,
+				72399488C5E045C0F3EBD1C8 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Ohio Legal Services Assistant";
+			productName = "Ohio Legal Services Assistant";
+			productReference = 69BCB2ED1C208798005DD6E2 /* Ohio Legal Services Assistant.app */;
+			productType = "com.apple.product-type.application";
+		};
+		69BCB3001C208799005DD6E2 /* Ohio Legal Services AssistantTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 69BCB3181C208799005DD6E2 /* Build configuration list for PBXNativeTarget "Ohio Legal Services AssistantTests" */;
+			buildPhases = (
+				259915E84AC9600104A54C56 /* [CP] Check Pods Manifest.lock */,
+				69BCB2FD1C208799005DD6E2 /* Sources */,
+				69BCB2FE1C208799005DD6E2 /* Frameworks */,
+				69BCB2FF1C208799005DD6E2 /* Resources */,
+				93EB32F4FF82103AA7DA76F5 /* [CP] Embed Pods Frameworks */,
+				6BFDF85C5B82FBDE4C3F2033 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				69BCB3031C208799005DD6E2 /* PBXTargetDependency */,
+			);
+			name = "Ohio Legal Services AssistantTests";
+			productName = "Ohio Legal Services AssistantTests";
+			productReference = 69BCB3011C208799005DD6E2 /* Ohio Legal Services AssistantTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		69BCB30B1C208799005DD6E2 /* Ohio Legal Services AssistantUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 69BCB31B1C208799005DD6E2 /* Build configuration list for PBXNativeTarget "Ohio Legal Services AssistantUITests" */;
+			buildPhases = (
+				B8C36D41DFA606A674CB8D13 /* [CP] Check Pods Manifest.lock */,
+				69BCB3081C208799005DD6E2 /* Sources */,
+				69BCB3091C208799005DD6E2 /* Frameworks */,
+				69BCB30A1C208799005DD6E2 /* Resources */,
+				08389C752DA3392C85BFB1F0 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				69BCB30E1C208799005DD6E2 /* PBXTargetDependency */,
+			);
+			name = "Ohio Legal Services AssistantUITests";
+			productName = "Ohio Legal Services AssistantUITests";
+			productReference = 69BCB30C1C208799005DD6E2 /* Ohio Legal Services AssistantUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		69BCB2E51C208798005DD6E2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "Ohio State Legal Services";
+				TargetAttributes = {
+					69BCB2EC1C208798005DD6E2 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = BX3FX8WKFN;
+						LastSwiftMigration = 0800;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
+					};
+					69BCB3001C208799005DD6E2 = {
+						CreatedOnToolsVersion = 7.2;
+						LastSwiftMigration = 0800;
+						TestTargetID = 69BCB2EC1C208798005DD6E2;
+					};
+					69BCB30B1C208799005DD6E2 = {
+						CreatedOnToolsVersion = 7.2;
+						LastSwiftMigration = 0800;
+						TestTargetID = 69BCB2EC1C208798005DD6E2;
+					};
+				};
+			};
+			buildConfigurationList = 69BCB2E81C208798005DD6E2 /* Build configuration list for PBXProject "Ohio Legal Services Assistant" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 69BCB2E41C208798005DD6E2;
+			productRefGroup = 69BCB2EE1C208798005DD6E2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				69BCB2EC1C208798005DD6E2 /* Ohio Legal Services Assistant */,
+				69BCB3001C208799005DD6E2 /* Ohio Legal Services AssistantTests */,
+				69BCB30B1C208799005DD6E2 /* Ohio Legal Services AssistantUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		69BCB2EB1C208798005DD6E2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				519FF27D1D10DC7500E36DE8 /* OhioProfResponsibility.plist in Resources */,
+				51F4868E1C263D7700E882AC /* OWF01-15.plist in Resources */,
+				69BCB2FB1C208799005DD6E2 /* LaunchScreen.storyboard in Resources */,
+				6942257C1D244A9300C89352 /* FoodStamps10-01-2015.plist in Resources */,
+				5198E0BD1D14D49400081180 /* OhioAppRules.plist in Resources */,
+				51F486A21C2CD0C000E882AC /* JuvRules.plist in Resources */,
+				69BCB2F81C208798005DD6E2 /* Assets.xcassets in Resources */,
+				6953C6151E200F7700686C17 /* standards_help_sheet.pdf in Resources */,
+				519FF2851D14C7A800E36DE8 /* OhioEvidence.plist in Resources */,
+				51F486911C263DB800E882AC /* FoodStamps10-01-2014.plist in Resources */,
+				697520281DC7A0AC00484440 /* OWF07-16.plist in Resources */,
+				69BCB2F61C208798005DD6E2 /* Main.storyboard in Resources */,
+				51F4868F1C263D7700E882AC /* OWF07-14.plist in Resources */,
+				519FF2891D14CA3700E36DE8 /* FedCivPro.plist in Resources */,
+				519FF2811D10E11F00E36DE8 /* OhioCivR.plist in Resources */,
+				6942257A1D196A9E00C89352 /* OWF01-16.plist in Resources */,
+				51AA80561DBA288C00766BD3 /* FoodStamps10-01-2016.plist in Resources */,
+				51F486A01C2C1FAB00E882AC /* RuleBooks.plist in Resources */,
+				519FF2871D14C86E00E36DE8 /* FedEvid.plist in Resources */,
+				6953C6131E200F6000686C17 /* medicaid_help_sheet.pdf in Resources */,
+				5187C2821E211D8700A6DC73 /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		69BCB2FF1C208799005DD6E2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		69BCB30A1C208799005DD6E2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		08389C752DA3392C85BFB1F0 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Ohio Legal Services AssistantUITests/Pods-Ohio Legal Services AssistantUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		17CB305299FE42869A7E5720 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Ohio Legal Services Assistant/Pods-Ohio Legal Services Assistant-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		259915E84AC9600104A54C56 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		5A420C22D3B27E91BEE64B86 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		6BFDF85C5B82FBDE4C3F2033 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Ohio Legal Services AssistantTests/Pods-Ohio Legal Services AssistantTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		72399488C5E045C0F3EBD1C8 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Ohio Legal Services Assistant/Pods-Ohio Legal Services Assistant-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		93EB32F4FF82103AA7DA76F5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Ohio Legal Services AssistantTests/Pods-Ohio Legal Services AssistantTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B8C36D41DFA606A674CB8D13 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		69BCB2E91C208798005DD6E2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				51F4869E1C2C1E7C00E882AC /* RulesBooksTableViewController.swift in Sources */,
+				51B5B0DC1D9C8E44002625A8 /* ResourceTableViewController.swift in Sources */,
+				51EC72841CA75FDD0013D757 /* FormsTableViewController.swift in Sources */,
+				51B5B0E51DA12428002625A8 /* Counties.swift in Sources */,
+				5198E0BF1D1557BA00081180 /* HomeViewController.swift in Sources */,
+				51F486881C263C2A00E882AC /* ACAViewController.swift in Sources */,
+				51B5B0E01DA11CA5002625A8 /* CountyListTableViewController.swift in Sources */,
+				51AA56711C21014100BFDEE3 /* CalculatorViewController.swift in Sources */,
+				69923FE71CB976F600460C8B /* CoreDataModel.xcdatamodeld in Sources */,
+				51AA566F1C2100E900BFDEE3 /* FederalPovertyLevelCalculator.swift in Sources */,
+				69BCB2F31C208798005DD6E2 /* ViewController.swift in Sources */,
+				51B5B0EB1DA1DC12002625A8 /* CategoriesTableViewCell.swift in Sources */,
+				51B5B0E91DA1DBF8002625A8 /* CategoriesTableViewController.swift in Sources */,
+				51F486991C2C0E8500E882AC /* RulesDetailTableViewController.swift in Sources */,
+				51F486821C26374B00E882AC /* APRViewController.swift in Sources */,
+				511D91D81CFB170A0030C815 /* SearchTableViewCell.swift in Sources */,
+				6909ABB51C3D9AB300FDD7E3 /* FoodStampsTableViewController.swift in Sources */,
+				51F486801C26369F00E882AC /* APRCalculator.swift in Sources */,
+				690DB8891DB64E7800B185D1 /* MyTabBarViewController.swift in Sources */,
+				51F486771C2631E000E882AC /* GarnishmentViewController.swift in Sources */,
+				51F4869B1C2C14F000E882AC /* RulesDetailTableViewCell.swift in Sources */,
+				69BCB2F11C208798005DD6E2 /* AppDelegate.swift in Sources */,
+				51F4867B1C26343E00E882AC /* OWFViewController.swift in Sources */,
+				517EB5911D0CA3000053D593 /* MyPushPushNotifications.swift in Sources */,
+				51F4868A1C263C6E00E882AC /* ACACalculator.swift in Sources */,
+				51AA566D1C20FFA900BFDEE3 /* FederalPovertyLevelController.swift in Sources */,
+				51B5B0E31DA11CF4002625A8 /* CountyListTableViewCell.swift in Sources */,
+				51F486A41C2CD86000E882AC /* RulesBooksTableViewCell.swift in Sources */,
+				693FC6221E1D756400E6A499 /* MyPikaURL.swift in Sources */,
+				51B5B0ED1DA1EC1A002625A8 /* ResourceDetailViewController.swift in Sources */,
+				51F486A61C2D65FA00E882AC /* RulesToCTableViewController.swift in Sources */,
+				51B5B0DE1D9D29E6002625A8 /* ResourcesTableViewCell.swift in Sources */,
+				51F4867D1C26349900E882AC /* OWFCalculator.swift in Sources */,
+				69923FE41CB90BA300460C8B /* FormsDetailViewController.swift in Sources */,
+				51F486791C26325700E882AC /* GarnishmentCalculator.swift in Sources */,
+				517EB5891D0C8DA30053D593 /* SettingsViewController.swift in Sources */,
+				51F486A81C2D680000E882AC /* RulesToCTableViewCell.swift in Sources */,
+				693FC6201E1D74B500E6A499 /* MyPikaURLDataProperties.swift in Sources */,
+				511D91D61CFB16500030C815 /* SearchTableViewController.swift in Sources */,
+				51E7093A1DBB796700F21AE8 /* APRCalculatorPayment.swift in Sources */,
+				51E048671DB4450100F6D9CE /* Constants.swift in Sources */,
+				51B5B0E71DA1D3AE002625A8 /* LocalResource.swift in Sources */,
+				51F486861C26395C00E882AC /* FoodStampCalculator.swift in Sources */,
+				51EC72861CA7615D0013D757 /* FormsTableViewCell.swift in Sources */,
+				517EB5901D0CA3000053D593 /* MyPushPushNotifications+CoreDataProperties.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		69BCB2FD1C208799005DD6E2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				69BCB3061C208799005DD6E2 /* Ohio_Legal_Services_AssistantTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		69BCB3081C208799005DD6E2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				69BCB3111C208799005DD6E2 /* Ohio_Legal_Services_AssistantUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		69BCB3031C208799005DD6E2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 69BCB2EC1C208798005DD6E2 /* Ohio Legal Services Assistant */;
+			targetProxy = 69BCB3021C208799005DD6E2 /* PBXContainerItemProxy */;
+		};
+		69BCB30E1C208799005DD6E2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 69BCB2EC1C208798005DD6E2 /* Ohio Legal Services Assistant */;
+			targetProxy = 69BCB30D1C208799005DD6E2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		69BCB2F41C208798005DD6E2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				69BCB2F51C208798005DD6E2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		69BCB2F91C208799005DD6E2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				69BCB2FA1C208799005DD6E2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		69BCB3131C208799005DD6E2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		69BCB3141C208799005DD6E2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		69BCB3161C208799005DD6E2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F6B50EEBAEAF9CAC69AD257F /* Pods-Ohio Legal Services Assistant.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Ohio Legal Services Assistant/Ohio Legal Services Assistant.entitlements";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = "Ohio Legal Services Assistant/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.seols.Ohio-Legal-Services-Assistant";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		69BCB3171C208799005DD6E2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 146FC2A91826CF9189980D21 /* Pods-Ohio Legal Services Assistant.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Ohio Legal Services Assistant/Ohio Legal Services Assistant.entitlements";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = "Ohio Legal Services Assistant/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.seols.Ohio-Legal-Services-Assistant";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		69BCB3191C208799005DD6E2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9498F6980C72D9B58F0E6FA3 /* Pods-Ohio Legal Services AssistantTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Ohio Legal Services AssistantTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.seols.Ohio-Legal-Services-AssistantTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Ohio Legal Services Assistant.app/Ohio Legal Services Assistant";
+			};
+			name = Debug;
+		};
+		69BCB31A1C208799005DD6E2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C122C06FBFCFC12C29B9B947 /* Pods-Ohio Legal Services AssistantTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Ohio Legal Services AssistantTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.seols.Ohio-Legal-Services-AssistantTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Ohio Legal Services Assistant.app/Ohio Legal Services Assistant";
+			};
+			name = Release;
+		};
+		69BCB31C1C208799005DD6E2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 981A22357A5D1289FF292973 /* Pods-Ohio Legal Services AssistantUITests.debug.xcconfig */;
+			buildSettings = {
+				INFOPLIST_FILE = "Ohio Legal Services AssistantUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.seols.Ohio-Legal-Services-AssistantUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Ohio Legal Services Assistant";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		69BCB31D1C208799005DD6E2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A378700272FCA1F7C7D25C0D /* Pods-Ohio Legal Services AssistantUITests.release.xcconfig */;
+			buildSettings = {
+				INFOPLIST_FILE = "Ohio Legal Services AssistantUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.seols.Ohio-Legal-Services-AssistantUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Ohio Legal Services Assistant";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		69BCB2E81C208798005DD6E2 /* Build configuration list for PBXProject "Ohio Legal Services Assistant" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				69BCB3131C208799005DD6E2 /* Debug */,
+				69BCB3141C208799005DD6E2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		69BCB3151C208799005DD6E2 /* Build configuration list for PBXNativeTarget "Ohio Legal Services Assistant" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				69BCB3161C208799005DD6E2 /* Debug */,
+				69BCB3171C208799005DD6E2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		69BCB3181C208799005DD6E2 /* Build configuration list for PBXNativeTarget "Ohio Legal Services AssistantTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				69BCB3191C208799005DD6E2 /* Debug */,
+				69BCB31A1C208799005DD6E2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		69BCB31B1C208799005DD6E2 /* Build configuration list for PBXNativeTarget "Ohio Legal Services AssistantUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				69BCB31C1C208799005DD6E2 /* Debug */,
+				69BCB31D1C208799005DD6E2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		69923FE51CB976F600460C8B /* CoreDataModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				69923FE61CB976F600460C8B /* CoreDataModel.xcdatamodel */,
+			);
+			currentVersion = 69923FE61CB976F600460C8B /* CoreDataModel.xcdatamodel */;
+			path = CoreDataModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 69BCB2E51C208798005DD6E2 /* Project object */;
+}
