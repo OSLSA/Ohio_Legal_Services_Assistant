@@ -7,31 +7,60 @@
 //
 
 import UIKit
+import CoreLocation
 
 class ResourceDetailViewController: UIViewController {
 
     @IBOutlet weak var labelName: UILabel!
-    @IBOutlet weak var labelAddress: UITextField!
-    @IBOutlet weak var labelCSZ: UITextField!
-    @IBOutlet weak var labelPhone: UITextField!
-    @IBOutlet weak var labelWebsite: UITextField!
-    @IBOutlet weak var labelNotes: UITextField!
+    @IBOutlet weak var labelAddress: UILabel!
+    @IBOutlet weak var labelCSZ: UILabel!
+    @IBOutlet weak var labelPhone: UILabel!
+    @IBOutlet weak var labelWebsite: UILabel!
+    @IBOutlet weak var labelNotes: UILabel!
+
     
  
     var resource : LocalResource = LocalResource()
+    var CSZ : String = ""
     
     override func viewDidLoad() {
         super.viewDidLoad()
         labelName.text = resource.name
         labelAddress.text = resource.address
-        let CSZ : String = "\(resource.city), \(resource.state) \(resource.zip)"
+        CSZ = "\(resource.city), \(resource.state) \(resource.zip)"
         labelCSZ.text = CSZ
         labelPhone.text = resource.phone
         labelWebsite.text = resource.website
-        
         labelNotes.text = "Notes: \(resource.notes)"
         
+        labelPhone.isUserInteractionEnabled = true
+        let phoneTap = UITapGestureRecognizer(target: self, action: #selector(ResourceDetailViewController.phoneTap))
+        labelPhone.addGestureRecognizer(phoneTap)
+        
+        labelWebsite.isUserInteractionEnabled = true
+        let webTap = UITapGestureRecognizer(target: self, action: #selector(ResourceDetailViewController.websiteTap))
+        labelWebsite.addGestureRecognizer(webTap)
+        
+        
         // Do any additional setup after loading the view.
+    }
+    
+    func phoneTap(sender: UITapGestureRecognizer) {
+        let url = NSURL(string: "tel://\(resource.phone)")!
+        print(url)
+        UIApplication.shared.openURL(url as URL)
+    }
+    
+    func websiteTap(sender: UITapGestureRecognizer) {
+        let url = URL(string: resource.website)!
+        UIApplication.shared.openURL(url)
+    }
+    
+    func addressTap(sender: UITapGestureRecognizer) {
+        let fullAddress = "\(resource.address), \(CSZ)"
+        var geocoder = CLGeocoder()
+        
+        
     }
 
     override func didReceiveMemoryWarning() {

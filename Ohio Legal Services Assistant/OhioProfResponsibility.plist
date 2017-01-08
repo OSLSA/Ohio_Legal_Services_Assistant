@@ -2,6 +2,8 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>lastUpdate</key>
+	<string>January 8, 2017</string>
 	<key>TableOfContents</key>
 	<array>
 		<string>1.0 Terminology</string>
@@ -92,8 +94,9 @@
 		<string>1(a) Subject to divisions (c), (d), and (e) of this rule, a lawyer shall abide by a client’s decisions concerning the objectives of representation and, as required by Rule 1.4, shall consult with the client as to the means by which they are to be pursued. A lawyer may take action on behalf of the client as is impliedly authorized to carry out the representation. A lawyer does not violate this rule by acceding to requests of opposing counsel that do not prejudice the rights of the client, being punctual in fulfilling all professional commitments, avoiding offensive tactics, and treating with courtesy and consideration all persons involved in the legal process. A lawyer shall abide by a client’s decision whether to settle a matter. In a criminal case, the lawyer shall abide by the client’s decision as to a plea to be entered, whether to waive a jury trial, and whether the client will testify.</string>
 		<string>1(b) [RESERVED]</string>
 		<string>1(c) A lawyer may limit the scope of a new or existing representation if the limitation is reasonable under the circumstances and communicated to the client, preferably in &lt;i&gt;writing&lt;/b&gt;.</string>
-		<string>1(d) A lawyer shall not counsel a client to engage, or assist a client, in conduct that the lawyer &lt;i&gt;knows&lt;/b&gt; is &lt;i&gt;illegal&lt;/b&gt; or &lt;i&gt;fraudulent&lt;/b&gt;. A lawyer may discuss the legal consequences of any proposed course of conduct with a client and may counsel or assist a client in making a good faith effort to determine the validity, scope, meaning, or application of the law.</string>
-		<string>1(e) Unless otherwise required by law, a lawyer shall not present, participate in presenting, or threaten to present criminal charges or professional misconduct allegations solely to obtain an advantage in a civil matter.</string>
+        <string>1(d)(1) A lawyer shall not counsel a client to engage, or assist a client, in conduct that the lawyer &lt;i&gt;knows&lt;/b&gt; is &lt;i&gt;illegal&lt;/b&gt; or &lt;i&gt;fraudulent&lt;/b&gt;. A lawyer may discuss the legal consequences of any proposed course of conduct with a client and may counsel or assist a client in making a good faith effort to determine the validity, scope, meaning, or application of the law.</string>
+        <string>1(2) A lawyer may counsel or assist a client regarding conduct expressly permitted under Sub. H.B. 523 of the 131st General Assembly authorizing the use of marijuana for medical purposes and any state statutes, rules, orders, or other provisions implementing the act. In these circumstances, the lawyer shall advise the client regarding related federal law. </string>
+        <string>1(e) Unless otherwise required by law, a lawyer shall not present, participate in presenting, or threaten to present criminal charges or professional misconduct allegations solely to obtain an advantage in a civil matter.</string>
 	</array>
 	<key>Rule1.3</key>
 	<array>
