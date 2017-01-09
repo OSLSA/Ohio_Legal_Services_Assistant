@@ -33,6 +33,14 @@ class ResourceDetailViewController: UIViewController {
         labelWebsite.text = resource.website
         labelNotes.text = "Notes: \(resource.notes)"
         
+        labelAddress.isUserInteractionEnabled = true
+        let addressTap = UITapGestureRecognizer(target: self, action: #selector(ResourceDetailViewController.addressTap))
+        
+        labelCSZ.isUserInteractionEnabled = true
+        let cszTap = UITapGestureRecognizer(target: self, action: #selector(ResourceDetailViewController.addressTap))
+        labelCSZ.addGestureRecognizer(cszTap)
+        labelAddress.addGestureRecognizer(addressTap)
+        
         labelPhone.isUserInteractionEnabled = true
         let phoneTap = UITapGestureRecognizer(target: self, action: #selector(ResourceDetailViewController.phoneTap))
         labelPhone.addGestureRecognizer(phoneTap)
@@ -57,9 +65,26 @@ class ResourceDetailViewController: UIViewController {
     }
     
     func addressTap(sender: UITapGestureRecognizer) {
-        let fullAddress = "\(resource.address), \(CSZ)"
+        let fullAddress = "\(resource.address), \(resource.zip)"
         var geocoder = CLGeocoder()
-        
+        geocoder.geocodeAddressString(fullAddress) { (placemarksOptional, error) -> Void in
+            if let placemarks = placemarksOptional {
+                print("placemark| \(placemarks.first)")
+                if let location = placemarks.first?.location {
+                    let query = "?ll=\(location.coordinate.latitude),\(location.coordinate.longitude)"
+                    let path = "http://maps.apple.com/" + query
+                    if let url = NSURL(string: path) {
+                        UIApplication.shared.openURL(url as URL)
+                    } else {
+                        // Could not construct url. Handle error.
+                    }
+                } else {
+                    // Could not get a location from the geocode request. Handle error.
+                }
+            } else {
+                // Didn't get any placemarks. Handle error.
+            }
+        }
         
     }
 
