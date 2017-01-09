@@ -12,7 +12,6 @@
 		517EB5891D0C8DA30053D593 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 517EB5881D0C8DA30053D593 /* SettingsViewController.swift */; };
 		517EB5901D0CA3000053D593 /* MyPushPushNotifications+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 517EB58E1D0CA3000053D593 /* MyPushPushNotifications+CoreDataProperties.swift */; };
 		517EB5911D0CA3000053D593 /* MyPushPushNotifications.swift in Sources */ = {isa = PBXBuildFile; fileRef = 517EB58F1D0CA3000053D593 /* MyPushPushNotifications.swift */; };
-		5187C2821E211D8700A6DC73 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5187C2811E211D8700A6DC73 /* GoogleService-Info.plist */; };
 		5198E0BD1D14D49400081180 /* OhioAppRules.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5198E0BC1D14D49400081180 /* OhioAppRules.plist */; };
 		5198E0BF1D1557BA00081180 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5198E0BE1D1557BA00081180 /* HomeViewController.swift */; };
 		519FF27D1D10DC7500E36DE8 /* OhioProfResponsibility.plist in Resources */ = {isa = PBXBuildFile; fileRef = 519FF27C1D10DC7400E36DE8 /* OhioProfResponsibility.plist */; };
@@ -53,12 +52,14 @@
 		51F4869B1C2C14F000E882AC /* RulesDetailTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51F4869A1C2C14F000E882AC /* RulesDetailTableViewCell.swift */; };
 		51F4869E1C2C1E7C00E882AC /* RulesBooksTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51F4869D1C2C1E7C00E882AC /* RulesBooksTableViewController.swift */; };
 		51F486A01C2C1FAB00E882AC /* RuleBooks.plist in Resources */ = {isa = PBXBuildFile; fileRef = 51F4869F1C2C1FAB00E882AC /* RuleBooks.plist */; };
-		51F486A21C2CD0C000E882AC /* JuvRules.plist in Resources */ = {isa = PBXBuildFile; fileRef = 51F486A11C2CD0C000E882AC /* JuvRules.plist */; };
+		51F486A21C2CD0C000E882AC /* OhioJuvRules.plist in Resources */ = {isa = PBXBuildFile; fileRef = 51F486A11C2CD0C000E882AC /* OhioJuvRules.plist */; };
 		51F486A41C2CD86000E882AC /* RulesBooksTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51F486A31C2CD86000E882AC /* RulesBooksTableViewCell.swift */; };
 		51F486A61C2D65FA00E882AC /* RulesToCTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51F486A51C2D65FA00E882AC /* RulesToCTableViewController.swift */; };
 		51F486A81C2D680000E882AC /* RulesToCTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51F486A71C2D680000E882AC /* RulesToCTableViewCell.swift */; };
 		6909ABB51C3D9AB300FDD7E3 /* FoodStampsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6909ABB41C3D9AB300FDD7E3 /* FoodStampsTableViewController.swift */; };
 		690DB8891DB64E7800B185D1 /* MyTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 690DB8881DB64E7800B185D1 /* MyTabBarViewController.swift */; };
+		6937B6FA1E23DA580076A049 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6937B6F91E23DA580076A049 /* GoogleService-Info.plist */; };
+		6937B6FC1E23DA6E0076A049 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6937B6FB1E23DA6E0076A049 /* GoogleService-Info.plist */; };
 		693FC6201E1D74B500E6A499 /* MyPikaURLDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 693FC61F1E1D74B500E6A499 /* MyPikaURLDataProperties.swift */; };
 		693FC6221E1D756400E6A499 /* MyPikaURL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 693FC6211E1D756400E6A499 /* MyPikaURL.swift */; };
 		6942257A1D196A9E00C89352 /* OWF01-16.plist in Resources */ = {isa = PBXBuildFile; fileRef = 694225791D196A9E00C89352 /* OWF01-16.plist */; };
@@ -101,7 +102,6 @@
 		517EB5881D0C8DA30053D593 /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 		517EB58E1D0CA3000053D593 /* MyPushPushNotifications+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "MyPushPushNotifications+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		517EB58F1D0CA3000053D593 /* MyPushPushNotifications.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyPushPushNotifications.swift; sourceTree = "<group>"; };
-		5187C2811E211D8700A6DC73 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		5198E0BC1D14D49400081180 /* OhioAppRules.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = OhioAppRules.plist; sourceTree = "<group>"; };
 		5198E0BE1D1557BA00081180 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		519FF27C1D10DC7400E36DE8 /* OhioProfResponsibility.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = OhioProfResponsibility.plist; sourceTree = "<group>"; };
@@ -143,12 +143,14 @@
 		51F4869A1C2C14F000E882AC /* RulesDetailTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RulesDetailTableViewCell.swift; sourceTree = "<group>"; };
 		51F4869D1C2C1E7C00E882AC /* RulesBooksTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RulesBooksTableViewController.swift; sourceTree = "<group>"; };
 		51F4869F1C2C1FAB00E882AC /* RuleBooks.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = RuleBooks.plist; sourceTree = "<group>"; };
-		51F486A11C2CD0C000E882AC /* JuvRules.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = JuvRules.plist; sourceTree = "<group>"; };
+		51F486A11C2CD0C000E882AC /* OhioJuvRules.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = OhioJuvRules.plist; sourceTree = "<group>"; };
 		51F486A31C2CD86000E882AC /* RulesBooksTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RulesBooksTableViewCell.swift; sourceTree = "<group>"; };
 		51F486A51C2D65FA00E882AC /* RulesToCTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RulesToCTableViewController.swift; sourceTree = "<group>"; };
 		51F486A71C2D680000E882AC /* RulesToCTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RulesToCTableViewCell.swift; sourceTree = "<group>"; };
 		6909ABB41C3D9AB300FDD7E3 /* FoodStampsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FoodStampsTableViewController.swift; sourceTree = "<group>"; };
 		690DB8881DB64E7800B185D1 /* MyTabBarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyTabBarViewController.swift; sourceTree = "<group>"; };
+		6937B6F91E23DA580076A049 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		6937B6FB1E23DA6E0076A049 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		693FC61F1E1D74B500E6A499 /* MyPikaURLDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyPikaURLDataProperties.swift; sourceTree = "<group>"; };
 		693FC6211E1D756400E6A499 /* MyPikaURL.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyPikaURL.swift; sourceTree = "<group>"; };
 		694225791D196A9E00C89352 /* OWF01-16.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "OWF01-16.plist"; sourceTree = "<group>"; };
@@ -256,7 +258,7 @@
 				51F4868C1C263D7700E882AC /* OWF01-15.plist */,
 				51F4868D1C263D7700E882AC /* OWF07-14.plist */,
 				51F4869F1C2C1FAB00E882AC /* RuleBooks.plist */,
-				51F486A11C2CD0C000E882AC /* JuvRules.plist */,
+				51F486A11C2CD0C000E882AC /* OhioJuvRules.plist */,
 				519FF27C1D10DC7400E36DE8 /* OhioProfResponsibility.plist */,
 				519FF2801D10E11F00E36DE8 /* OhioCivR.plist */,
 				519FF2841D14C7A800E36DE8 /* OhioEvidence.plist */,
@@ -326,8 +328,9 @@
 				69BCB2F41C208798005DD6E2 /* Main.storyboard */,
 				69BCB2F71C208798005DD6E2 /* Assets.xcassets */,
 				69BCB2F91C208799005DD6E2 /* LaunchScreen.storyboard */,
+				6937B6FB1E23DA6E0076A049 /* GoogleService-Info.plist */,
 				69BCB2FC1C208799005DD6E2 /* Info.plist */,
-				5187C2811E211D8700A6DC73 /* GoogleService-Info.plist */,
+				6937B6F91E23DA580076A049 /* GoogleService-Info.plist */,
 				51EC72831CA75FDD0013D757 /* FormsTableViewController.swift */,
 				51EC72851CA7615D0013D757 /* FormsTableViewCell.swift */,
 				69923FE31CB90BA300460C8B /* FormsDetailViewController.swift */,
@@ -507,7 +510,7 @@
 				69BCB2FB1C208799005DD6E2 /* LaunchScreen.storyboard in Resources */,
 				6942257C1D244A9300C89352 /* FoodStamps10-01-2015.plist in Resources */,
 				5198E0BD1D14D49400081180 /* OhioAppRules.plist in Resources */,
-				51F486A21C2CD0C000E882AC /* JuvRules.plist in Resources */,
+				51F486A21C2CD0C000E882AC /* OhioJuvRules.plist in Resources */,
 				69BCB2F81C208798005DD6E2 /* Assets.xcassets in Resources */,
 				6953C6151E200F7700686C17 /* standards_help_sheet.pdf in Resources */,
 				519FF2851D14C7A800E36DE8 /* OhioEvidence.plist in Resources */,
@@ -521,8 +524,9 @@
 				51AA80561DBA288C00766BD3 /* FoodStamps10-01-2016.plist in Resources */,
 				51F486A01C2C1FAB00E882AC /* RuleBooks.plist in Resources */,
 				519FF2871D14C86E00E36DE8 /* FedEvid.plist in Resources */,
+				6937B6FC1E23DA6E0076A049 /* GoogleService-Info.plist in Resources */,
+				6937B6FA1E23DA580076A049 /* GoogleService-Info.plist in Resources */,
 				6953C6131E200F6000686C17 /* medicaid_help_sheet.pdf in Resources */,
-				5187C2821E211D8700A6DC73 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
