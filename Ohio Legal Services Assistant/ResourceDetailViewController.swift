@@ -65,26 +65,11 @@ class ResourceDetailViewController: UIViewController {
     }
     
     func addressTap(sender: UITapGestureRecognizer) {
-        let fullAddress = "\(resource.address), \(resource.zip)"
-        var geocoder = CLGeocoder()
-        geocoder.geocodeAddressString(fullAddress) { (placemarksOptional, error) -> Void in
-            if let placemarks = placemarksOptional {
-                print("placemark| \(placemarks.first)")
-                if let location = placemarks.first?.location {
-                    let query = "?ll=\(location.coordinate.latitude),\(location.coordinate.longitude)"
-                    let path = "http://maps.apple.com/" + query
-                    if let url = NSURL(string: path) {
-                        UIApplication.shared.openURL(url as URL)
-                    } else {
-                        // Could not construct url. Handle error.
-                    }
-                } else {
-                    // Could not get a location from the geocode request. Handle error.
-                }
-            } else {
-                // Didn't get any placemarks. Handle error.
-            }
-        }
+        let address = resource.address.replacingOccurrences(of: " ", with: "+")
+        let city = resource.city.replacingOccurrences(of: " ", with: "+")
+        let search = "\(address),\(city),\(resource.state),\(resource.zip)"
+        let url = URL(string: "http://maps.apple.com/?address=\(search)")
+        UIApplication.shared.openURL(url!)
         
     }
 

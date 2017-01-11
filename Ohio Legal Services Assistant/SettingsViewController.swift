@@ -133,7 +133,6 @@ class SettingsViewController: UIViewController {
     
     @IBAction func pressSave(_ sender: UIButton) {
         
-        print("pressed")
         if pikaURL.count > 0 {
             
             pikaURL[0].setValue(pikaAddress.text, forKey: "address")
@@ -151,6 +150,11 @@ class SettingsViewController: UIViewController {
         } catch {
             
         }
+        
+        let message : String = "Address Saved!"
+        let alert = UIAlertController(title: "Save", message: message as String, preferredStyle: UIAlertControllerStyle.alert)
+        alert.addAction(UIAlertAction(title: "OK", style: UIAlertActionStyle.cancel, handler:handleCancel))
+        self.present(alert, animated: true, completion: nil)
     }
 
     @IBAction func aboutPressed(_ sender: UIButton) {

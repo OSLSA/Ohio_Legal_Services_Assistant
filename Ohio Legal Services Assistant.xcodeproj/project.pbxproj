@@ -23,6 +23,7 @@
 		51AA566F1C2100E900BFDEE3 /* FederalPovertyLevelCalculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51AA566E1C2100E900BFDEE3 /* FederalPovertyLevelCalculator.swift */; };
 		51AA56711C21014100BFDEE3 /* CalculatorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51AA56701C21014100BFDEE3 /* CalculatorViewController.swift */; };
 		51AA80561DBA288C00766BD3 /* FoodStamps10-01-2016.plist in Resources */ = {isa = PBXBuildFile; fileRef = 51AA80551DBA288C00766BD3 /* FoodStamps10-01-2016.plist */; };
+		51ABB5981E25A74D00C110FA /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 51ABB5971E25A74D00C110FA /* GoogleService-Info.plist */; };
 		51B5B0DC1D9C8E44002625A8 /* ResourceTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51B5B0DB1D9C8E44002625A8 /* ResourceTableViewController.swift */; };
 		51B5B0DE1D9D29E6002625A8 /* ResourcesTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51B5B0DD1D9D29E6002625A8 /* ResourcesTableViewCell.swift */; };
 		51B5B0E01DA11CA5002625A8 /* CountyListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51B5B0DF1DA11CA5002625A8 /* CountyListTableViewController.swift */; };
@@ -58,8 +59,6 @@
 		51F486A81C2D680000E882AC /* RulesToCTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51F486A71C2D680000E882AC /* RulesToCTableViewCell.swift */; };
 		6909ABB51C3D9AB300FDD7E3 /* FoodStampsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6909ABB41C3D9AB300FDD7E3 /* FoodStampsTableViewController.swift */; };
 		690DB8891DB64E7800B185D1 /* MyTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 690DB8881DB64E7800B185D1 /* MyTabBarViewController.swift */; };
-		6937B6FA1E23DA580076A049 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6937B6F91E23DA580076A049 /* GoogleService-Info.plist */; };
-		6937B6FC1E23DA6E0076A049 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6937B6FB1E23DA6E0076A049 /* GoogleService-Info.plist */; };
 		693FC6201E1D74B500E6A499 /* MyPikaURLDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 693FC61F1E1D74B500E6A499 /* MyPikaURLDataProperties.swift */; };
 		693FC6221E1D756400E6A499 /* MyPikaURL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 693FC6211E1D756400E6A499 /* MyPikaURL.swift */; };
 		6942257A1D196A9E00C89352 /* OWF01-16.plist in Resources */ = {isa = PBXBuildFile; fileRef = 694225791D196A9E00C89352 /* OWF01-16.plist */; };
@@ -113,6 +112,7 @@
 		51AA566E1C2100E900BFDEE3 /* FederalPovertyLevelCalculator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FederalPovertyLevelCalculator.swift; sourceTree = "<group>"; };
 		51AA56701C21014100BFDEE3 /* CalculatorViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalculatorViewController.swift; sourceTree = "<group>"; };
 		51AA80551DBA288C00766BD3 /* FoodStamps10-01-2016.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "FoodStamps10-01-2016.plist"; sourceTree = "<group>"; };
+		51ABB5971E25A74D00C110FA /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		51B5B0DB1D9C8E44002625A8 /* ResourceTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResourceTableViewController.swift; sourceTree = "<group>"; };
 		51B5B0DD1D9D29E6002625A8 /* ResourcesTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResourcesTableViewCell.swift; sourceTree = "<group>"; };
 		51B5B0DF1DA11CA5002625A8 /* CountyListTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CountyListTableViewController.swift; sourceTree = "<group>"; };
@@ -149,8 +149,6 @@
 		51F486A71C2D680000E882AC /* RulesToCTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RulesToCTableViewCell.swift; sourceTree = "<group>"; };
 		6909ABB41C3D9AB300FDD7E3 /* FoodStampsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FoodStampsTableViewController.swift; sourceTree = "<group>"; };
 		690DB8881DB64E7800B185D1 /* MyTabBarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyTabBarViewController.swift; sourceTree = "<group>"; };
-		6937B6F91E23DA580076A049 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
-		6937B6FB1E23DA6E0076A049 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		693FC61F1E1D74B500E6A499 /* MyPikaURLDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyPikaURLDataProperties.swift; sourceTree = "<group>"; };
 		693FC6211E1D756400E6A499 /* MyPikaURL.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyPikaURL.swift; sourceTree = "<group>"; };
 		694225791D196A9E00C89352 /* OWF01-16.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "OWF01-16.plist"; sourceTree = "<group>"; };
@@ -327,10 +325,9 @@
 				69BCB2F21C208798005DD6E2 /* ViewController.swift */,
 				69BCB2F41C208798005DD6E2 /* Main.storyboard */,
 				69BCB2F71C208798005DD6E2 /* Assets.xcassets */,
+				51ABB5971E25A74D00C110FA /* GoogleService-Info.plist */,
 				69BCB2F91C208799005DD6E2 /* LaunchScreen.storyboard */,
-				6937B6FB1E23DA6E0076A049 /* GoogleService-Info.plist */,
 				69BCB2FC1C208799005DD6E2 /* Info.plist */,
-				6937B6F91E23DA580076A049 /* GoogleService-Info.plist */,
 				51EC72831CA75FDD0013D757 /* FormsTableViewController.swift */,
 				51EC72851CA7615D0013D757 /* FormsTableViewCell.swift */,
 				69923FE31CB90BA300460C8B /* FormsDetailViewController.swift */,
@@ -524,9 +521,8 @@
 				51AA80561DBA288C00766BD3 /* FoodStamps10-01-2016.plist in Resources */,
 				51F486A01C2C1FAB00E882AC /* RuleBooks.plist in Resources */,
 				519FF2871D14C86E00E36DE8 /* FedEvid.plist in Resources */,
-				6937B6FC1E23DA6E0076A049 /* GoogleService-Info.plist in Resources */,
-				6937B6FA1E23DA580076A049 /* GoogleService-Info.plist in Resources */,
 				6953C6131E200F6000686C17 /* medicaid_help_sheet.pdf in Resources */,
+				51ABB5981E25A74D00C110FA /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
