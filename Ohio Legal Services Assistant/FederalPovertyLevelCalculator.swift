@@ -13,6 +13,7 @@ class FederalPovertyLevelCalculator {
     let fpl2015 = [11770, 4160]
     let fpl2014 = [11660, 4060]
     let fpl2016 = [11880, 4140]
+    let fpl2017 = [12060, 4180]
     
     var year = ""
     var annualIncome: Double = 0.0
@@ -40,6 +41,8 @@ class FederalPovertyLevelCalculator {
             return fpl2015[pos]
         case "2016":
             return fpl2016[pos]
+        case "2017":
+            return fpl2017[pos]
         default:
             return 0
         }
