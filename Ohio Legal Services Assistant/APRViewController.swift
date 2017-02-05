@@ -13,7 +13,6 @@ class APRViewController: UIViewController {
 
     @IBOutlet weak var amountBorrowed: UITextField!
     @IBOutlet weak var numberOfPayments: UITextField!
-    @IBOutlet weak var amountofPayment: UITextField!
     
     @IBOutlet weak var resultsLabel: UILabel!
     @IBOutlet weak var baseRate: UITextField!
@@ -32,6 +31,13 @@ class APRViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
+    @IBAction func warningPressed(_ sender: UIButton) {
+        let warning = "This APR calculator is only for calculating simple APRs where there are regular payments and the payments are made monthly. If the payment period is not monthly or if there is either a different first or last payment, this calculator will not work. While tests show it is fairly accurate, the results should only be used as an estimate and should be compared against a professional calculator before using the results in court."
+        let alertController = UIAlertController(title: "Warning", message: warning, preferredStyle: .alert)
+        let defaultAction = UIAlertAction(title: "OK", style: .default, handler: nil)
+        alertController.addAction(defaultAction)
+        present(alertController, animated: true, completion: nil)
+    }
     
     @IBAction func clearPressed(_ sender: UIBarButtonItem) {
         
@@ -39,7 +45,6 @@ class APRViewController: UIViewController {
         numberOfPayments.text = ""
         costs.text = ""
         baseRate.text = ""
-        amountofPayment.text = ""
         resultsLabel.text = ""
     }
     
@@ -63,23 +68,14 @@ class APRViewController: UIViewController {
         }
         
         let baseRateEntered = isBaseRateEntered()
-        let payment = isPaymentEntered()
         
         
-        if (!baseRateEntered && !payment) {
+        if (!baseRateEntered) {
             showAlert(alert: "base rate or number of payments")
         }
 
         return true
         
-    }
-    
-    func isPaymentEntered() -> Bool {
-        guard let _ = Double(amountofPayment.text!) else {
-            // neither payment nor base rate entere
-            return false
-        }
-        return true
     }
     
     func isBaseRateEntered() -> Bool {
@@ -99,7 +95,6 @@ class APRViewController: UIViewController {
         let totalCosts = (costs.text! as NSString).doubleValue
         let rate = (baseRate.text! as NSString).doubleValue
         let numOfPays = (numberOfPayments.text! as NSString).doubleValue
-        let payment = (amountofPayment.text! as NSString).doubleValue
         
         var result = String()
         if (isBaseRateEntered()) {
@@ -109,10 +104,6 @@ class APRViewController: UIViewController {
                                     baseRate: rate,
                                     numberOfPayments: numOfPays)
             result = "The APR is \(calculator.getAPR())% and the monthly payment is $\(calculator.getRoundedMonthlyPayment()). The total amount paid is $\(calculator.getTotalPayments()), of which $  \(calculator.getTotalInterest()) is interest."
-        } else {
-            let calculator = APRCalculatorPayment()
-            calculator.setVariables(numPay: numOfPays, payment: payment, amount: (totalCosts + borrowed))
-            result = "The APR is \(calculator.calculateAPR())%. The total amount paid is $\(calculator.getTotalPayments()), of which $  \(calculator.getInterestPaid()) is interest."
         }
         FIRAnalytics.logEvent(withName: kFIREventSelectContent, parameters: [
             kFIRParameterContentType: "APR Calculated" as NSObject

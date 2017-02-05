@@ -1376,7 +1376,7 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" keyboardType="decimalPad"/>
                             </textField>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Number of Payments" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Bf2-hU-wzA">
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Number of Monthly Payments" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Bf2-hU-wzA">
                                 <rect key="frame" x="20" y="126" width="374" height="30"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" keyboardType="decimalPad"/>
@@ -1386,13 +1386,28 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" keyboardType="decimalPad"/>
                             </textField>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Base Rate (ex. 4.25 for 4.25%)" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="ydb-aW-oW7">
-                                <rect key="frame" x="137" y="202" width="222" height="30"/>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Base Rate (ex. 4.25 for 4.25%)" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="ydb-aW-oW7">
+                                <rect key="frame" x="28" y="202" width="366" height="30"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" keyboardType="decimalPad"/>
                             </textField>
-                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="guc-2M-cOG">
-                                <rect key="frame" x="16" y="285" width="343" height="30"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text=" " textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="54e-Vw-ef3">
+                                <rect key="frame" x="28" y="340" width="358" height="20.333333333333314"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.050980392159999999" green="0.18039215689999999" blue="0.37647058820000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="d6d-jF-aEh">
+                                <rect key="frame" x="28" y="248" width="358" height="30"/>
+                                <state key="normal" title="Warning About This Calculator">
+                                    <color key="titleColor" red="0.48627450979999998" green="0.0" blue="0.1450980392" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="warningPressed:" destination="3Uk-12-s55" eventType="touchUpInside" id="AJX-GC-nCQ"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="guc-2M-cOG">
+                                <rect key="frame" x="20" y="294" width="374" height="30"/>
                                 <state key="normal" title="Calculate">
                                     <color key="titleColor" red="0.48627450979999998" green="0.0" blue="0.1450980392" alpha="1" colorSpace="calibratedRGB"/>
                                     <color key="titleShadowColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -1401,27 +1416,6 @@
                                     <action selector="calculatePressed:" destination="3Uk-12-s55" eventType="touchUpInside" id="5mD-em-opc"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" horizontalCompressionResistancePriority="751" misplaced="YES" text="Enter rate OR amount of payments" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6ub-Xa-amn">
-                                <rect key="frame" x="16" y="202" width="117" height="72"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="117" id="zyi-uQ-hdA"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" red="0.050980392159999999" green="0.18039215689999999" blue="0.37647058820000001" alpha="1" colorSpace="calibratedRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Amount of payment" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="VfE-r9-4K2">
-                                <rect key="frame" x="137" y="244" width="222" height="30"/>
-                                <nil key="textColor"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits" keyboardType="decimalPad"/>
-                            </textField>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text=" " textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="54e-Vw-ef3">
-                                <rect key="frame" x="16" y="323" width="343" height="103"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" red="0.050980392159999999" green="0.18039215689999999" blue="0.37647058820000001" alpha="1" colorSpace="calibratedRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
@@ -1429,30 +1423,27 @@
                             <constraint firstAttribute="centerX" secondItem="G2E-Kx-THK" secondAttribute="centerX" id="1vt-Kc-8Sb"/>
                             <constraint firstItem="Bf2-hU-wzA" firstAttribute="trailing" secondItem="h0a-5q-vBO" secondAttribute="trailingMargin" id="3lM-Or-M5o"/>
                             <constraint firstItem="guc-2M-cOG" firstAttribute="trailing" secondItem="h0a-5q-vBO" secondAttribute="trailingMargin" id="3mT-v6-gYa"/>
-                            <constraint firstItem="6ub-Xa-amn" firstAttribute="leading" secondItem="H1H-nx-Qf2" secondAttribute="leading" id="7VQ-Qk-tJq"/>
-                            <constraint firstItem="VfE-r9-4K2" firstAttribute="trailing" secondItem="h0a-5q-vBO" secondAttribute="trailingMargin" id="AtF-M1-Svk"/>
                             <constraint firstItem="G2E-Kx-THK" firstAttribute="leading" secondItem="h0a-5q-vBO" secondAttribute="leadingMargin" id="Bjh-H3-SN9"/>
+                            <constraint firstItem="d6d-jF-aEh" firstAttribute="leading" secondItem="h0a-5q-vBO" secondAttribute="leadingMargin" constant="8" id="C4U-mc-Jot"/>
                             <constraint firstItem="54e-Vw-ef3" firstAttribute="leading" secondItem="h0a-5q-vBO" secondAttribute="leadingMargin" constant="8" id="D63-vi-E47"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="d6d-jF-aEh" secondAttribute="trailing" constant="8" id="Eff-m8-vSw"/>
                             <constraint firstItem="H1H-nx-Qf2" firstAttribute="top" secondItem="Bf2-hU-wzA" secondAttribute="bottom" constant="8" id="FCC-Mu-6na"/>
                             <constraint firstItem="G2E-Kx-THK" firstAttribute="top" secondItem="Y0o-Tn-HOt" secondAttribute="bottom" constant="24" id="FaJ-zG-wAy"/>
+                            <constraint firstItem="ydb-aW-oW7" firstAttribute="leading" secondItem="h0a-5q-vBO" secondAttribute="leadingMargin" constant="8" id="GcB-4c-pGb"/>
                             <constraint firstAttribute="centerX" secondItem="H1H-nx-Qf2" secondAttribute="centerX" id="Kpd-wS-VqY"/>
                             <constraint firstItem="ydb-aW-oW7" firstAttribute="trailing" secondItem="h0a-5q-vBO" secondAttribute="trailingMargin" id="N5G-Oj-omO"/>
+                            <constraint firstItem="guc-2M-cOG" firstAttribute="top" secondItem="d6d-jF-aEh" secondAttribute="bottom" constant="16" id="Pc5-8y-Kqw"/>
                             <constraint firstAttribute="centerX" secondItem="Bf2-hU-wzA" secondAttribute="centerX" id="QMo-1a-BkM"/>
                             <constraint firstItem="ydb-aW-oW7" firstAttribute="top" secondItem="H1H-nx-Qf2" secondAttribute="bottom" constant="8" id="Qvo-jk-aRl"/>
                             <constraint firstAttribute="centerX" secondItem="guc-2M-cOG" secondAttribute="centerX" id="Tgv-Eb-w9f"/>
                             <constraint firstItem="H1H-nx-Qf2" firstAttribute="trailing" secondItem="h0a-5q-vBO" secondAttribute="trailingMargin" id="TsE-ku-Ff5"/>
-                            <constraint firstItem="VfE-r9-4K2" firstAttribute="leading" secondItem="ydb-aW-oW7" secondAttribute="leading" id="YyT-Oz-50R"/>
                             <constraint firstAttribute="centerX" secondItem="54e-Vw-ef3" secondAttribute="centerX" id="ZI8-v7-80j"/>
                             <constraint firstItem="G2E-Kx-THK" firstAttribute="trailing" secondItem="h0a-5q-vBO" secondAttribute="trailingMargin" id="aOQ-uF-N8d"/>
-                            <constraint firstItem="guc-2M-cOG" firstAttribute="top" secondItem="VfE-r9-4K2" secondAttribute="bottom" constant="16" id="d0R-EF-s9T"/>
+                            <constraint firstItem="d6d-jF-aEh" firstAttribute="top" secondItem="ydb-aW-oW7" secondAttribute="bottom" constant="16" id="dzP-j4-VcK"/>
                             <constraint firstItem="Bf2-hU-wzA" firstAttribute="top" secondItem="G2E-Kx-THK" secondAttribute="bottom" constant="8" id="e1E-Jt-DSb"/>
                             <constraint firstItem="Bf2-hU-wzA" firstAttribute="leading" secondItem="h0a-5q-vBO" secondAttribute="leadingMargin" id="h9W-6l-lgN"/>
-                            <constraint firstItem="6ub-Xa-amn" firstAttribute="top" secondItem="H1H-nx-Qf2" secondAttribute="bottom" constant="8" id="kdH-Ll-M2i"/>
-                            <constraint firstItem="ydb-aW-oW7" firstAttribute="leading" secondItem="6ub-Xa-amn" secondAttribute="trailing" constant="8" id="kxb-XS-HAK"/>
-                            <constraint firstItem="VfE-r9-4K2" firstAttribute="bottom" secondItem="6ub-Xa-amn" secondAttribute="bottom" id="mfk-yU-0qJ"/>
                             <constraint firstItem="H1H-nx-Qf2" firstAttribute="top" secondItem="Bf2-hU-wzA" secondAttribute="bottom" constant="8" id="prT-Wq-6od"/>
                             <constraint firstItem="54e-Vw-ef3" firstAttribute="top" secondItem="guc-2M-cOG" secondAttribute="bottom" constant="16" id="qKG-OX-QWO"/>
-                            <constraint firstItem="VfE-r9-4K2" firstAttribute="centerX" secondItem="ydb-aW-oW7" secondAttribute="centerX" id="t0j-3H-Wuc"/>
                             <constraint firstItem="H1H-nx-Qf2" firstAttribute="leading" secondItem="h0a-5q-vBO" secondAttribute="leadingMargin" id="uDw-QV-OTl"/>
                         </constraints>
                     </view>
@@ -1466,7 +1457,6 @@
                     </navigationItem>
                     <connections>
                         <outlet property="amountBorrowed" destination="G2E-Kx-THK" id="1d3-2q-oO3"/>
-                        <outlet property="amountofPayment" destination="VfE-r9-4K2" id="qzK-gF-mf1"/>
                         <outlet property="baseRate" destination="ydb-aW-oW7" id="jv3-k2-Rak"/>
                         <outlet property="costs" destination="H1H-nx-Qf2" id="9YA-Fg-Jlq"/>
                         <outlet property="numberOfPayments" destination="Bf2-hU-wzA" id="ZCD-5V-ezL"/>
@@ -1475,7 +1465,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="c0H-HH-vEw" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="5554.3999999999996" y="1162.6686656671666"/>
+            <point key="canvasLocation" x="5553.6231884057979" y="1162.5"/>
         </scene>
         <!--Food Stamps-->
         <scene sceneID="PDl-to-o6J">

@@ -21,37 +21,57 @@ class APRCalculator {
         self.numberOfPayments = numberOfPayments
     }
     
+    func pmt(rate : Double, nper : Double, pv : Double, fv : Double, type : Double) -> Double {
+        
+        // P ∗ ( r ( 1 + r ) ^n ) / ( ( 1 + r ) ^n − 1 )
+        let newRate = (rate / 100) / 12
+        let pvif = pow((1+newRate),nper)
+        let result = pv * ((newRate * pvif) / ((pvif)-1))
+        print(result)
+        return(result)
+        
+    };
+    
+    func F(x: Double) -> Double {
+        
+        //def F(x) {        return amount * x * Math.pow(1 + x,numPay)/(Math.pow(1 + x,numPay) - 1) - payment}
+        var result = amountBorrowed * x * pow(1+x,numberOfPayments) / (pow(1+x,numberOfPayments) - 1) - getMonthlyPayment()
+        print(result)
+        return result
+    }
+    
+    func F_1(x: Double) -> Double {
+        return amountBorrowed * ( pow(1 + x,numberOfPayments)/(-1 + pow(1 + x,numberOfPayments)) - numberOfPayments * x * pow(1 + x,-1 + 2*numberOfPayments)/pow(-1 + pow(1 + x,numberOfPayments),2) + numberOfPayments * x * pow(1 + x,-1 + numberOfPayments)/(-1 + pow(1 + x,numberOfPayments)))
+    }
+    
+    func getAPRate() -> Double {
+        var error = 0.000001
+        var approx = 0.05/12
+        var prev_approx = 0.4/12
+    
+        for _ in 1 ..< 100 {
+            prev_approx = approx
+            approx = prev_approx - F(x: prev_approx)/F_1(x: prev_approx)
+            var diff = abs(approx-prev_approx)
+            if (diff < error) {break}
+            print(approx)
+        }
+    
+        return approx
+    }
+    
+    
     // calculate APR
     
     func getAPR() -> Double {
         
-        
-        var testResult = Double()
-        var testDiff = getRate()
-        var testRate = getRate()
-        var count = 1
-        for _ in 1 ..< 1000 {
-            testResult = ((testRate * pow(1 + testRate, numberOfPayments)) / (pow(1 + testRate, numberOfPayments) - 1)) - (getMonthlyPayment() / amountBorrowed)
-            print(testResult)
-            if (fabs(testResult) < 0.0000001) {break;}
-            if (testResult < 0) {
-                testRate += testDiff
-            } else {
-                testRate -= testDiff
-            }
-            testDiff /= 2
-            count += 1
-            
-        }
-        // return a rounded result
-        print(count)
-        return Double(round((testRate * 12 * 100) * 10000)) / 10000;
+        return Double(round((getAPRate() * 12 * 100) * 10000)) / 10000;
         
     }
     
     func getMonthlyPayment() -> Double {
         
-        let tempMonthlyPayment = ((amountBorrowed + costs) * getRate() * pow(1 + getRate(), numberOfPayments)) / (pow(1 + getRate(), numberOfPayments)-1)
+        let tempMonthlyPayment = pmt(rate: baseRate,nper: numberOfPayments,pv: (amountBorrowed + costs),fv: 0,type: 0);
         return Double(round(tempMonthlyPayment * 100) / 100)
 
     }
