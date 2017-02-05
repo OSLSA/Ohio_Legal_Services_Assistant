@@ -1387,7 +1387,7 @@
                                 <textInputTraits key="textInputTraits" keyboardType="decimalPad"/>
                             </textField>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Base Rate (ex. 4.25 for 4.25%)" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="ydb-aW-oW7">
-                                <rect key="frame" x="28" y="202" width="366" height="30"/>
+                                <rect key="frame" x="20" y="202" width="374" height="30"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" keyboardType="decimalPad"/>
                             </textField>
@@ -1429,7 +1429,7 @@
                             <constraint firstAttribute="trailingMargin" secondItem="d6d-jF-aEh" secondAttribute="trailing" constant="8" id="Eff-m8-vSw"/>
                             <constraint firstItem="H1H-nx-Qf2" firstAttribute="top" secondItem="Bf2-hU-wzA" secondAttribute="bottom" constant="8" id="FCC-Mu-6na"/>
                             <constraint firstItem="G2E-Kx-THK" firstAttribute="top" secondItem="Y0o-Tn-HOt" secondAttribute="bottom" constant="24" id="FaJ-zG-wAy"/>
-                            <constraint firstItem="ydb-aW-oW7" firstAttribute="leading" secondItem="h0a-5q-vBO" secondAttribute="leadingMargin" constant="8" id="GcB-4c-pGb"/>
+                            <constraint firstItem="ydb-aW-oW7" firstAttribute="leading" secondItem="h0a-5q-vBO" secondAttribute="leadingMargin" id="GcB-4c-pGb"/>
                             <constraint firstAttribute="centerX" secondItem="H1H-nx-Qf2" secondAttribute="centerX" id="Kpd-wS-VqY"/>
                             <constraint firstItem="ydb-aW-oW7" firstAttribute="trailing" secondItem="h0a-5q-vBO" secondAttribute="trailingMargin" id="N5G-Oj-omO"/>
                             <constraint firstItem="guc-2M-cOG" firstAttribute="top" secondItem="d6d-jF-aEh" secondAttribute="bottom" constant="16" id="Pc5-8y-Kqw"/>
