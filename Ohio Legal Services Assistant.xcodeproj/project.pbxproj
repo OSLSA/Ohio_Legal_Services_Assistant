@@ -9,6 +9,9 @@
 /* Begin PBXBuildFile section */
 		511D91D61CFB16500030C815 /* SearchTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 511D91D51CFB16500030C815 /* SearchTableViewController.swift */; };
 		511D91D81CFB170A0030C815 /* SearchTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 511D91D71CFB170A0030C815 /* SearchTableViewCell.swift */; };
+		51360D411E834C330080C814 /* OWF01-17.plist in Resources */ = {isa = PBXBuildFile; fileRef = 51360D401E834C320080C814 /* OWF01-17.plist */; };
+		51360D431E83527C0080C814 /* standards_help_sheet.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 51360D421E83527C0080C814 /* standards_help_sheet.pdf */; };
+		51360D451E9663D00080C814 /* medicaid_help_sheet.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 51360D441E9663D00080C814 /* medicaid_help_sheet.pdf */; };
 		517EB5891D0C8DA30053D593 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 517EB5881D0C8DA30053D593 /* SettingsViewController.swift */; };
 		517EB5901D0CA3000053D593 /* MyPushPushNotifications+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 517EB58E1D0CA3000053D593 /* MyPushPushNotifications+CoreDataProperties.swift */; };
 		517EB5911D0CA3000053D593 /* MyPushPushNotifications.swift in Sources */ = {isa = PBXBuildFile; fileRef = 517EB58F1D0CA3000053D593 /* MyPushPushNotifications.swift */; };
@@ -63,8 +66,6 @@
 		693FC6221E1D756400E6A499 /* MyPikaURL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 693FC6211E1D756400E6A499 /* MyPikaURL.swift */; };
 		6942257A1D196A9E00C89352 /* OWF01-16.plist in Resources */ = {isa = PBXBuildFile; fileRef = 694225791D196A9E00C89352 /* OWF01-16.plist */; };
 		6942257C1D244A9300C89352 /* FoodStamps10-01-2015.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6942257B1D244A9300C89352 /* FoodStamps10-01-2015.plist */; };
-		6953C6131E200F6000686C17 /* medicaid_help_sheet.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 6953C6121E200F6000686C17 /* medicaid_help_sheet.pdf */; };
-		6953C6151E200F7700686C17 /* standards_help_sheet.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 6953C6141E200F7700686C17 /* standards_help_sheet.pdf */; };
 		697520281DC7A0AC00484440 /* OWF07-16.plist in Resources */ = {isa = PBXBuildFile; fileRef = 697520271DC7A0AC00484440 /* OWF07-16.plist */; };
 		69923FE41CB90BA300460C8B /* FormsDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69923FE31CB90BA300460C8B /* FormsDetailViewController.swift */; };
 		69923FE71CB976F600460C8B /* CoreDataModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 69923FE51CB976F600460C8B /* CoreDataModel.xcdatamodeld */; };
@@ -98,6 +99,9 @@
 		146FC2A91826CF9189980D21 /* Pods-Ohio Legal Services Assistant.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Ohio Legal Services Assistant.release.xcconfig"; path = "Pods/Target Support Files/Pods-Ohio Legal Services Assistant/Pods-Ohio Legal Services Assistant.release.xcconfig"; sourceTree = "<group>"; };
 		511D91D51CFB16500030C815 /* SearchTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchTableViewController.swift; sourceTree = "<group>"; };
 		511D91D71CFB170A0030C815 /* SearchTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchTableViewCell.swift; sourceTree = "<group>"; };
+		51360D401E834C320080C814 /* OWF01-17.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "OWF01-17.plist"; sourceTree = "<group>"; };
+		51360D421E83527C0080C814 /* standards_help_sheet.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = standards_help_sheet.pdf; sourceTree = "<group>"; };
+		51360D441E9663D00080C814 /* medicaid_help_sheet.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = medicaid_help_sheet.pdf; sourceTree = "<group>"; };
 		517EB5881D0C8DA30053D593 /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 		517EB58E1D0CA3000053D593 /* MyPushPushNotifications+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "MyPushPushNotifications+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		517EB58F1D0CA3000053D593 /* MyPushPushNotifications.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyPushPushNotifications.swift; sourceTree = "<group>"; };
@@ -153,8 +157,6 @@
 		693FC6211E1D756400E6A499 /* MyPikaURL.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyPikaURL.swift; sourceTree = "<group>"; };
 		694225791D196A9E00C89352 /* OWF01-16.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "OWF01-16.plist"; sourceTree = "<group>"; };
 		6942257B1D244A9300C89352 /* FoodStamps10-01-2015.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "FoodStamps10-01-2015.plist"; sourceTree = "<group>"; };
-		6953C6121E200F6000686C17 /* medicaid_help_sheet.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = medicaid_help_sheet.pdf; sourceTree = "<group>"; };
-		6953C6141E200F7700686C17 /* standards_help_sheet.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = standards_help_sheet.pdf; sourceTree = "<group>"; };
 		697520271DC7A0AC00484440 /* OWF07-16.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "OWF07-16.plist"; sourceTree = "<group>"; };
 		69923FE31CB90BA300460C8B /* FormsDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FormsDetailViewController.swift; sourceTree = "<group>"; };
 		69923FE61CB976F600460C8B /* CoreDataModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CoreDataModel.xcdatamodel; sourceTree = "<group>"; };
@@ -222,8 +224,8 @@
 		51EC727C1CA759A20013D757 /* Forms */ = {
 			isa = PBXGroup;
 			children = (
-				6953C6141E200F7700686C17 /* standards_help_sheet.pdf */,
-				6953C6121E200F6000686C17 /* medicaid_help_sheet.pdf */,
+				51360D441E9663D00080C814 /* medicaid_help_sheet.pdf */,
+				51360D421E83527C0080C814 /* standards_help_sheet.pdf */,
 			);
 			name = Forms;
 			sourceTree = "<group>";
@@ -267,6 +269,7 @@
 				6942257B1D244A9300C89352 /* FoodStamps10-01-2015.plist */,
 				51AA80551DBA288C00766BD3 /* FoodStamps10-01-2016.plist */,
 				697520271DC7A0AC00484440 /* OWF07-16.plist */,
+				51360D401E834C320080C814 /* OWF01-17.plist */,
 			);
 			name = "Supporting plists";
 			sourceTree = "<group>";
@@ -507,9 +510,10 @@
 				69BCB2FB1C208799005DD6E2 /* LaunchScreen.storyboard in Resources */,
 				6942257C1D244A9300C89352 /* FoodStamps10-01-2015.plist in Resources */,
 				5198E0BD1D14D49400081180 /* OhioAppRules.plist in Resources */,
+				51360D451E9663D00080C814 /* medicaid_help_sheet.pdf in Resources */,
 				51F486A21C2CD0C000E882AC /* OhioJuvRules.plist in Resources */,
 				69BCB2F81C208798005DD6E2 /* Assets.xcassets in Resources */,
-				6953C6151E200F7700686C17 /* standards_help_sheet.pdf in Resources */,
+				51360D411E834C330080C814 /* OWF01-17.plist in Resources */,
 				519FF2851D14C7A800E36DE8 /* OhioEvidence.plist in Resources */,
 				51F486911C263DB800E882AC /* FoodStamps10-01-2014.plist in Resources */,
 				697520281DC7A0AC00484440 /* OWF07-16.plist in Resources */,
@@ -518,10 +522,10 @@
 				519FF2891D14CA3700E36DE8 /* FedCivPro.plist in Resources */,
 				519FF2811D10E11F00E36DE8 /* OhioCivR.plist in Resources */,
 				6942257A1D196A9E00C89352 /* OWF01-16.plist in Resources */,
+				51360D431E83527C0080C814 /* standards_help_sheet.pdf in Resources */,
 				51AA80561DBA288C00766BD3 /* FoodStamps10-01-2016.plist in Resources */,
 				51F486A01C2C1FAB00E882AC /* RuleBooks.plist in Resources */,
 				519FF2871D14C86E00E36DE8 /* FedEvid.plist in Resources */,
-				6953C6131E200F6000686C17 /* medicaid_help_sheet.pdf in Resources */,
 				51ABB5981E25A74D00C110FA /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
