@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>lastUpdate</key>
-	<string>January 8, 2017</string>
+	<string>June 5, 2017</string>
 	<key>TableOfContents</key>
 	<array>
 		<string>1.0 Terminology</string>
@@ -94,9 +94,9 @@
 		<string>1(a) Subject to divisions (c), (d), and (e) of this rule, a lawyer shall abide by a client’s decisions concerning the objectives of representation and, as required by Rule 1.4, shall consult with the client as to the means by which they are to be pursued. A lawyer may take action on behalf of the client as is impliedly authorized to carry out the representation. A lawyer does not violate this rule by acceding to requests of opposing counsel that do not prejudice the rights of the client, being punctual in fulfilling all professional commitments, avoiding offensive tactics, and treating with courtesy and consideration all persons involved in the legal process. A lawyer shall abide by a client’s decision whether to settle a matter. In a criminal case, the lawyer shall abide by the client’s decision as to a plea to be entered, whether to waive a jury trial, and whether the client will testify.</string>
 		<string>1(b) [RESERVED]</string>
 		<string>1(c) A lawyer may limit the scope of a new or existing representation if the limitation is reasonable under the circumstances and communicated to the client, preferably in &lt;i&gt;writing&lt;/b&gt;.</string>
-        <string>1(d)(1) A lawyer shall not counsel a client to engage, or assist a client, in conduct that the lawyer &lt;i&gt;knows&lt;/b&gt; is &lt;i&gt;illegal&lt;/b&gt; or &lt;i&gt;fraudulent&lt;/b&gt;. A lawyer may discuss the legal consequences of any proposed course of conduct with a client and may counsel or assist a client in making a good faith effort to determine the validity, scope, meaning, or application of the law.</string>
-        <string>1(2) A lawyer may counsel or assist a client regarding conduct expressly permitted under Sub. H.B. 523 of the 131st General Assembly authorizing the use of marijuana for medical purposes and any state statutes, rules, orders, or other provisions implementing the act. In these circumstances, the lawyer shall advise the client regarding related federal law. </string>
-        <string>1(e) Unless otherwise required by law, a lawyer shall not present, participate in presenting, or threaten to present criminal charges or professional misconduct allegations solely to obtain an advantage in a civil matter.</string>
+		<string>1(d)(1) A lawyer shall not counsel a client to engage, or assist a client, in conduct that the lawyer &lt;i&gt;knows&lt;/b&gt; is &lt;i&gt;illegal&lt;/b&gt; or &lt;i&gt;fraudulent&lt;/b&gt;. A lawyer may discuss the legal consequences of any proposed course of conduct with a client and may counsel or assist a client in making a good faith effort to determine the validity, scope, meaning, or application of the law.</string>
+		<string>1(2) A lawyer may counsel or assist a client regarding conduct expressly permitted under Sub. H.B. 523 of the 131st General Assembly authorizing the use of marijuana for medical purposes and any state statutes, rules, orders, or other provisions implementing the act. In these circumstances, the lawyer shall advise the client regarding related federal law. </string>
+		<string>1(e) Unless otherwise required by law, a lawyer shall not present, participate in presenting, or threaten to present criminal charges or professional misconduct allegations solely to obtain an advantage in a civil matter.</string>
 	</array>
 	<key>Rule1.3</key>
 	<array>
@@ -289,7 +289,7 @@
 		<string>1&lt;b&gt;RULE 1.13: ORGANIZATION AS CLIENT&lt;/b&gt;</string>
 		<string>1(a) A lawyer employed or retained by an organization represents the organization acting through its constituents. A lawyer employed or retained by an organization owes allegiance to the organization and not to any constituent or other person connected with the organization. The constituents of an organization include its owners and its duly authorized officers, directors, trustees, and employees.</string>
 		<string>1(b) If a lawyer for an organization &lt;i&gt;knows&lt;/b&gt; or &lt;i&gt;reasonably should know&lt;/b&gt; that its constituent’s action, intended action, or refusal to act (1) violates a legal obligation to the organization, or (2) is a violation of law that reasonably might be imputed to the organization and that is likely to result in &lt;i&gt;substantial&lt;/b&gt; injury to the organization, then the lawyer shall proceed as is necessary in the best interest of the organization. When it is necessary to enable the organization to address the matter in a timely and appropriate manner, the lawyer shall refer the matter to higher authority, including, if warranted by the circumstances, the highest authority that can act on behalf of the organization under applicable law.</string>
-		<string>1(c) The discretion or duty of a lawyer for an organization to reveal information relating to the representation outside the organization is governed by Rule 1.6(b) and (c).</string>
+		<string>1(c) The discretion or duty of a lawyer for an organization to reveal information relating to the representation outside the organization is governed by Rule 1.6(b) and (d).</string>
 		<string>1(d) In dealing with an organization’s directors, officers, employees, members, shareholders, or other constituents, a lawyer shall explain the identity of the client when the lawyer &lt;i&gt;knows&lt;/b&gt; or &lt;i&gt;reasonably should know&lt;/b&gt; that the organization’s interests are adverse to those of the constituents with whom the lawyer is dealing.</string>
 		<string>1(e) A lawyer representing an organization may also represent any of its directors, officers, employees, members, shareholders, or other constituents, subject to the provisions of Rule 1.7. If the organization’s &lt;i&gt;written&lt;/b&gt; consent to the dual representation is required by Rule 1.7, the consent shall be given by an appropriate official of the organization, other than the individual who is to be represented, or by the shareholders.</string>
 	</array>
