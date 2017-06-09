@@ -79,11 +79,11 @@ class OWFCalculator {
     
     func getGrossIncome() -> Int {
         // OAC 5101:1-23-20(H)(1)
-        var gi = Int(floor(earnedIncome) -
+        var gi = floor(earnedIncome) -
             floor(dependentCare) +
             floor(deemedIncome) +
-            floor(unearnedIncome))
-        return gi
+            floor(unearnedIncome)
+        return Int(gi)
     }
     
     func countableIncomeBelowStandard() -> Bool {

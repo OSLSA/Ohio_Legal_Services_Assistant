@@ -76,6 +76,12 @@ class HomeViewController: UIViewController {
         UIApplication.shared.openURL(url)
     }
     
+    @IBAction func takeSurveyPushhed(_ sender: UIButton) {
+        let url = URL(string: "https://goo.gl/forms/U44HZ91CTR0YEDFG2")!
+        UIApplication.shared.openURL(url)
+        
+    }
+
     func oslsaLogoTapped() {
         let url = URL(string: "https://www.seols.org")!
         UIApplication.shared.openURL(url)
