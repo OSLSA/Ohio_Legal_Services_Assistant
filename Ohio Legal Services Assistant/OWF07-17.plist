@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<!--
+ OWF01-17.plist
+ Ohio Legal Services Assistant
+ 
+ Created by Joshua Goodwin on 8/28/17.
+ Copyright (c) 2017 Ohio State Legal Services. All rights reserved.
+ -->
+<plist version="1.0">
+    <dict>
+        <key>paymentStandard</key>
+        <array>
+            <integer>0</integer>
+            <integer>283</integer>
+            <integer>387</integer>
+            <integer>474</integer>
+            <integer>584</integer>
+            <integer>684</integer>
+            <integer>761</integer>
+            <integer>851</integer>
+            <integer>943</integer>
+            <integer>1037</integer>
+            <integer>1130</integer>
+            <integer>1222</integer>
+            <integer>1316</integer>
+        </array>
+        <key>eligibilityStandard</key>
+        <array>
+            <integer>0</integer>
+            <integer>503</integer>
+            <integer>677</integer>
+            <integer>851</integer>
+            <integer>1025</integer>
+            <integer>1200</integer>
+            <integer>1374</integer>
+            <integer>1548</integer>
+            <integer>1722</integer>
+            <integer>1896</integer>
+            <integer>2070</integer>
+            <integer>2245</integer>
+            <integer>2419</integer>
+        </array>
+    </dict>
+</plist>

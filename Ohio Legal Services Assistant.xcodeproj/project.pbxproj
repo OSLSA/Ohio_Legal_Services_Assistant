@@ -76,6 +76,7 @@
 		69BCB2FB1C208799005DD6E2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 69BCB2F91C208799005DD6E2 /* LaunchScreen.storyboard */; };
 		69BCB3061C208799005DD6E2 /* Ohio_Legal_Services_AssistantTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69BCB3051C208799005DD6E2 /* Ohio_Legal_Services_AssistantTests.swift */; };
 		69BCB3111C208799005DD6E2 /* Ohio_Legal_Services_AssistantUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69BCB3101C208799005DD6E2 /* Ohio_Legal_Services_AssistantUITests.swift */; };
+		69FA28261F54815C0084E9D1 /* OWF07-17.plist in Resources */ = {isa = PBXBuildFile; fileRef = 69FA28251F54815C0084E9D1 /* OWF07-17.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -173,6 +174,7 @@
 		69BCB30C1C208799005DD6E2 /* Ohio Legal Services AssistantUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Ohio Legal Services AssistantUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		69BCB3101C208799005DD6E2 /* Ohio_Legal_Services_AssistantUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ohio_Legal_Services_AssistantUITests.swift; sourceTree = "<group>"; };
 		69BCB3121C208799005DD6E2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		69FA28251F54815C0084E9D1 /* OWF07-17.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "OWF07-17.plist"; sourceTree = "<group>"; };
 		9498F6980C72D9B58F0E6FA3 /* Pods-Ohio Legal Services AssistantTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Ohio Legal Services AssistantTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Ohio Legal Services AssistantTests/Pods-Ohio Legal Services AssistantTests.debug.xcconfig"; sourceTree = "<group>"; };
 		981A22357A5D1289FF292973 /* Pods-Ohio Legal Services AssistantUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Ohio Legal Services AssistantUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Ohio Legal Services AssistantUITests/Pods-Ohio Legal Services AssistantUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		A378700272FCA1F7C7D25C0D /* Pods-Ohio Legal Services AssistantUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Ohio Legal Services AssistantUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Ohio Legal Services AssistantUITests/Pods-Ohio Legal Services AssistantUITests.release.xcconfig"; sourceTree = "<group>"; };
@@ -270,6 +272,7 @@
 				51AA80551DBA288C00766BD3 /* FoodStamps10-01-2016.plist */,
 				697520271DC7A0AC00484440 /* OWF07-16.plist */,
 				51360D401E834C320080C814 /* OWF01-17.plist */,
+				69FA28251F54815C0084E9D1 /* OWF07-17.plist */,
 			);
 			name = "Supporting plists";
 			sourceTree = "<group>";
@@ -512,6 +515,7 @@
 				5198E0BD1D14D49400081180 /* OhioAppRules.plist in Resources */,
 				51360D451E9663D00080C814 /* medicaid_help_sheet.pdf in Resources */,
 				51F486A21C2CD0C000E882AC /* OhioJuvRules.plist in Resources */,
+				69FA28261F54815C0084E9D1 /* OWF07-17.plist in Resources */,
 				69BCB2F81C208798005DD6E2 /* Assets.xcassets in Resources */,
 				51360D411E834C330080C814 /* OWF01-17.plist in Resources */,
 				519FF2851D14C7A800E36DE8 /* OhioEvidence.plist in Resources */,
