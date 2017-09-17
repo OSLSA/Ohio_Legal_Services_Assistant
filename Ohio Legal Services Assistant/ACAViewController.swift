@@ -45,8 +45,8 @@ class ACAViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        FIRAnalytics.logEvent(withName: kFIREventSelectContent, parameters: [
-            kFIRParameterContentType: "ACA Calculator Opened" as NSObject
+        Analytics.logEvent(AnalyticsEventSelectContent, parameters: [
+            AnalyticsParameterContentType: "ACA Calculator Opened" as NSObject
             ])
         // Do any additional setup after loading the view.
     }
@@ -89,8 +89,8 @@ class ACAViewController: UIViewController {
             (fatherUntaxedSS.text! as NSString).doubleValue,
             fatherDependentsStepper.value]
         fatherACA.setVariables(fatherInformation, filing: fatherFilingStatus.selectedSegmentIndex)
-        FIRAnalytics.logEvent(withName: kFIREventSelectContent, parameters: [
-            kFIRParameterContentType: "ACA Calculator Checked" as NSObject
+        Analytics.logEvent(AnalyticsEventSelectContent, parameters: [
+            AnalyticsParameterContentType: "ACA Calculator Checked" as NSObject
             ])
         displayResults(fatherACA, mother: motherACA)
         

@@ -17,7 +17,7 @@ class ResourceTableViewController: UITableViewController {
     var categorySelected : String = "All"
     var countySelected : String = "All"
     var numberOfRows : Int = 0
-    var ref: FIRDatabaseReference!
+    var ref: DatabaseReference!
     var allResources : [LocalResource] = []
     var resourceNames : [String] = []
     var activityIndicator = UIActivityIndicatorView(activityIndicatorStyle: UIActivityIndicatorViewStyle.gray)
@@ -25,8 +25,8 @@ class ResourceTableViewController: UITableViewController {
     let noResults : String = "Sorry, no resources found"
     
     override func viewDidLoad() {
-        FIRAnalytics.logEvent(withName: kFIREventSelectContent, parameters: [
-            kFIRParameterContentType: "Local Resources Opened" as NSObject
+        Analytics.logEvent(AnalyticsEventSelectContent, parameters: [
+            AnalyticsParameterContentType: "Local Resources Opened" as NSObject
             ])
         super.viewDidLoad()
         activityIndicator.hidesWhenStopped = true;
@@ -154,13 +154,13 @@ class ResourceTableViewController: UITableViewController {
     func getResources() {
         activityIndicator.startAnimating()
         var results : [String] = []
-        ref = FIRDatabase.database().reference().child("entities")
+        ref = Database.database().reference().child("entities")
         let query = ref.queryOrdered(byChild: "county").queryEqual(toValue: countySelected)
         query.observeSingleEvent(of: .value, with: {(snapshot) in
             self.allResources.removeAll()
             self.resourceNames.removeAll()
             for resource in snapshot.children {
-                let r = LocalResource(snapshot: resource as! FIRDataSnapshot)
+                let r = LocalResource(snapshot: resource as! DataSnapshot)
                 if (self.categorySelected == "All" || self.categorySelected == r.category) {
                     self.allResources.append(r)
                     self.resourceNames.append(r.name)

@@ -26,8 +26,8 @@ class FederalPovertyLevelViewController: UIViewController, UIPickerViewDelegate,
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        FIRAnalytics.logEvent(withName: kFIREventSelectContent, parameters: [
-            kFIRParameterContentType: "FPL Calculator Opened" as NSObject
+        Analytics.logEvent(AnalyticsEventSelectContent, parameters: [
+            AnalyticsParameterContentType: "FPL Calculator Opened" as NSObject
             ])
         sizeLabel.textColor = Colors.primaryText
         versionController.tintColor = Colors.primaryText
@@ -157,8 +157,8 @@ class FederalPovertyLevelViewController: UIViewController, UIPickerViewDelegate,
         fpl.setValues(versionController.titleForSegment(at: versionController.selectedSegmentIndex)!,
             annualIncome: income,
             size: Int(agStepper.value))
-        FIRAnalytics.logEvent(withName: kFIREventSelectContent, parameters: [
-            kFIRParameterContentType: "APR Calculator calculated" as NSObject
+        Analytics.logEvent(AnalyticsEventSelectContent, parameters: [
+            AnalyticsParameterContentType: "APR Calculator calculated" as NSObject
             ])
         resultsLabel.text = "Percentage of Poverty: \(fpl.getResultsString())%"
     }

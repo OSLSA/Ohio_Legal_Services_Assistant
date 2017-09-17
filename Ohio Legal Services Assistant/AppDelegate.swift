@@ -38,7 +38,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
             // For iOS 10 display notification (sent via APNS)
             UNUserNotificationCenter.current().delegate = self
             // For iOS 10 data message (sent via FCM)
-            FIRMessaging.messaging().remoteMessageDelegate = self
+            Messaging.messaging().remoteMessageDelegate = self
             
         } else {
             let settings: UIUserNotificationSettings =
@@ -49,12 +49,12 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         application.registerForRemoteNotifications()
         
         // [END register_for_notifications]
-        FIRApp.configure()
+        FirebaseApp.configure()
         
         // Add observer for InstanceID token refresh callback.
         NotificationCenter.default.addObserver(self,
                                                selector: #selector(self.tokenRefreshNotification),
-                                               name: .firInstanceIDTokenRefresh,
+                                               name: NSNotification.Name.InstanceIDTokenRefresh,
                                                object: nil)
         
         return true
@@ -83,7 +83,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     
     // [START refresh_token]
     func tokenRefreshNotification(_ notification: Notification) {
-        let refreshedToken = FIRInstanceID.instanceID().token()!
+        let refreshedToken = InstanceID.instanceID().token()!
         print("InstanceID token: \(refreshedToken)")
         
         // Connect to FCM since connection may have failed when attempted before having a token.
@@ -93,7 +93,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     
     // [START connect_to_fcm]
     func connectToFcm() {
-        FIRMessaging.messaging().connect { (error) in
+        Messaging.messaging().connect { (error) in
             if (error != nil) {
                 print("Unable to connect with FCM. \(error)")
             } else {
@@ -107,7 +107,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     }
     // [START disconnect_from_fcm]
     func applicationDidEnterBackground(_ application: UIApplication) {
-        FIRMessaging.messaging().disconnect()
+        Messaging.messaging().disconnect()
         print("Disconnected from FCM.")
     }
     // [END disconnect_from_fcm]
@@ -221,9 +221,16 @@ extension AppDelegate : UNUserNotificationCenterDelegate {
     }
 }
 
-extension AppDelegate : FIRMessagingDelegate {
+extension AppDelegate : MessagingDelegate {
+    /// This method will be called whenever FCM receives a new, default FCM token for your
+    /// Firebase project's Sender ID.
+    /// You can send this token to your application server to send notifications to this device.
+    public func messaging(_ messaging: Messaging, didRefreshRegistrationToken fcmToken: String) {
+        print(fcmToken)
+    }
+
     // Receive data message on iOS 10 devices.
-    func applicationReceivedRemoteMessage(_ remoteMessage: FIRMessagingRemoteMessage) {
+    func application(received remoteMessage: MessagingRemoteMessage) {
         print("%@", remoteMessage.appData)
         let userInfo = remoteMessage.appData
         

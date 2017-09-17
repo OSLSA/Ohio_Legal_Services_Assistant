@@ -22,7 +22,7 @@ struct LocalResource {
     var website : String
     var notes : String
     
-    init(snapshot: FIRDataSnapshot) {
+    init(snapshot: DataSnapshot) {
         let sv = snapshot.value as! [String: AnyObject]
         name = sv["name"] as! String
         address = sv["address"] as! String

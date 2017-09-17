@@ -20,8 +20,8 @@ class APRViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        FIRAnalytics.logEvent(withName: kFIREventSelectContent, parameters: [
-            kFIRParameterContentType: "APR Calculator Opened" as NSObject
+        Analytics.logEvent(AnalyticsEventSelectContent, parameters: [
+            AnalyticsParameterContentType: "APR Calculator Opened" as NSObject
             ])
         // Do any additional setup after loading the view.
     }
@@ -105,8 +105,8 @@ class APRViewController: UIViewController {
                                     numberOfPayments: numOfPays)
             result = "The APR is \(calculator.getAPR())% and the monthly payment is $\(calculator.getRoundedMonthlyPayment()). The total amount paid is $\(calculator.getTotalPayments()), of which $  \(calculator.getTotalInterest()) is interest."
         }
-        FIRAnalytics.logEvent(withName: kFIREventSelectContent, parameters: [
-            kFIRParameterContentType: "APR Calculated" as NSObject
+        Analytics.logEvent(AnalyticsEventSelectContent, parameters: [
+            AnalyticsParameterContentType: "APR Calculated" as NSObject
             ])
         resultsLabel.text = result
         

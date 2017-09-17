@@ -19,8 +19,8 @@ class FormsDetailViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        FIRAnalytics.logEvent(withName: kFIREventSelectContent, parameters: [
-            kFIRParameterContentType: "Form \(formName) Opened" as NSObject
+        Analytics.logEvent(AnalyticsEventSelectContent, parameters: [
+            AnalyticsParameterContentType: "Form \(formName) Opened" as NSObject
             ])
         if let pdf = Bundle.main.url(forResource: fileName, withExtension: "pdf", subdirectory: nil, localization: nil){
             let req = URLRequest(url: pdf)

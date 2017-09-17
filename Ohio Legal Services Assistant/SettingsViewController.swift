@@ -94,10 +94,10 @@ class SettingsViewController: UIViewController {
     
     func changeSubscription(_ topic: String, status: Bool, key: String) {
         if (status) {
-            FIRMessaging.messaging().subscribe(toTopic: topic)
+            Messaging.messaging().subscribe(toTopic: topic)
             print("Subscribed to \(topic)")
         } else {
-            FIRMessaging.messaging().unsubscribe(fromTopic: topic)
+            Messaging.messaging().unsubscribe(fromTopic: topic)
             print("Unsubscribed from \(topic)")
         }
         saveSubscription(key, subscribed: status)

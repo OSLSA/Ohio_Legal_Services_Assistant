@@ -21,8 +21,8 @@ class GarnishmentViewController: UIViewController, UIPickerViewDelegate, UIPicke
         
         override func viewDidLoad() {
             super.viewDidLoad()
-            FIRAnalytics.logEvent(withName: kFIREventSelectContent, parameters: [
-                kFIRParameterContentType: "Garnishment Calculator Opened" as NSObject
+            Analytics.logEvent(AnalyticsEventSelectContent, parameters: [
+                AnalyticsParameterContentType: "Garnishment Calculator Opened" as NSObject
                 ])
             self.frequency.delegate = self
             self.frequency.dataSource = self
@@ -83,8 +83,8 @@ class GarnishmentViewController: UIViewController, UIPickerViewDelegate, UIPicke
             let garn = GarnishmentCalculator()
             
             garn.setVariables((income.text! as NSString).doubleValue, frequency: frequency.selectedRow(inComponent: 0), hours: (hoursPerWeek.text! as NSString).doubleValue)
-            FIRAnalytics.logEvent(withName: kFIREventSelectContent, parameters: [
-                kFIRParameterContentType: "Garnishment Calculated" as NSObject
+            Analytics.logEvent(AnalyticsEventSelectContent, parameters: [
+                AnalyticsParameterContentType: "Garnishment Calculated" as NSObject
                 ])
             results.text = garn.getGarnishmentResults()
             

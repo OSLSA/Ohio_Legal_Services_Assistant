@@ -18,7 +18,7 @@ struct Colors {
 
 struct Arrays {
     
-    static let foodStampVersions : [String] = ["10-01-2016", "10-01-2015 to 10-01-2016", "10-01-2014 to 10-01-2015"]
+    static let foodStampVersions : [String] = ["10-01-2017", "10-01-2016 to 10-1-2017", "10-01-2015 to 10-01-2016", "10-01-2014 to 10-01-2015"]
     
     static let OWFVersion : [String] = ["07-17 to present", "01-17 to 07-17", "07-16 to 01-17", "01-15 to 07-16", "07-14 to 01-15"]
     

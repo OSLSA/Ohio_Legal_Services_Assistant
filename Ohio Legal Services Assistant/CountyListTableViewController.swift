@@ -13,7 +13,7 @@ class CountyListTableViewController: UITableViewController {
     
     var activityIndicator = UIActivityIndicatorView(activityIndicatorStyle: UIActivityIndicatorViewStyle.gray)
     var numberOfRows: Int = 1
-    var ref: FIRDatabaseReference!
+    var ref: DatabaseReference!
     var names : [String] = []
     var countySelection : String = ""
 
@@ -75,7 +75,7 @@ class CountyListTableViewController: UITableViewController {
     
     func getCountyNames() {
         var results : [String] = []
-        ref = FIRDatabase.database().reference()
+        ref = Database.database().reference()
         let query = ref.child("counties").queryOrdered(byChild: "name")
         // TODO Encapsulate the query in an NSTimer to deal with timeouts and async nature
         // don't forget activityviewindicator
@@ -84,7 +84,7 @@ class CountyListTableViewController: UITableViewController {
             // Get user value
             var counties : [Counties] = []
             for county in snapshot.children {
-                let c = Counties(snapshot: county as! FIRDataSnapshot)
+                let c = Counties(snapshot: county as! DataSnapshot)
                 self.names.append(c.countyName)
             }
             self.numberOfRows = self.names.count

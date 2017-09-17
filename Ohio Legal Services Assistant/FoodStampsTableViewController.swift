@@ -36,8 +36,8 @@ class FoodStampsTableViewController: UITableViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        FIRAnalytics.logEvent(withName: kFIREventSelectContent, parameters: [
-            kFIRParameterContentType: "Food Stamps Calculator Opened" as NSObject
+        Analytics.logEvent(AnalyticsEventSelectContent, parameters: [
+            AnalyticsParameterContentType: "Food Stamps Calculator Opened" as NSObject
             ])
         buttonVersion.setTitle(Arrays.foodStampVersions[0], for : .normal)
         // Do any additional setup after loading the view.
@@ -88,8 +88,8 @@ class FoodStampsTableViewController: UITableViewController {
             "version": version]
 
         calculator.setVariables(variables)
-        FIRAnalytics.logEvent(withName: kFIREventSelectContent, parameters: [
-            kFIRParameterContentType: "Food Stamps Calculated" as NSObject
+        Analytics.logEvent(AnalyticsEventSelectContent, parameters: [
+            AnalyticsParameterContentType: "Food Stamps Calculated" as NSObject
             ])
         results.text = "\(calculator.returnResults())"
         

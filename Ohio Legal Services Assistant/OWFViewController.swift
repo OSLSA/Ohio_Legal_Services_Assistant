@@ -25,8 +25,8 @@ class OWFViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        FIRAnalytics.logEvent(withName: kFIREventSelectContent, parameters: [
-            kFIRParameterContentType: "OWF Calculator Opened" as NSObject
+        Analytics.logEvent(AnalyticsEventSelectContent, parameters: [
+            AnalyticsParameterContentType: "OWF Calculator Opened" as NSObject
             ])
         versionButton.setTitle(version, for: .normal)
         // Do any additional setup after loading the view.
@@ -94,8 +94,8 @@ class OWFViewController: UIViewController {
             
             version: ver)
 
-        FIRAnalytics.logEvent(withName: kFIREventSelectContent, parameters: [
-            kFIRParameterContentType: "OWF Calculated" as NSObject
+        Analytics.logEvent(AnalyticsEventSelectContent, parameters: [
+            AnalyticsParameterContentType: "OWF Calculated" as NSObject
             ])
         results.text = calculator.calculateOWF()
         results.lineBreakMode = .byWordWrapping

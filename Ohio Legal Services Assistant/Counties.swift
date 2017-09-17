@@ -20,7 +20,7 @@ struct Counties {
         self.legalAid =  legalAid
     }
     
-    init(snapshot: FIRDataSnapshot) {
+    init(snapshot: DataSnapshot) {
         let snapshotValue = snapshot.value as! [String: AnyObject]
         countyName = snapshotValue["name"] as! String
         legalAid = snapshotValue["legalAid"] as! String
