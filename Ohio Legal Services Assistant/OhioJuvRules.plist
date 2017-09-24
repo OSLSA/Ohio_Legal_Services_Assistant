@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>lastUpdate</key>
-	<string>January 8, 2017</string>
+	<string>September 23, 2017</string>
 	<key>TableOfContents</key>
 	<array>
 		<string>1 Scope of rules: applicability; construction; exceptions</string>
@@ -407,9 +407,10 @@
 	<array>
 		<string>1&lt;b&gt;RULE 20. Service and Filing of Papers When Required Subsequent to Filing of Complaint.&lt;/b&gt;</string>
 		<string>1&lt;b&gt;(A) Service: when required.&lt;/b&gt; Written notices, requests for discovery, designation of record on appeal and written motions, other than those which are heard ex parte, and similar papers shall be served upon each of the parties.</string>
-		<string>1&lt;b&gt;(B) Service: how made.&lt;/b&gt; Whenever under these rules or by an order of the court service is required or permitted to be made upon a party represented by an attorney, the service shall be made upon the attorney unless service is ordered by the court upon the party. Service upon the attorney or upon the party shall be made in the manner provided in Civ. R. 5(B).</string>
-		<string>1&lt;b&gt;(C) Filing.&lt;/b&gt; All papers required to be served upon a party shall be filed simultaneously with or immediately after service. Papers filed with the court shall not be considered until proof of service is endorsed thereon or separately filed. The proof of service shall state the date and the manner of service and shall be signed and filed in the manner provided in Civil Rule 5(D).</string>
-		<string>2[Effective: July 1, 1972; amended effective July 1, 1994.]</string>
+		<string>1&lt;b&gt;(B) Service: how made; proof of service.&lt;/b&gt; Whenever under these rules or by an order of the court service is required or permitted to be made upon a party represented by an attorney, the service shall be made upon the attorney unless service is ordered by the court upon the party. Service upon the attorney or upon the party, and proof of service, shall be made in the manner provided in Civ. R. 5(B). Papers filed with the court shall not be considered until proof of service is endorsed thereon or separately filed.</string>
+		<string>1&lt;b&gt;(C) Filing.&lt;/b&gt; All papers required to be served shall be filed with the court within three days after service. Discovery requests and responses shall not be filed until they are used in the proceeding or the court orders filing.</string>
+		<string>1&lt;b&gt;(D) Filing with the court defined.&lt;/b&gt; Filing with the court shall be as defined by Civ.R. 5(E).</string>
+		<string>2[Effective: July 1, 1972; amended effective July 1, 1994; July 1, 2016.]</string>
 	</array>
 	<key>Rule21</key>
 	<array>
@@ -814,6 +815,7 @@
 		<string>1&lt;b&gt;(V) Effective date of amendments.&lt;/b&gt; The amendments to Juvenile Rules 16 and 47 filed by the Supreme Court with the General Assembly on January 15, 2013 and revised and refiled on April 29, 2013 shall take effect on July 1, 2013. They govern all proceedings in actions brought after they take effect and also all further proceedings in actions then pending, except to the extent that their application in a particular action pending when the amendments take effect would not be feasible or would work injustice, in which event the former procedure applies.</string>
 		<string>1&lt;b&gt;(W) Effective date of amendments.&lt;/b&gt; The amendments to Juvenile Rules 40 and 47 filed by the Supreme Court with the General Assembly on January 15, 2014 and refiled on April 30, 2014 shall take effect on July 1, 2014. They govern all proceedings in actions brought after they take effect and also all further proceedings in actions then pending, except to the extent that their application in a particular action pending when the amendments take effect would not be feasible or would work injustice, in which event the former procedure applies.</string>
 		<string>1&lt;b&gt;(X) Effective date of amendments.&lt;/b&gt; The amendments to Juvenile Rules 41 and 47 filed by the Supreme Court with the General Assembly on January 15, 2015 and refiled on April 30, 2015 shall take effect on July 1, 2015. They govern all proceedings in actions brought after they take effect and also all further proceedings in actions then pending, except to the extent that their application in a particular action pending when the amendments take effect would not be feasible or would work injustice, in which event the former procedure applies.</string>
+		<string>1&lt;b&gt;(Y) Effective date of amendments.&lt;/b&gt; The amendments to Juvenile Rules 20 and 47 filed by the Supreme Court with the General Assembly on January 13, 2016 and refiled on April 29, 2016 shall take effect on July 1, 2016. They govern all proceedings in actions brought after they take effect and also all further proceedings in actions then pending, except to the extent that their application in a particular action pending when the amendments take effect would not be feasible or would work injustice, in which event the former procedure applies.</string>
 	</array>
 	<key>Rule48</key>
 	<array>
