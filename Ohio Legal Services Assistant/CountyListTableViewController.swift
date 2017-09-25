@@ -74,7 +74,7 @@ class CountyListTableViewController: UITableViewController {
     }
     
     func getCountyNames() {
-        var results : [String] = []
+        //var results : [String] = []
         ref = Database.database().reference()
         let query = ref.child("counties").queryOrdered(byChild: "name")
         // TODO Encapsulate the query in an NSTimer to deal with timeouts and async nature
@@ -82,7 +82,7 @@ class CountyListTableViewController: UITableViewController {
         
         query.observeSingleEvent(of: .value, with: { (snapshot) in
             // Get user value
-            var counties : [Counties] = []
+            //var counties : [Counties] = []
             for county in snapshot.children {
                 let c = Counties(snapshot: county as! DataSnapshot)
                 self.names.append(c.countyName)

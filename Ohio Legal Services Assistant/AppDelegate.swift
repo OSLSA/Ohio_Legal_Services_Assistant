@@ -28,6 +28,32 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         UINavigationBar.appearance().titleTextAttributes = [NSForegroundColorAttributeName : Colors.accentColor]
         UINavigationBar.appearance().tintColor = Colors.accentColor
         
+        FirebaseApp.configure()
+        
+        // [START set_messaging_delegate]
+        Messaging.messaging().delegate = self
+        // [END set_messaging_delegate]
+        
+        if #available(iOS 10.0, *) {
+            // For iOS 10 display notification (sent via APNS)
+            UNUserNotificationCenter.current().delegate = self
+            
+            let authOptions: UNAuthorizationOptions = [.alert, .badge, .sound]
+            UNUserNotificationCenter.current().requestAuthorization(
+                options: authOptions,
+                completionHandler: {_, _ in })
+        } else {
+            let settings: UIUserNotificationSettings =
+                UIUserNotificationSettings(types: [.alert, .badge, .sound], categories: nil)
+            application.registerUserNotificationSettings(settings)
+        }
+        
+        application.registerForRemoteNotifications()
+        
+        // [END register_for_notifications]
+
+        
+        /* OLD VERSION
         // [START register_for_notifications]
         if #available(iOS 10.0, *) {
             let authOptions: UNAuthorizationOptions = [.alert, .badge, .sound]
@@ -50,6 +76,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         
         // [END register_for_notifications]
         FirebaseApp.configure()
+ 
+ */
         
         // Add observer for InstanceID token refresh callback.
         NotificationCenter.default.addObserver(self,
@@ -87,10 +115,12 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         print("InstanceID token: \(refreshedToken)")
         
         // Connect to FCM since connection may have failed when attempted before having a token.
-        connectToFcm()
+        //connectToFcm()
     }
     // [END refresh_token]
-    
+
+/*
+
     // [START connect_to_fcm]
     func connectToFcm() {
         Messaging.messaging().connect { (error) in
@@ -112,7 +142,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     }
     // [END disconnect_from_fcm]
 
-
+*/
 
     func applicationWillEnterForeground(_ application: UIApplication) {
         // Called as part of the transition from the background to the inactive state; here you can undo many of the changes made on entering the background.

@@ -79,7 +79,7 @@ class OWFCalculator {
     
     func getGrossIncome() -> Int {
         // OAC 5101:1-23-20(H)(1)
-        var gi = floor(earnedIncome) -
+        let gi = floor(earnedIncome) -
             floor(dependentCare) +
             floor(deemedIncome) +
             floor(unearnedIncome)

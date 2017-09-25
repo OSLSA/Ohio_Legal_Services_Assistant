@@ -39,8 +39,8 @@ class RulesDetailTableViewController: UITableViewController {
     func getRuleArray() -> [String] {
         let path = Bundle.main.path(forResource: rulesTitle, ofType: "plist")
         let wholeBook = NSDictionary(contentsOfFile: path!)
-        return wholeBook!.object(forKey: "Rule\(ruleNumber!)") as! [String]
         activityIndicator.stopAnimating()
+        return wholeBook!.object(forKey: "Rule\(ruleNumber!)") as! [String]
     }
 
     @IBAction func searchPressed(_ sender: AnyObject) {

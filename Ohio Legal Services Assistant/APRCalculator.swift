@@ -34,7 +34,7 @@ class APRCalculator {
     func F(x: Double) -> Double {
         
         //def F(x) {        return amount * x * Math.pow(1 + x,numPay)/(Math.pow(1 + x,numPay) - 1) - payment}
-        var result = amountBorrowed * x * pow(1+x,numberOfPayments) / (pow(1+x,numberOfPayments) - 1) - getMonthlyPayment()
+        let result = amountBorrowed * x * pow(1+x,numberOfPayments) / (pow(1+x,numberOfPayments) - 1) - getMonthlyPayment()
         print("F: \(result)")
         return result
     }
@@ -45,14 +45,14 @@ class APRCalculator {
     }
     
     func getAPRate() -> Double {
-        var error = 0.000001
+        let error = 0.000001
         var approx = 0.05/12
         var prev_approx = 0.4/12
     
         for _ in 1 ..< 100 {
             prev_approx = approx
             approx = prev_approx - F(x: prev_approx)/F_1(x: prev_approx)
-            var diff = abs(approx-prev_approx)
+            let diff = abs(approx-prev_approx)
             if (diff < error) {break}
         }
     

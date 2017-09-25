@@ -153,7 +153,7 @@ class ResourceTableViewController: UITableViewController {
     
     func getResources() {
         activityIndicator.startAnimating()
-        var results : [String] = []
+        //var results : [String] = []
         ref = Database.database().reference().child("entities")
         let query = ref.queryOrdered(byChild: "county").queryEqual(toValue: countySelected)
         query.observeSingleEvent(of: .value, with: {(snapshot) in
