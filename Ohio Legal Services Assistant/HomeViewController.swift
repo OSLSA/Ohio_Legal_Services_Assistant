@@ -51,7 +51,7 @@ class HomeViewController: UIViewController {
     }
     
     override func viewDidAppear(_ animated: Bool) {
-        print("vieAppear")
+        
         let appDel:AppDelegate = (UIApplication.shared.delegate as! AppDelegate)
         managedObjectContext = appDel.managedObjectContext
         let urlFetchRequest = NSFetchRequest<NSFetchRequestResult>(entityName: "PikaURL")

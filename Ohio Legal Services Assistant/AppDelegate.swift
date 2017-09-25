@@ -26,7 +26,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // some global settings for appearance
         
         UINavigationBar.appearance().titleTextAttributes = [NSForegroundColorAttributeName : Colors.accentColor]
-        UINavigationBar.appearance().tintColor = Colors.accentColor
+        //UINavigationBar.appearance().tintColor = Colors.accentColor
         
         FirebaseApp.configure()
         
