@@ -35,7 +35,6 @@
 		51B5B0E91DA1DBF8002625A8 /* CategoriesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51B5B0E81DA1DBF8002625A8 /* CategoriesTableViewController.swift */; };
 		51B5B0EB1DA1DC12002625A8 /* CategoriesTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51B5B0EA1DA1DC12002625A8 /* CategoriesTableViewCell.swift */; };
 		51B5B0ED1DA1EC1A002625A8 /* ResourceDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51B5B0EC1DA1EC1A002625A8 /* ResourceDetailViewController.swift */; };
-		51B9B0A81F6F3D5000CB4E88 /* standards_help_sheet.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 51B9B0A71F6F3D5000CB4E88 /* standards_help_sheet.pdf */; };
 		51CA11BB1F6E831E00395B81 /* FoodStamps10-01-2017.plist in Resources */ = {isa = PBXBuildFile; fileRef = 51CA11BA1F6E831E00395B81 /* FoodStamps10-01-2017.plist */; };
 		51E048671DB4450100F6D9CE /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51E048661DB4450000F6D9CE /* Constants.swift */; };
 		51E7093A1DBB796700F21AE8 /* APRCalculatorPayment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51E709391DBB796700F21AE8 /* APRCalculatorPayment.swift */; };
@@ -67,6 +66,8 @@
 		693FC6221E1D756400E6A499 /* MyPikaURL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 693FC6211E1D756400E6A499 /* MyPikaURL.swift */; };
 		6942257A1D196A9E00C89352 /* OWF01-16.plist in Resources */ = {isa = PBXBuildFile; fileRef = 694225791D196A9E00C89352 /* OWF01-16.plist */; };
 		6942257C1D244A9300C89352 /* FoodStamps10-01-2015.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6942257B1D244A9300C89352 /* FoodStamps10-01-2015.plist */; };
+		694D6AAF1FFED0430048C5B2 /* standards_help_sheet.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 694D6AAE1FFED0430048C5B2 /* standards_help_sheet.pdf */; };
+		694D6AB11FFED0BE0048C5B2 /* OWF01-18.plist in Resources */ = {isa = PBXBuildFile; fileRef = 694D6AB01FFED0BE0048C5B2 /* OWF01-18.plist */; };
 		697520281DC7A0AC00484440 /* OWF07-16.plist in Resources */ = {isa = PBXBuildFile; fileRef = 697520271DC7A0AC00484440 /* OWF07-16.plist */; };
 		69923FE41CB90BA300460C8B /* FormsDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69923FE31CB90BA300460C8B /* FormsDetailViewController.swift */; };
 		69923FE71CB976F600460C8B /* CoreDataModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 69923FE51CB976F600460C8B /* CoreDataModel.xcdatamodeld */; };
@@ -130,7 +131,6 @@
 		51B5B0E81DA1DBF8002625A8 /* CategoriesTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CategoriesTableViewController.swift; sourceTree = "<group>"; };
 		51B5B0EA1DA1DC12002625A8 /* CategoriesTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CategoriesTableViewCell.swift; sourceTree = "<group>"; };
 		51B5B0EC1DA1EC1A002625A8 /* ResourceDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResourceDetailViewController.swift; sourceTree = "<group>"; };
-		51B9B0A71F6F3D5000CB4E88 /* standards_help_sheet.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = standards_help_sheet.pdf; sourceTree = "<group>"; };
 		51CA11BA1F6E831E00395B81 /* FoodStamps10-01-2017.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "FoodStamps10-01-2017.plist"; sourceTree = "<group>"; };
 		51D718D21DE8D41900505541 /* Ohio Legal Services Assistant.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Ohio Legal Services Assistant.entitlements"; sourceTree = "<group>"; };
 		51E048661DB4450000F6D9CE /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
@@ -163,6 +163,8 @@
 		693FC6211E1D756400E6A499 /* MyPikaURL.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyPikaURL.swift; sourceTree = "<group>"; };
 		694225791D196A9E00C89352 /* OWF01-16.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "OWF01-16.plist"; sourceTree = "<group>"; };
 		6942257B1D244A9300C89352 /* FoodStamps10-01-2015.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "FoodStamps10-01-2015.plist"; sourceTree = "<group>"; };
+		694D6AAE1FFED0430048C5B2 /* standards_help_sheet.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = standards_help_sheet.pdf; sourceTree = "<group>"; };
+		694D6AB01FFED0BE0048C5B2 /* OWF01-18.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "OWF01-18.plist"; sourceTree = "<group>"; };
 		697520271DC7A0AC00484440 /* OWF07-16.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "OWF07-16.plist"; sourceTree = "<group>"; };
 		69923FE31CB90BA300460C8B /* FormsDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FormsDetailViewController.swift; sourceTree = "<group>"; };
 		69923FE61CB976F600460C8B /* CoreDataModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CoreDataModel.xcdatamodel; sourceTree = "<group>"; };
@@ -237,8 +239,8 @@
 		51EC727C1CA759A20013D757 /* Forms */ = {
 			isa = PBXGroup;
 			children = (
+				694D6AAE1FFED0430048C5B2 /* standards_help_sheet.pdf */,
 				51360D441E9663D00080C814 /* medicaid_help_sheet.pdf */,
-				51B9B0A71F6F3D5000CB4E88 /* standards_help_sheet.pdf */,
 			);
 			name = Forms;
 			sourceTree = "<group>";
@@ -285,6 +287,7 @@
 				697520271DC7A0AC00484440 /* OWF07-16.plist */,
 				51360D401E834C320080C814 /* OWF01-17.plist */,
 				69FA28251F54815C0084E9D1 /* OWF07-17.plist */,
+				694D6AB01FFED0BE0048C5B2 /* OWF01-18.plist */,
 			);
 			name = "Supporting plists";
 			sourceTree = "<group>";
@@ -527,10 +530,11 @@
 				51F4868E1C263D7700E882AC /* OWF01-15.plist in Resources */,
 				51CA11BB1F6E831E00395B81 /* FoodStamps10-01-2017.plist in Resources */,
 				69BCB2FB1C208799005DD6E2 /* LaunchScreen.storyboard in Resources */,
-				51B9B0A81F6F3D5000CB4E88 /* standards_help_sheet.pdf in Resources */,
 				6942257C1D244A9300C89352 /* FoodStamps10-01-2015.plist in Resources */,
+				694D6AB11FFED0BE0048C5B2 /* OWF01-18.plist in Resources */,
 				5198E0BD1D14D49400081180 /* OhioAppRules.plist in Resources */,
 				51360D451E9663D00080C814 /* medicaid_help_sheet.pdf in Resources */,
+				694D6AAF1FFED0430048C5B2 /* standards_help_sheet.pdf in Resources */,
 				51F486A21C2CD0C000E882AC /* OhioJuvRules.plist in Resources */,
 				69FA28261F54815C0084E9D1 /* OWF07-17.plist in Resources */,
 				69BCB2F81C208798005DD6E2 /* Assets.xcassets in Resources */,
