@@ -137,7 +137,7 @@ class FederalPovertyLevelViewController: UIViewController, UIPickerViewDelegate,
         sizeLabel.text = "Household Size: 1"
         hours.text = ""
         hideHours(hidden: true)
-        versionController.selectedSegmentIndex = 2
+        versionController.selectedSegmentIndex = 3
     }
     
     @IBAction func calculatePressed(_ sender: UIButton) {
