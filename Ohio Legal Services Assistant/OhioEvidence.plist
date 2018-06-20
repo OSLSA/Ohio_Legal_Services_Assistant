@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>lastUpdate</key>
-	<string>January 8, 2017</string>
+	<string>June 19, 2018</string>
 	<key>TableOfContents</key>
 	<array>
 		<string>101 Scope of rules: applicability; privileges; exceptions</string>
@@ -503,23 +503,23 @@
 	</array>
 	<key>Rule807</key>
 	<array>
-		<string>1&lt;b&gt;RULE 807. Hearsay Exceptions; Child Statements in Abuse Cases&lt;/b&gt;</string>
-		<string>1(A) An out-of-court statement made by a child who is under twelve years of age at the time of trial or hearing describing any sexual act performed by, with, or on the child or describing any act of physical violence directed against the child is not excluded as hearsay under Evid.R. 802 if all of the following apply:</string>
-		<string>2(1) The court finds that the totality of the circumstances surrounding the making of the statement provides particularized guarantees of trustworthiness that make the statement at least as reliable as statements admitted pursuant to Evid.R. 803 and 804. The circumstances must establish that the child was particularly likely to be telling the truth when the statement was made and that the test of cross-examination would add little to the reliability of the statement. In making its determination of the reliability of the statement, the court shall consider all of the circumstances surrounding the making of the statement, including but not limited to spontaneity, the internal consistency of the statement, the mental state of the child, the child&apos;s motive or lack of motive to fabricate, the child&apos;s use of terminology unexpected of a child of similar age, the means by which the statement was elicited, and the lapse of time between the act and the statement. In making this determination, the court shall not consider whether there is independent proof of the sexual act or act of physical violence.</string>
-		<string>2(2) The child&apos;s testimony is not reasonably obtainable by the proponent of the statement.</string>
-		<string>2(3) There is independent proof of the sexual act or act of physical violence.</string>
-		<string>2(4) At least ten days before the trial or hearing, a proponent of the statement has notified all other parties in writing of the content of the statement, the time and place at which the statement was made, the identity of the witness who is to testify about the statement, and the circumstances surrounding the statement that are claimed to indicate its trustworthiness.</string>
-		<string>1(B) The child&apos;s testimony is &quot;not reasonably obtainable by the proponent of the statement&quot; under division (A)(2) of this rule only if one or more of the following apply:</string>
-		<string>2(1) The child refuses to testify concerning the subject matter of the statement or claims a lack of memory of the subject matter of the statement after a person trusted by the child, in the presence of the court, urges the child to both describe the acts described by the statement and to testify.</string>
-		<string>2(2) The court finds all of the following:</string>
-		<string>3(a) the child is absent from the trial or hearing;</string>
-		<string>3(b) the proponent of the statement has been unable to procure the child&apos;s attendance or testimony by process or other reasonable means despite a good faith effort to do so;(c) it is probable that the proponent would be unable to procure the child&apos;s testimony or attendance if the trial or hearing were delayed for a reasonable time.</string>
-		<string>2(3) The court finds both of the following:</string>
-		<string>3(a) the child is unable to testify at the trial or hearing because of death or then existing physical or mental illness or infirmity;</string>
-		<string>3(b) the illness or infirmity would not improve sufficiently to permit the child to testify if the trial or hearing were delayed for a reasonable time.</string>
-		<string>2The proponent of the statement has not established that the child&apos;s testimony or attendance is not reasonably obtainable if the child&apos;s refusal, claim of lack of memory, inability, or absence is due to the procurement or wrongdoing of the proponent of the statement for the purpose of preventing the child from attending or testifying.</string>
-		<string>1(C) The court shall make the findings required by this rule on the basis of a hearing conducted outside the presence of the jury and shall make findings of fact, on the record, as to the bases for its ruling.</string>
-		<string>2[Effective: July 1, 1991.]</string>
+        <string>1&lt;b>RULE 807. Hearsay Exceptions; Child Statements in Abuse Cases&lt;/b></string>
+        <string>1(A) An out-of-court statement made by a child who is under twelve years of age at the time of trial or hearing describing any sexual activity performed, or attempted to be performed, by, with, or on the child or describing any act or attempted act of physical harm directed against the child’s person is not excluded as hearsay under Evid.R. 802 if all of the following apply:</string>
+        <string>2(1) The court finds that the totality of the circumstances surrounding the making of the statement provides particularized guarantees of trustworthiness that make the statement at least as reliable as statements admitted pursuant to Evid.R. 803 and 804. The circumstances must establish that the child was particularly likely to be telling the truth when the statement was made and that the test of cross-examination would add little to the reliability of the statement. In making its determination of the reliability of the statement, the court shall consider all of the circumstances surrounding the making of the statement, including but not limited to spontaneity, the internal consistency of the statement, the mental state of the child, the child's motive or lack of motive to fabricate, the child's use of terminology unexpected of a child of similar age, the means by which the statement was elicited, and the lapse of time between the act and the statement. In making this determination, the court shall not consider whether there is independent proof of the sexual activity or attempted sexual activity, or of the act or attempted act of physical harm directed against the child’s person;</string>
+        <string>2(2) The child's testimony is not reasonably obtainable by the proponent of the statement.</string>
+        <string>2(3) There is independent proof of the sexual activity or attempted sexual activity, or of the act or attempted act of physical harm directed against the child’s person</string>
+        <string>2(4) At least ten days before the trial or hearing, a proponent of the statement has notified all other parties in writing of the content of the statement, the time and place at which the statement was made, the identity of the witness who is to testify about the statement, and the circumstances surrounding the statement that are claimed to indicate its trustworthiness.</string>
+        <string>1(B) The child's testimony is "not reasonably obtainable by the proponent of the statement" under division (A)(2) of this rule only if one or more of the following apply:</string>
+        <string>2(1) The child refuses to testify concerning the subject matter of the statement or claims a lack of memory of the subject matter of the statement after a person trusted by the child, in the presence of the court, urges the child to both describe the acts described by the statement and to testify.</string>
+        <string>2(2) The court finds all of the following:</string>
+        <string>3(a) the child is absent from the trial or hearing;</string>
+        <string>3(b) the proponent of the statement has been unable to procure the child's attendance or testimony by process or other reasonable means despite a good faith effort to do so;(c) it is probable that the proponent would be unable to procure the child's testimony or attendance if the trial or hearing were delayed for a reasonable time.</string>
+        <string>2(3) The court finds both of the following:</string>
+        <string>3(a) the child is unable to testify at the trial or hearing because of death or then existing physical or mental illness or infirmity;</string>
+        <string>3(b) the illness or infirmity would not improve sufficiently to permit the child to testify if the trial or hearing were delayed for a reasonable time.</string>
+        <string>2The proponent of the statement has not established that the child's testimony or attendance is not reasonably obtainable if the child's refusal, claim of lack of memory, inability, or absence is due to the procurement or wrongdoing of the proponent of the statement for the purpose of preventing the child from attending or testifying.</string>
+        <string>1(C) The court shall make the findings required by this rule on the basis of a hearing conducted outside the presence of the jury and shall make findings of fact, on the record, as to the bases for its ruling.</string>
+        <string>2[Effective: July 1, 1991; July 1, 2018.]</string>
 	</array>
 	<key>Rule901</key>
 	<array>
