@@ -61,7 +61,7 @@ class ACACalculator {
     }
     
     func getFPLString() -> String {
-        fpl.setValues("2015", annualIncome: getMagi(), size: householdSize)
+        //fpl.setValues("2015", annualIncome: getMagi(), size: householdSize)
         return fpl.getResultsString()
     }
     

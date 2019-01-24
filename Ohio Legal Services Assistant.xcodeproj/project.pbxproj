@@ -10,7 +10,6 @@
 		511D91D61CFB16500030C815 /* SearchTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 511D91D51CFB16500030C815 /* SearchTableViewController.swift */; };
 		511D91D81CFB170A0030C815 /* SearchTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 511D91D71CFB170A0030C815 /* SearchTableViewCell.swift */; };
 		51360D411E834C330080C814 /* OWF01-17.plist in Resources */ = {isa = PBXBuildFile; fileRef = 51360D401E834C320080C814 /* OWF01-17.plist */; };
-		51360D451E9663D00080C814 /* medicaid_help_sheet.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 51360D441E9663D00080C814 /* medicaid_help_sheet.pdf */; };
 		517EB5891D0C8DA30053D593 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 517EB5881D0C8DA30053D593 /* SettingsViewController.swift */; };
 		517EB5901D0CA3000053D593 /* MyPushPushNotifications+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 517EB58E1D0CA3000053D593 /* MyPushPushNotifications+CoreDataProperties.swift */; };
 		517EB5911D0CA3000053D593 /* MyPushPushNotifications.swift in Sources */ = {isa = PBXBuildFile; fileRef = 517EB58F1D0CA3000053D593 /* MyPushPushNotifications.swift */; };
@@ -66,9 +65,11 @@
 		693FC6221E1D756400E6A499 /* MyPikaURL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 693FC6211E1D756400E6A499 /* MyPikaURL.swift */; };
 		6942257A1D196A9E00C89352 /* OWF01-16.plist in Resources */ = {isa = PBXBuildFile; fileRef = 694225791D196A9E00C89352 /* OWF01-16.plist */; };
 		6942257C1D244A9300C89352 /* FoodStamps10-01-2015.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6942257B1D244A9300C89352 /* FoodStamps10-01-2015.plist */; };
-		694D6AAF1FFED0430048C5B2 /* standards_help_sheet.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 694D6AAE1FFED0430048C5B2 /* standards_help_sheet.pdf */; };
 		694D6AB11FFED0BE0048C5B2 /* OWF01-18.plist in Resources */ = {isa = PBXBuildFile; fileRef = 694D6AB01FFED0BE0048C5B2 /* OWF01-18.plist */; };
 		697520281DC7A0AC00484440 /* OWF07-16.plist in Resources */ = {isa = PBXBuildFile; fileRef = 697520271DC7A0AC00484440 /* OWF07-16.plist */; };
+		6975DBEA21654DB100660775 /* medicaid_help_sheet.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 6975DBE821654DB000660775 /* medicaid_help_sheet.pdf */; };
+		6975DBEB21654DB100660775 /* standards_help_sheet.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 6975DBE921654DB100660775 /* standards_help_sheet.pdf */; };
+		6975DBED21654ED600660775 /* FoodStamps10-01-2018.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6975DBEC21654ED600660775 /* FoodStamps10-01-2018.plist */; };
 		69923FE41CB90BA300460C8B /* FormsDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69923FE31CB90BA300460C8B /* FormsDetailViewController.swift */; };
 		69923FE71CB976F600460C8B /* CoreDataModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 69923FE51CB976F600460C8B /* CoreDataModel.xcdatamodeld */; };
 		69BCB2F11C208798005DD6E2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69BCB2F01C208798005DD6E2 /* AppDelegate.swift */; };
@@ -106,7 +107,6 @@
 		511D91D51CFB16500030C815 /* SearchTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchTableViewController.swift; sourceTree = "<group>"; };
 		511D91D71CFB170A0030C815 /* SearchTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchTableViewCell.swift; sourceTree = "<group>"; };
 		51360D401E834C320080C814 /* OWF01-17.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "OWF01-17.plist"; sourceTree = "<group>"; };
-		51360D441E9663D00080C814 /* medicaid_help_sheet.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = medicaid_help_sheet.pdf; sourceTree = "<group>"; };
 		517EB5881D0C8DA30053D593 /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 		517EB58E1D0CA3000053D593 /* MyPushPushNotifications+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "MyPushPushNotifications+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		517EB58F1D0CA3000053D593 /* MyPushPushNotifications.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyPushPushNotifications.swift; sourceTree = "<group>"; };
@@ -163,9 +163,11 @@
 		693FC6211E1D756400E6A499 /* MyPikaURL.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyPikaURL.swift; sourceTree = "<group>"; };
 		694225791D196A9E00C89352 /* OWF01-16.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "OWF01-16.plist"; sourceTree = "<group>"; };
 		6942257B1D244A9300C89352 /* FoodStamps10-01-2015.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "FoodStamps10-01-2015.plist"; sourceTree = "<group>"; };
-		694D6AAE1FFED0430048C5B2 /* standards_help_sheet.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = standards_help_sheet.pdf; sourceTree = "<group>"; };
 		694D6AB01FFED0BE0048C5B2 /* OWF01-18.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "OWF01-18.plist"; sourceTree = "<group>"; };
 		697520271DC7A0AC00484440 /* OWF07-16.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "OWF07-16.plist"; sourceTree = "<group>"; };
+		6975DBE821654DB000660775 /* medicaid_help_sheet.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = medicaid_help_sheet.pdf; sourceTree = "<group>"; };
+		6975DBE921654DB100660775 /* standards_help_sheet.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = standards_help_sheet.pdf; sourceTree = "<group>"; };
+		6975DBEC21654ED600660775 /* FoodStamps10-01-2018.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FoodStamps10-01-2018.plist"; sourceTree = "<group>"; };
 		69923FE31CB90BA300460C8B /* FormsDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FormsDetailViewController.swift; sourceTree = "<group>"; };
 		69923FE61CB976F600460C8B /* CoreDataModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CoreDataModel.xcdatamodel; sourceTree = "<group>"; };
 		69BCB2ED1C208798005DD6E2 /* Ohio Legal Services Assistant.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Ohio Legal Services Assistant.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -239,8 +241,8 @@
 		51EC727C1CA759A20013D757 /* Forms */ = {
 			isa = PBXGroup;
 			children = (
-				694D6AAE1FFED0430048C5B2 /* standards_help_sheet.pdf */,
-				51360D441E9663D00080C814 /* medicaid_help_sheet.pdf */,
+				6975DBE821654DB000660775 /* medicaid_help_sheet.pdf */,
+				6975DBE921654DB100660775 /* standards_help_sheet.pdf */,
 			);
 			name = Forms;
 			sourceTree = "<group>";
@@ -288,6 +290,7 @@
 				51360D401E834C320080C814 /* OWF01-17.plist */,
 				69FA28251F54815C0084E9D1 /* OWF07-17.plist */,
 				694D6AB01FFED0BE0048C5B2 /* OWF01-18.plist */,
+				6975DBEC21654ED600660775 /* FoodStamps10-01-2018.plist */,
 			);
 			name = "Supporting plists";
 			sourceTree = "<group>";
@@ -414,7 +417,6 @@
 				69BCB2EA1C208798005DD6E2 /* Frameworks */,
 				69BCB2EB1C208798005DD6E2 /* Resources */,
 				17CB305299FE42869A7E5720 /* [CP] Embed Pods Frameworks */,
-				72399488C5E045C0F3EBD1C8 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -433,8 +435,6 @@
 				69BCB2FD1C208799005DD6E2 /* Sources */,
 				69BCB2FE1C208799005DD6E2 /* Frameworks */,
 				69BCB2FF1C208799005DD6E2 /* Resources */,
-				93EB32F4FF82103AA7DA76F5 /* [CP] Embed Pods Frameworks */,
-				6BFDF85C5B82FBDE4C3F2033 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -454,7 +454,6 @@
 				69BCB3081C208799005DD6E2 /* Sources */,
 				69BCB3091C208799005DD6E2 /* Frameworks */,
 				69BCB30A1C208799005DD6E2 /* Resources */,
-				08389C752DA3392C85BFB1F0 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -533,10 +532,9 @@
 				6942257C1D244A9300C89352 /* FoodStamps10-01-2015.plist in Resources */,
 				694D6AB11FFED0BE0048C5B2 /* OWF01-18.plist in Resources */,
 				5198E0BD1D14D49400081180 /* OhioAppRules.plist in Resources */,
-				51360D451E9663D00080C814 /* medicaid_help_sheet.pdf in Resources */,
-				694D6AAF1FFED0430048C5B2 /* standards_help_sheet.pdf in Resources */,
 				51F486A21C2CD0C000E882AC /* OhioJuvRules.plist in Resources */,
 				69FA28261F54815C0084E9D1 /* OWF07-17.plist in Resources */,
+				6975DBEA21654DB100660775 /* medicaid_help_sheet.pdf in Resources */,
 				69BCB2F81C208798005DD6E2 /* Assets.xcassets in Resources */,
 				51360D411E834C330080C814 /* OWF01-17.plist in Resources */,
 				519FF2851D14C7A800E36DE8 /* OhioEvidence.plist in Resources */,
@@ -544,12 +542,14 @@
 				697520281DC7A0AC00484440 /* OWF07-16.plist in Resources */,
 				69BCB2F61C208798005DD6E2 /* Main.storyboard in Resources */,
 				51F4868F1C263D7700E882AC /* OWF07-14.plist in Resources */,
+				6975DBED21654ED600660775 /* FoodStamps10-01-2018.plist in Resources */,
 				519FF2891D14CA3700E36DE8 /* FedCivPro.plist in Resources */,
 				519FF2811D10E11F00E36DE8 /* OhioCivR.plist in Resources */,
 				6942257A1D196A9E00C89352 /* OWF01-16.plist in Resources */,
 				51AA80561DBA288C00766BD3 /* FoodStamps10-01-2016.plist in Resources */,
 				51F486A01C2C1FAB00E882AC /* RuleBooks.plist in Resources */,
 				519FF2871D14C86E00E36DE8 /* FedEvid.plist in Resources */,
+				6975DBEB21654DB100660775 /* standards_help_sheet.pdf in Resources */,
 				51ABB5981E25A74D00C110FA /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -571,30 +571,26 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		08389C752DA3392C85BFB1F0 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Ohio Legal Services AssistantUITests/Pods-Ohio Legal Services AssistantUITests-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		17CB305299FE42869A7E5720 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Ohio Legal Services Assistant/Pods-Ohio Legal Services Assistant-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
+				"${BUILT_PRODUCTS_DIR}/Protobuf/Protobuf.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Protobuf.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -607,13 +603,16 @@
 			files = (
 			);
 			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
 			);
 			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Ohio Legal Services AssistantTests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
 		5A420C22D3B27E91BEE64B86 /* [CP] Check Pods Manifest.lock */ = {
@@ -622,58 +621,16 @@
 			files = (
 			);
 			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
 			);
 			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Ohio Legal Services Assistant-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
-			showEnvVarsInLog = 0;
-		};
-		6BFDF85C5B82FBDE4C3F2033 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Ohio Legal Services AssistantTests/Pods-Ohio Legal Services AssistantTests-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		72399488C5E045C0F3EBD1C8 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Ohio Legal Services Assistant/Pods-Ohio Legal Services Assistant-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		93EB32F4FF82103AA7DA76F5 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Ohio Legal Services AssistantTests/Pods-Ohio Legal Services AssistantTests-frameworks.sh\"\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
 		B8C36D41DFA606A674CB8D13 /* [CP] Check Pods Manifest.lock */ = {
@@ -682,13 +639,16 @@
 			files = (
 			);
 			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
 			);
 			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Ohio Legal Services AssistantUITests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -905,6 +865,7 @@
 				CODE_SIGN_ENTITLEMENTS = "Ohio Legal Services Assistant/Ohio Legal Services Assistant.entitlements";
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = BX3FX8WKFN;
 				INFOPLIST_FILE = "Ohio Legal Services Assistant/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.seols.Ohio-Legal-Services-Assistant";
@@ -922,6 +883,7 @@
 				CODE_SIGN_ENTITLEMENTS = "Ohio Legal Services Assistant/Ohio Legal Services Assistant.entitlements";
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = BX3FX8WKFN;
 				INFOPLIST_FILE = "Ohio Legal Services Assistant/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.seols.Ohio-Legal-Services-Assistant";

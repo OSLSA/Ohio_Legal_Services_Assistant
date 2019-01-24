@@ -9,6 +9,7 @@ target 'Ohio Legal Services Assistant' do
 pod 'Firebase/Core'
 pod 'Firebase/Database'
 pod 'Firebase/Messaging'
+pod 'Firebase/Storage'
 
 
   target 'Ohio Legal Services AssistantTests' do

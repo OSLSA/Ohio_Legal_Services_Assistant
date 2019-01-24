@@ -10,51 +10,32 @@ import Foundation
 
 class FederalPovertyLevelCalculator {
     
-    let fpl2015 = [11770, 4160]
-    let fpl2014 = [11660, 4060]
-    let fpl2016 = [11880, 4140]
-    let fpl2017 = [12060, 4180]
-    let fpl2018 = [12140, 4320]
     
     var year = ""
     var annualIncome: Double = 0.0
     var size = 0
+    var values: NSDictionary!
     
     func getResultsString() -> String {
         return "\(getResultsDouble())"
     }
     
     func getResultsDouble() -> Double {
-        let povertyStart = getValues(year, pos: 0);
-        let povertyIncrement = getValues(year, pos:1);
+        let version:String = "fpl" + year
+        let value = values.object(forKey: version) as! NSArray
+        let povertyStart = value[0] as! Int
+        let povertyIncrement = value[1] as! Int;
         
         let fpl = ((size - 1) * povertyIncrement) + povertyStart;
         
         return Double(round(((annualIncome / Double(fpl)) * 100) * 100)) / 100;
     }
     
-    func getValues(_ y: String, pos: Int) -> Int {
-        
-        switch(y) {
-        case "2014":
-            return fpl2014[pos]
-        case "2015":
-            return fpl2015[pos]
-        case "2016":
-            return fpl2016[pos]
-        case "2017":
-            return fpl2017[pos]
-        case "2018":
-            return fpl2018[pos]
-        default:
-            return 0
-        }
-    }
-    
-    func setValues(_ year: String, annualIncome: Double, size: Int) {
+    func setValues(_ year: String, annualIncome: Double, size: Int, values: NSDictionary) {
         self.year = year
         self.annualIncome = annualIncome
         self.size = size
+        self.values = values
     }
     
 }

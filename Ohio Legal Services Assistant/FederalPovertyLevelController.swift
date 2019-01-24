@@ -23,6 +23,9 @@ class FederalPovertyLevelViewController: UIViewController, UIPickerViewDelegate,
     
     var pickerData: [String] = ["Per hour", "Per Week", "Bi-weekly", "Per month", "Annually"]
     var multiplier: Int = 12
+    var version: NSArray!
+    var values: NSDictionary!
+    var ref: DatabaseReference!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -38,7 +41,29 @@ class FederalPovertyLevelViewController: UIViewController, UIPickerViewDelegate,
         self.picker.dataSource = self
         picker.selectRow(3, inComponent: 0, animated: true)
         hideHours(hidden: true)
+        setVersions()
+        
         // Do any additional setup after loading the view.
+    }
+    
+    private func setVersions() {
+        ref = Database.database().reference()
+        let mPovertyRef = ref.child("povertyLevel")
+        let mVersionRef = mPovertyRef.child("fplVersion")
+        mPovertyRef.observeSingleEvent(of: .value, with: { (snapshot) in
+            // Get user value
+            self.values = (snapshot.value as? NSDictionary)!
+            self.version = self.values.object(forKey: "fplVersion") as! NSArray// as? [String]
+            self.versionController.setTitle((self.version[0] as AnyObject).stringValue, forSegmentAt: 3)
+            self.versionController.setTitle((self.version[1] as AnyObject).stringValue, forSegmentAt: 2)
+            self.versionController.setTitle((self.version[2] as AnyObject).stringValue, forSegmentAt: 1)
+            self.versionController.setTitle((self.version[3] as AnyObject).stringValue, forSegmentAt: 0)
+            
+            // ...
+        }) { (error) in
+            print(error.localizedDescription)
+        }
+        
     }
     
     override func didReceiveMemoryWarning() {
@@ -156,7 +181,8 @@ class FederalPovertyLevelViewController: UIViewController, UIPickerViewDelegate,
         let fpl = FederalPovertyLevelCalculator()
         fpl.setValues(versionController.titleForSegment(at: versionController.selectedSegmentIndex)!,
             annualIncome: income,
-            size: Int(agStepper.value))
+            size: Int(agStepper.value),
+            values: values)
         Analytics.logEvent(AnalyticsEventSelectContent, parameters: [
             AnalyticsParameterContentType: "APR Calculator calculated" as NSObject
             ])

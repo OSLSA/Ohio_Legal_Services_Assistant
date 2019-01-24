@@ -22,13 +22,84 @@ class FormsDetailViewController: UIViewController {
         Analytics.logEvent(AnalyticsEventSelectContent, parameters: [
             AnalyticsParameterContentType: "Form \(formName) Opened" as NSObject
             ])
-        if let pdf = Bundle.main.url(forResource: fileName, withExtension: "pdf", subdirectory: nil, localization: nil){
-            let req = URLRequest(url: pdf)
         
-        webView.loadRequest(req)
-        webView.scalesPageToFit = true
+        let fm = FileManager.default
+        let docsurl = try! fm.url(for: .documentDirectory, in: .userDomainMask, appropriateFor: nil, create: false)
+        let fileURL = docsurl.appendingPathComponent(self.fileName + ".pdf")
+        
+        isConnected { (connected) in
+            if(connected){
+                let storage = Storage.storage()
+                let storageRef = storage.reference()
+                let formRef = storageRef.child(self.fileName + ".pdf")
+                print(formRef)
+                
+                
+                
+                //let localURL = URL(string: localURL)!
+                
+                let downloadTask = formRef.write(toFile: fileURL) { url, error in
+                    if let error = error {
+                        
+                    } else {
+                        
+                    }
+                }
+                downloadTask.observe(.success) { snapshot in
+//                    let pdf = fileURL
+//                    //if let pdf = Bundle.main.url(forResource: self.fileName, withExtension: "pdf", subdirectory: nil, localization: nil){
+//                    let req = URLRequest(url: fileURL)
+//
+//                    self.webView.loadRequest(req)
+//                    self.webView.scalesPageToFit = true
+                    
+                    self.showForm(url: fileURL)
+                    
+                }
+                
+            } else {
+                print("return 1")
+                guard let result = NSData(contentsOf: fileURL) else {
+                    // No data in your fileURL. So no data is received. Do your task if you got no data
+                    // Keep in mind that you don't have access to your result here.
+                    // You can return from here.
+                    print("return 2")
+                    func showAlert(alert: String) {
+                        let alertController = UIAlertController(title: "Connection Required", message: "In order to access this form, you need an internet connection. Once accessed, it will then be available offline", preferredStyle: .alert)
+                        let defaultAction = UIAlertAction(title: "OK", style: .default, handler: nil)
+                        alertController.addAction(defaultAction)
+                        self.present(alertController, animated: true, completion: nil)
+                    }
+                    showAlert(alert: "ALERT")
+                    return
+                }
+                // You got your data successfully that was in your fileURL location. Do your task with your result.
+                // You can have access to your result variable here. You can do further with result constant.
+                print("return 3")
+                self.showForm(url: fileURL)
+                
+            }
         }
+        
+        
+        
         // Do any additional setup after loading the view.
+    }
+    
+    private func showForm(url: URL) {
+        //let pdf = url
+        //if let pdf = Bundle.main.url(forResource: self.fileName, withExtension: "pdf", subdirectory: nil, localization: nil){
+        let req = URLRequest(url: url)
+        
+        self.webView.loadRequest(req)
+        self.webView.scalesPageToFit = true
+    }
+    
+    private func isConnected(completionHandler : @escaping (Bool) -> ()) {
+        let connectedRef = Database.database().reference(withPath: ".info/connected")
+        connectedRef.observe(.value, with: { snapshot in
+            completionHandler((snapshot.value as? Bool)!)
+        })
     }
 
     override func didReceiveMemoryWarning() {

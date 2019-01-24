@@ -21,15 +21,32 @@ class OWFViewController: UIViewController {
     @IBOutlet weak var agStepper: UIStepper!
     @IBOutlet weak var results: UILabel!
     
-    var version : String = Arrays.OWFVersion[0]
+    var version : String = ""
+    var ref: DatabaseReference!
+    var values: NSDictionary!
+    var versions: NSDictionary!
     
     override func viewDidLoad() {
         super.viewDidLoad()
         Analytics.logEvent(AnalyticsEventSelectContent, parameters: [
             AnalyticsParameterContentType: "OWF Calculator Opened" as NSObject
             ])
+        ref = Database.database().reference()
+        let mOWFRef = ref.child("OWF")
+        mOWFRef.observeSingleEvent(of: .value, with: { (snapshot) in
+            // Get user value
+            self.values = (snapshot.value as? NSDictionary)!
+            // ...
+        }) { (error) in
+            print(error.localizedDescription)
+        }
+        setVersions()
         versionButton.setTitle(version, for: .normal)
         // Do any additional setup after loading the view.
+    }
+    
+    func setVersions() {
+        
     }
     
     override func didReceiveMemoryWarning() {
