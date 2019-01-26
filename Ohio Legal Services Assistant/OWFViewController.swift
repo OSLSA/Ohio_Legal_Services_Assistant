@@ -24,7 +24,9 @@ class OWFViewController: UIViewController {
     var version : String = ""
     var ref: DatabaseReference!
     var values: NSDictionary!
-    var versions: NSDictionary!
+    var versionsDict: NSDictionary!
+    var versions = [String]()
+    var versionKeys = [String]()
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -36,17 +38,29 @@ class OWFViewController: UIViewController {
         mOWFRef.observeSingleEvent(of: .value, with: { (snapshot) in
             // Get user value
             self.values = (snapshot.value as? NSDictionary)!
-            // ...
+            self.versionsDict = self.values.value(forKey: "Versions") as? NSDictionary
+            self.setVersions()
         }) { (error) in
             print(error.localizedDescription)
         }
-        setVersions()
+        
         versionButton.setTitle(version, for: .normal)
         // Do any additional setup after loading the view.
     }
     
     func setVersions() {
         
+        var unsortedVersions = [String]()
+        for (key, value) in versionsDict {
+            unsortedVersions.append((key as? String)!)
+        }
+        versionKeys = unsortedVersions.sorted(by: >)
+        for (key) in versionKeys {
+            versions.append((versionsDict.object(forKey: key) as? String)!)
+        }
+        version = versions[0]
+        versionButton.setTitle(version, for: .normal)
+    
     }
     
     override func didReceiveMemoryWarning() {
@@ -57,7 +71,7 @@ class OWFViewController: UIViewController {
     @IBAction func clearPressed(_ sender: UIBarButtonItem) {
         agSizeLabel.text = "AG Size: 1"
         agStepper.value = 1
-        version = Arrays.OWFVersion[0]
+        version = versions[0]
         versionButton.setTitle(version, for: .normal)
         earnedIncome.text = ""
         unearnedIncome.text = ""
@@ -76,10 +90,10 @@ class OWFViewController: UIViewController {
             //Just dismiss the action sheet
         }
         
-        for version in Arrays.OWFVersion {
+        for version in versions {
             
             let newAction : UIAlertAction = UIAlertAction(title: version, style: .default) { (action:UIAlertAction) in
-                self.version = version.substring(to: version.characters.index(version.startIndex, offsetBy: 10))
+                self.version = version
                 self.versionButton.setTitle(version, for: .normal)
             }
             
@@ -94,8 +108,10 @@ class OWFViewController: UIViewController {
     }
     
     @IBAction func calculatePressed(_ sender: UIButton) {
-        
-        let ver = version.substring(to: version.characters.index(version.startIndex, offsetBy: 5))
+
+        let i: Int = versions.firstIndex(of: version)!
+        let verKey: String = versionKeys[i]
+        print(verKey)
         
         let calculator = OWFCalculator()
         
@@ -109,7 +125,9 @@ class OWFViewController: UIViewController {
             
             unearnedIncome: (unearnedIncome.text! as NSString).doubleValue,
             
-            version: ver)
+            versionKey: verKey,
+            
+            constants: values)
 
         Analytics.logEvent(AnalyticsEventSelectContent, parameters: [
             AnalyticsParameterContentType: "OWF Calculated" as NSObject

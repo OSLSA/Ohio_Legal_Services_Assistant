@@ -19,21 +19,17 @@ class OWFCalculator {
     
     init() { }
     
-    func setVariables(_ agSize: Int, earnedIncome: Double, dependentCare: Double, deemedIncome: Double, unearnedIncome: Double, version: String) {
+    func setVariables(_ agSize: Int, earnedIncome: Double, dependentCare: Double, deemedIncome: Double, unearnedIncome: Double, versionKey: String, constants: NSDictionary) {
         
         self.agSize = agSize
         self.deemedIncome = deemedIncome
         self.dependentCare = dependentCare
         self.earnedIncome = earnedIncome
         self.unearnedIncome = unearnedIncome
-        self.version = version
+        self.version = versionKey
         
         let text = "OWF\(version)"
-        if let path = Bundle.main.path(forResource: text, ofType:"plist")
-        {
-            constants = NSDictionary(contentsOfFile: path)
-            
-        }
+        self.constants = constants
         
     }
     
@@ -70,11 +66,11 @@ class OWFCalculator {
     }
     
     func getInitialEligibilityStandard() -> Int {
-        return (constants?.object(forKey: "eligibilityStandard") as! [Int])[agSize]
+        return (constants?.object(forKey: "InitialEligStd" + version) as! [Int])[agSize - 1]
     }
     
     func getPaymentStandard() -> Int {
-        return (constants?.object(forKey: "paymentStandard") as! [Int])[agSize]
+        return (constants?.object(forKey: "PaymentStd" + version) as! [Int])[agSize - 1]
     }
     
     func getGrossIncome() -> Int {
