@@ -20,6 +20,7 @@ class FederalPovertyLevelViewController: UIViewController, UIPickerViewDelegate,
     @IBOutlet var annualIncome: UITextField!
     @IBOutlet weak var picker: UIPickerView!
     @IBOutlet var hoursLabel: UILabel!
+    @IBOutlet var calculateButton: UIButton!
     
     var pickerData: [String] = ["Per hour", "Per Week", "Bi-weekly", "Per month", "Annually"]
     var multiplier: Int = 12
@@ -32,6 +33,7 @@ class FederalPovertyLevelViewController: UIViewController, UIPickerViewDelegate,
         Analytics.logEvent(AnalyticsEventSelectContent, parameters: [
             AnalyticsParameterContentType: "FPL Calculator Opened" as NSObject
             ])
+        
         sizeLabel.textColor = Colors.primaryText
         versionController.tintColor = Colors.primaryText
         resultsLabel.textColor = Colors.primaryText
@@ -46,10 +48,40 @@ class FederalPovertyLevelViewController: UIViewController, UIPickerViewDelegate,
         // Do any additional setup after loading the view.
     }
     
+    private func isConnected(completionHandler : @escaping (Bool) -> ()) {
+        let connectedRef = Database.database().reference(withPath: ".info/connected")
+        connectedRef.observe(.value, with: { snapshot in
+            completionHandler((snapshot.value as? Bool)!)
+        })
+    }
+    
     private func setVersions() {
+       
+        isConnected { (connected) in
+            if(connected){
+                self.setUp()
+            } else {
+                if (self.version?.count ?? 0 > 0) {
+                    self.setUp()
+                } else {
+                    func showAlert(alert: String) {
+                        let alertController = UIAlertController(title: "Connection Required", message: "In order to access this form, you need an internet connection. Once accessed, it will then be available offline", preferredStyle: .alert)
+                        let defaultAction = UIAlertAction(title: "OK", style: .default, handler: nil)
+                        alertController.addAction(defaultAction)
+                        self.present(alertController, animated: true, completion: nil)
+                    }
+                    showAlert(alert: "ALERT")
+                    self.calculateButton.isEnabled = false
+                }
+            }
+        }
+    }
+    
+    private func setUp() {
         ref = Database.database().reference()
         let mPovertyRef = ref.child("povertyLevel")
         let mVersionRef = mPovertyRef.child("fplVersion")
+        
         mPovertyRef.observeSingleEvent(of: .value, with: { (snapshot) in
             // Get user value
             self.values = (snapshot.value as? NSDictionary)!
@@ -58,12 +90,10 @@ class FederalPovertyLevelViewController: UIViewController, UIPickerViewDelegate,
             self.versionController.setTitle((self.version[1] as AnyObject).stringValue, forSegmentAt: 2)
             self.versionController.setTitle((self.version[2] as AnyObject).stringValue, forSegmentAt: 1)
             self.versionController.setTitle((self.version[3] as AnyObject).stringValue, forSegmentAt: 0)
-            
             // ...
         }) { (error) in
             print(error.localizedDescription)
         }
-        
     }
     
     override func didReceiveMemoryWarning() {

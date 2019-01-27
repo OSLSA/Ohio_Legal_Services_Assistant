@@ -12,6 +12,7 @@ import Firebase
 class OWFViewController: UIViewController {
 
     
+    @IBOutlet var calculateButton: UIButton!
     @IBOutlet var versionButton: UIButton!
     @IBOutlet weak var agSizeLabel: UILabel!
     @IBOutlet weak var earnedIncome: UITextField!
@@ -33,6 +34,29 @@ class OWFViewController: UIViewController {
         Analytics.logEvent(AnalyticsEventSelectContent, parameters: [
             AnalyticsParameterContentType: "OWF Calculator Opened" as NSObject
             ])
+        isConnected { (connected) in
+            if(connected){
+                self.setUp()
+            } else {
+                if (self.versions.count > 0) {
+                    self.setUp()
+                } else {
+                    func showAlert(alert: String) {
+                        let alertController = UIAlertController(title: "Connection Required", message: "In order to access this form, you need an internet connection. Once accessed, it will then be available offline", preferredStyle: .alert)
+                        let defaultAction = UIAlertAction(title: "OK", style: .default, handler: nil)
+                        alertController.addAction(defaultAction)
+                        self.present(alertController, animated: true, completion: nil)
+                    }
+                    showAlert(alert: "ALERT")
+                    self.calculateButton.isEnabled = false
+                    self.versionButton.isEnabled = false
+                }
+            }
+        }
+        
+    }
+    
+    private func setUp() {
         ref = Database.database().reference()
         let mOWFRef = ref.child("OWF")
         mOWFRef.observeSingleEvent(of: .value, with: { (snapshot) in
@@ -46,6 +70,13 @@ class OWFViewController: UIViewController {
         
         versionButton.setTitle(version, for: .normal)
         // Do any additional setup after loading the view.
+    }
+    
+    private func isConnected(completionHandler : @escaping (Bool) -> ()) {
+        let connectedRef = Database.database().reference(withPath: ".info/connected")
+        connectedRef.observe(.value, with: { snapshot in
+            completionHandler((snapshot.value as? Bool)!)
+        })
     }
     
     func setVersions() {
@@ -111,7 +142,7 @@ class OWFViewController: UIViewController {
 
         let i: Int = versions.firstIndex(of: version)!
         let verKey: String = versionKeys[i]
-        print(verKey)
+        
         
         let calculator = OWFCalculator()
         

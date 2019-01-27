@@ -14,15 +14,13 @@ class FoodStampCalculator {
     var variables = [String: Any]()
     var constants: NSDictionary?
     var agSize = 1
+    var versionKey = ""
     
-    func setVariables(_ variables: [String: Any]) {
+    func setVariables(_ variables: [String: Any], constants: NSDictionary) {
         
         self.variables = variables
-        let version = self.variables["version"] as! String
-        let text = "FoodStamps\(version)"
-        if let path = Bundle.main.path(forResource: text, ofType: "plist") {
-            constants = NSDictionary(contentsOfFile: path)
-        }
+        self.versionKey = self.variables["version"] as! String
+        self.constants = constants
         agSize = self.variables["agSize"] as! Int
         
     }
@@ -33,14 +31,14 @@ class FoodStampCalculator {
         
         if (!passTotalGrossIncomeTest() && !(variables["agedBlindDisabled"] as! Bool)) {
             // failed due to gross income exceeds gross income limit
-            let grossIncomeLimit = (constants?.object(forKey: "grossIncomeLimit") as! [Int])[agSize - 1]
+            let grossIncomeLimit = (constants?.object(forKey: "GrossIncome" + versionKey) as! [Int])[agSize - 1]
             let results = "Ineligible as total gross income of $\(getTotalGrossIncome()) exceeds the gross income limit of $\(grossIncomeLimit)"
             return results
         }
         
         if (!passNetIncome()) {
             // failed due to net income exceeds net income limit
-            let test = (constants?.object(forKey: "netStandard") as! [Int])[agSize - 1]
+            let test = (constants?.object(forKey: "NetStandard" + versionKey) as! [Int])[agSize - 1]
             let results = "Ineligible as total net income of $\(getNetIncome()) exceeds the net income limit of $\(test)"
             return results
         }
@@ -54,7 +52,7 @@ class FoodStampCalculator {
         (R) Method of calculating gross monthly income
         Except for AGs containing at least one member who is elderly or disabled as defined in rule 5101:4-1-03 of the Administrative Code, or considered categorically eligible, all AGs shall be subject to the gross income eligibility standard for the appropriate AG size. To determine the AG's total gross income, add the gross monthly income earned by all AG members and the total monthly unearned income of all AG members, minus income exclusions. If an AG has income from a farming operation (with gross proceeds of more than one thousand dollars per year) which operates at a loss, see rule 5101:4-6-11 of the Administrative Code. The total gross income is compared to the gross income eligibility standard for the appropriate AG size. If the total gross income is less than the standard, proceed with calculating the adjusted net income as described in paragraph (S) of this rule. If the total gross income is more than the standard, the AG is ineligible for program benefits and the case is either denied or terminated at this point. */
         
-        var grossIncomeAmount = constants?.object(forKey: "grossIncomeLimit") as! Array<Int>
+        var grossIncomeAmount = constants?.object(forKey: "GrossIncome" + versionKey) as! Array<Int>
         return (getTotalGrossIncome() <= grossIncomeAmount[agSize - 1])
         
     }
@@ -72,11 +70,11 @@ class FoodStampCalculator {
         
         
         //TODO
-        var result = getNetIncome() <= (constants?.object(forKey: "netStandard") as! [Int])[agSize - 1]
+        var result = getNetIncome() <= (constants?.object(forKey: "NetStandard" + versionKey) as! [Int])[agSize - 1]
         
         result = (variables["categoricallyEligible"] as! Bool) || result
         
-        if (getTotalGrossIncome() <= (constants?.object(forKey: "grossIncome200") as! [Int])[agSize - 1] && (variables["agedBlindDisabled"] as! Bool)) {return true}
+        if (getTotalGrossIncome() <= (constants?.object(forKey: "GrossIncome200" + versionKey) as! [Int])[agSize - 1] && (variables["agedBlindDisabled"] as! Bool)) {return true}
         
         return result;
         
@@ -91,7 +89,7 @@ class FoodStampCalculator {
         
         /* (3) Standard deduction: Subtract the standard deduction. */
         
-        finalNetIncome -= (constants?.object(forKey: "standardDeduction") as! Array<Int>)[agSize - 1];
+        finalNetIncome -= (constants?.object(forKey: "StandardDeduction" + versionKey) as! Array<Int>)[agSize - 1];
         /* 	(4) Excess medical deduction: If the AG is entitled to an excess
         *	medical deduction, determine if total medical expenses exceed
         *	thirty-five dollars. If so, subtract that portion which exceeds
@@ -99,9 +97,9 @@ class FoodStampCalculator {
         
         var medicalExpenses = 0
         
-        if (Int(floor((variables["medicalExpenses"]! as! NSString).doubleValue)) - (constants?.object(forKey: "excessMedicalDeduction") as! Int) >= 0) {
+        if (Int(floor((variables["medicalExpenses"]! as! NSString).doubleValue)) - (constants?.object(forKey: "ExcessMedical" + versionKey) as! Int) >= 0) {
             
-            medicalExpenses = (Int(floor((variables["medicalExpenses"] as! NSString).doubleValue))) - (constants?.object(forKey: "excessMedicalDeduction") as! Int)
+            medicalExpenses = (Int(floor((variables["medicalExpenses"] as! NSString).doubleValue))) - (constants?.object(forKey: "excessMedicalDeduction" + versionKey) as! Int)
             
         }
         
@@ -123,7 +121,7 @@ class FoodStampCalculator {
         
         if (variables["isHomeless"] as! Bool) {
             
-            finalNetIncome -= constants?.object(forKey: "standardShelterHomeless") as! Int
+            finalNetIncome -= constants?.object(forKey: "StandardHomeless" + versionKey) as! Int
             
         }
         
@@ -164,7 +162,7 @@ class FoodStampCalculator {
         
         if (!(variables["agedBlindDisabled"] as! Bool)) {
             // subject to shelter max
-            shelterExpenses = Int(fmin(constants?.object(forKey: "limitOnShelterDeduction") as! Double, Double(shelterExpenses)))
+            shelterExpenses = Int(fmin(constants?.object(forKey: "ShelterLimit" + versionKey) as! Double, Double(shelterExpenses)))
         }
         print("calculateShelterDeduction: \(shelterExpenses)")
         return shelterExpenses
@@ -186,13 +184,13 @@ class FoodStampCalculator {
         case 0:
             return 0;
         case 2:
-            return constants?.object(forKey: "standardTelephoneAllowance") as! Int
+            return constants?.object(forKey: "Telephone" + versionKey) as! Int
         case 4, 6, 12, 14, 20, 22, 28, 30:
-            return constants?.object(forKey: "standardUtilityAllowance") as! Int
+            return constants?.object(forKey: "StandardUtility" + versionKey) as! Int
         case 8:
-            return constants?.object(forKey: "singleUtilityAllowance") as! Int
+            return constants?.object(forKey: "SingleUtility" + versionKey) as! Int
         default:
-            return constants?.object(forKey: "limitedUtilityAllowance") as! Int
+            return constants?.object(forKey: "LimitedUtility" + versionKey) as! Int
             
         }
         
@@ -212,7 +210,7 @@ class FoodStampCalculator {
         *	through ninety-nine cents */
         
         let netIncome = getNetIncome() < 0 ? 0 : getNetIncome();
-        let allotmentConstant = (constants?.object(forKey: "faAllotment") as! [Int])[agSize - 1]
+        let allotmentConstant = (constants?.object(forKey: "Allotment" + versionKey) as! [Int])[agSize - 1]
         print("\(netIncome)")
         let test = Int(ceil(Double(netIncome) * 0.3))
         
@@ -225,7 +223,7 @@ class FoodStampCalculator {
         
         if ((variables["agedBlindDisabled"] as! Bool) || (variables["categoricallyEligible"] as! Bool) || agSize <= 3) {
             
-            benefitAmount = benefitAmount < constants?.object(forKey: "minnimumMonthlyAllotment") as! Int ? constants?.object(forKey: "minnimumMonthlyAllotment") as! Int : benefitAmount;
+            benefitAmount = benefitAmount < constants?.object(forKey: "MinnimumAllotment" + versionKey) as! Int ? constants?.object(forKey: "MinnimumAllotment" + versionKey) as! Int : benefitAmount;
         }
         return benefitAmount
     }

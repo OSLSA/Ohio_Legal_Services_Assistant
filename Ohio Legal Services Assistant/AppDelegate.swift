@@ -19,8 +19,7 @@ import FirebaseMessaging
 class AppDelegate: UIResponder, UIApplicationDelegate {
     
     var window: UIWindow?
-
-
+    
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         
         // some global settings for appearance
@@ -29,6 +28,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         //UINavigationBar.appearance().tintColor = Colors.accentColor
         
         FirebaseApp.configure()
+        Database.database().isPersistenceEnabled = true
         
         // [START set_messaging_delegate]
         Messaging.messaging().delegate = self

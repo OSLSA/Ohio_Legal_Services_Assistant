@@ -11,6 +11,7 @@ import Firebase
 
 class FoodStampsTableViewController: UITableViewController {
     
+    @IBOutlet var calculateButton: UIButton!
     @IBOutlet weak var agSizeLabel: UILabel!
     @IBOutlet weak var agSizeStepper: UIStepper!
     @IBOutlet weak var agedBlindDisabledSwitch: UISwitch!
@@ -32,15 +33,73 @@ class FoodStampsTableViewController: UITableViewController {
     @IBOutlet weak var results: UILabel!
     @IBOutlet weak var buttonVersion: UIButton!
     
-    var version : String = Arrays.foodStampVersions[0]
+    var version : String = ""
+    var ref: DatabaseReference!
+    var values: NSDictionary!
+    var versionsDict: NSDictionary!
+    var versions = [String]()
+    var versionKeys = [String]()
     
     override func viewDidLoad() {
         super.viewDidLoad()
         Analytics.logEvent(AnalyticsEventSelectContent, parameters: [
             AnalyticsParameterContentType: "Food Stamps Calculator Opened" as NSObject
             ])
-        buttonVersion.setTitle(Arrays.foodStampVersions[0], for : .normal)
+        isConnected { (connected) in
+            if(connected){
+                self.setUp()
+            } else {
+                if (self.versions.count > 0) {
+                    self.setUp()
+                } else {
+                    func showAlert(alert: String) {
+                        let alertController = UIAlertController(title: "Connection Required", message: "In order to access this form, you need an internet connection. Once accessed, it will then be available offline", preferredStyle: .alert)
+                        let defaultAction = UIAlertAction(title: "OK", style: .default, handler: nil)
+                        alertController.addAction(defaultAction)
+                        self.present(alertController, animated: true, completion: nil)
+                    }
+                    showAlert(alert: "ALERT")
+                    self.calculateButton.isEnabled = false
+                    self.buttonVersion.isEnabled = false
+                }
+            }
+        }
         // Do any additional setup after loading the view.
+    }
+    
+    private func setUp() {
+        calculateButton.isEnabled = true
+        ref = Database.database().reference()
+        let mFoodStampRef = ref.child("FoodStamps")
+        mFoodStampRef.observeSingleEvent(of: .value, with: { (snapshot) in
+            // Get user value
+            self.values = (snapshot.value as? NSDictionary)!
+            self.versionsDict = self.values.value(forKey: "Versions") as? NSDictionary
+            print(self.values)
+            self.setVersions()
+        }) { (error) in
+            print(error.localizedDescription)
+        }
+    }
+    
+    private func isConnected(completionHandler : @escaping (Bool) -> ()) {
+        let connectedRef = Database.database().reference(withPath: ".info/connected")
+        connectedRef.observe(.value, with: { snapshot in
+            completionHandler((snapshot.value as? Bool)!)
+        })
+    }
+    
+    private func setVersions() {
+        var unsortedVersions = [String]()
+        for (key, value) in versionsDict {
+            unsortedVersions.append((key as? String)!)
+        }
+        versionKeys = unsortedVersions.sorted(by: >)
+        for (key) in versionKeys {
+            versions.append((versionsDict.object(forKey: key) as? String)!)
+        }
+        version = versions[0]
+        buttonVersion.setTitle(version, for : .normal)
     }
     
     override func didReceiveMemoryWarning() {
@@ -64,10 +123,8 @@ class FoodStampsTableViewController: UITableViewController {
         
         let calculator = FoodStampCalculator()
         
-        //let tempVersion = versionSegmentControl.titleForSegment(at: versionSegmentControl.selectedSegmentIndex)
-        
-        //let version = tempVersion!.substring(to: tempVersion!.characters.index(tempVersion!.startIndex, offsetBy: 10))
-        print(version)
+        let i: Int = versions.firstIndex(of: version)!
+        let verKey: String = versionKeys[i]
         let variables: [String: Any] = ["agedBlindDisabled": agedBlindDisabledSwitch.isOn,
             "earnedIncome": earnedIncome.text!,
             "unearnedIncome": unearnedIncome.text!,
@@ -85,9 +142,9 @@ class FoodStampsTableViewController: UITableViewController {
             "electric": electricSwitch.isOn,
             "water": waterSwitch.isOn,
             "garbage": garbageSwitch.isOn,
-            "version": version]
+            "version": verKey]
 
-        calculator.setVariables(variables)
+        calculator.setVariables(variables, constants: values)
         Analytics.logEvent(AnalyticsEventSelectContent, parameters: [
             AnalyticsParameterContentType: "Food Stamps Calculated" as NSObject
             ])
@@ -110,10 +167,10 @@ class FoodStampsTableViewController: UITableViewController {
          //Just dismiss the action sheet
          }
          
-         for version in Arrays.foodStampVersions {
+         for version in versions {
          
             let newAction : UIAlertAction = UIAlertAction(title: version, style: .default) { (action:UIAlertAction) in
-                self.version = version.substring(to: version.characters.index(version.startIndex, offsetBy: 10))
+                self.version = version
                 self.buttonVersion.setTitle(version, for: .normal)
             }
             

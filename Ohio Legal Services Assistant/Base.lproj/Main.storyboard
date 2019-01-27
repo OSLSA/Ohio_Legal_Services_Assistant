@@ -920,6 +920,7 @@
                     <connections>
                         <outlet property="agStepper" destination="GKg-vJ-y8m" id="iB6-DJ-dWE"/>
                         <outlet property="annualIncome" destination="3ik-w1-xJA" id="zJl-BF-jKg"/>
+                        <outlet property="calculateButton" destination="ebK-B8-aRX" id="1Mo-QP-MvA"/>
                         <outlet property="hours" destination="VcW-rZ-cOq" id="hZS-e3-bhU"/>
                         <outlet property="hoursLabel" destination="Q4t-UN-c09" id="YUl-aB-NGt"/>
                         <outlet property="picker" destination="KVO-jR-vSV" id="wkn-hm-kl9"/>
@@ -1327,6 +1328,7 @@
                     <connections>
                         <outlet property="agSizeLabel" destination="FcR-Rn-uRs" id="pDZ-jo-KrW"/>
                         <outlet property="agStepper" destination="MLa-Gc-FTr" id="dj3-ft-Tpa"/>
+                        <outlet property="calculateButton" destination="dXi-BE-cXY" id="IYg-zf-040"/>
                         <outlet property="deemedIncome" destination="JOz-Bu-VVJ" id="q4A-cc-rdL"/>
                         <outlet property="dependentCare" destination="AWI-MP-yFg" id="gUj-4v-7j1"/>
                         <outlet property="earnedIncome" destination="aGV-4Z-9lR" id="2cs-q7-JgJ"/>
@@ -2049,6 +2051,7 @@
                         <outlet property="agSizeStepper" destination="jop-Sr-E9q" id="g4w-YO-ToB"/>
                         <outlet property="agedBlindDisabledSwitch" destination="dSZ-es-quc" id="3pk-JF-9r7"/>
                         <outlet property="buttonVersion" destination="CRt-CT-Yg0" id="aAd-Y8-vXe"/>
+                        <outlet property="calculateButton" destination="1GO-Ah-duk" id="L93-KC-ac0"/>
                         <outlet property="categoricalEligibilitySwitch" destination="vOE-MG-FGX" id="DfC-dM-hLX"/>
                         <outlet property="childSupport" destination="2Kc-3r-vqR" id="2YM-qp-HUI"/>
                         <outlet property="dependentCare" destination="KGs-Va-uQW" id="gWF-EF-z8M"/>

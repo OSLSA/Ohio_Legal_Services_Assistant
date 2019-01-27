@@ -128,17 +128,17 @@
 		<string>2(1) &lt;i&gt;Contents.&lt;/i&gt; A summons must:</string>
 		<string>3(A) name the court and the parties;</string>
 		<string>3(B) be directed to the defendant;</string>
-		<string>3(C) state the name and address of the plaintiff’s attorney or—if unrepresented—of the plaintiff;</string>
+		<string>3(C) state the name and address of the plaintiff&apos;s attorney or—if unrepresented—of the plaintiff;</string>
 		<string>3(D) state the time within which the defendant must appear and defend;</string>
 		<string>3(E) notify the defendant that a failure to appear and defend will result in a default judgment against the defendant for the relief demanded in the complaint;</string>
 		<string>3(F) be signed by the clerk; and</string>
-		<string>3(G) bear the court’s seal.</string>
+		<string>3(G) bear the court&apos;s seal.</string>
 		<string>2(2) &lt;i&gt;Amendments.&lt;/i&gt; The court may permit a summons to be amended.</string>
 		<string>1(b) ISSUANCE. On or after filing the complaint, the plaintiff may present a summons to the clerk for signature and seal. If the summons is properly completed, the clerk must sign, seal, and issue it to the plaintiff for service on the defendant. A summons—or a copy of a summons that is addressed to multiple defendants—must be issued for each defendant to be served.</string>
 		<string>1(c) SERVICE.</string>
 		<string>2(1) &lt;i&gt;In General.&lt;/i&gt; A summons must be served with a copy of the complaint. The plaintiff is responsible for having the summons and complaint served within the time allowed by Rule 4(m) and must furnish the necessary copies to the person who makes service.</string>
 		<string>2(2) &lt;i&gt;By Whom.&lt;/i&gt; Any person who is at least 18 years old and not a party may serve a summons and complaint.</string>
-		<string>2(3) &lt;i&gt;By a Marshal or Someone Specially Appointed.&lt;/i&gt; At the plaintiff’s request, the court may order that service be made by a United States marshal or deputy marshal or by a person specially appointed by the court. The court must so order if the plaintiff is authorized to proceed in forma pauperis under 28 U.S.C. § 1915 or as a seaman under 28 U.S.C. § 1916.</string>
+		<string>2(3) &lt;i&gt;By a Marshal or Someone Specially Appointed.&lt;/i&gt; At the plaintiff&apos;s request, the court may order that service be made by a United States marshal or deputy marshal or by a person specially appointed by the court. The court must so order if the plaintiff is authorized to proceed in forma pauperis under 28 U.S.C. § 1915 or as a seaman under 28 U.S.C. § 1916.</string>
 		<string>1(d) WAIVING SERVICE.</string>
 		<string>2(1) &lt;i&gt;Requesting a Waiver.&lt;/i&gt; An individual, corporation, or association that is subject to service under Rule 4(e), (f), or (h) has a duty to avoid unnecessary expenses of serving the summons. The plaintiff may notify such a defendant that an action has been commenced and request that the defendant waive service of a summons. The notice and request must: </string>
 		<string>3(A) be in writing and be addressed:</string>
@@ -152,7 +152,7 @@
 		<string>3(G) be sent by first-class mail or other reliable means.</string>
 		<string>2(2) &lt;i&gt;Failure to Waive.&lt;/i&gt; If a defendant located within the United States fails, without good cause, to sign and return a waiver requested by a plaintiff located within the United States, the court must impose on the defendant:</string>
 		<string>3(A) the expenses later incurred in making service; and</string>
-		<string>3(B) the reasonable expenses, including attorney’s fees, of any motion required to collect those service expenses.</string>
+		<string>3(B) the reasonable expenses, including attorney&apos;s fees, of any motion required to collect those service expenses.</string>
 		<string>2(3) &lt;i&gt;Time to Answer After a Waiver.&lt;/i&gt; A defendant who, before being served with process, timely returns a waiver need not serve an answer to the complaint until 60 days after the request was sent—or until 90 days after it was sent to the defendant outside any judicial district of the United States.</string>
 		<string>2(4) &lt;i&gt;Results of Filing a Waiver.&lt;/i&gt; When the plaintiff files a waiver, proof of service is not required and these rules apply as if a summons and complaint had been served at the time of filing the waiver.</string>
 		<string>2(5) &lt;i&gt;Jurisdiction and Venue Not Waived.&lt;/i&gt; Waiving service of a summons does not waive any objection to personal jurisdiction or to venue.</string>
@@ -160,19 +160,19 @@
 		<string>2(1) following state law for serving a summons in an action brought in courts of general jurisdiction in the state where the district court is located or where service is made; or</string>
 		<string>2(2) doing any of the following:</string>
 		<string>3(A) delivering a copy of the summons and of the complaint to the individual personally;</string>
-		<string>3(B) leaving a copy of each at the individual’s dwelling or usual place of abode with someone of suitable age and discretion who resides there; or</string>
+		<string>3(B) leaving a copy of each at the individual&apos;s dwelling or usual place of abode with someone of suitable age and discretion who resides there; or</string>
 		<string>3(C) delivering a copy of each to an agent authorized by appointment or by law to receive service of process.</string>
 		<string>1(f) SERVING AN INDIVIDUAL IN A FOREIGN COUNTRY. Unless federal law provides otherwise, an individual—other than a minor, an incompetent person, or a person whose waiver has been filed—may be served at a place not within any judicial district of the United States:</string>
 		<string>2(1) by any internationally agreed means of service that is reasonably calculated to give notice, such as those authorized by the Hague Convention on the Service Abroad of Judicial and Extrajudicial Documents;</string>
 		<string>2(2) if there is no internationally agreed means, or if an international agreement allows but does not specify other means, by a method that is reasonably calculated to give notice:</string>
-		<string>3(A) as prescribed by the foreign country’s law for service in that country in an action in its courts of general jurisdiction;</string>
+		<string>3(A) as prescribed by the foreign country&apos;s law for service in that country in an action in its courts of general jurisdiction;</string>
 		<string>3(B) as the foreign authority directs in response to a letter rogatory or letter of request; or</string>
-		<string>3(C) unless prohibited by the foreign country’s law, by:</string>
+		<string>3(C) unless prohibited by the foreign country&apos;s law, by:</string>
 		<string>4(i) delivering a copy of the summons and of the complaint to the individual personally; or</string>
 		<string>4(ii) using any form of mail that the clerk addresses and sends to the individual and that requires a signed receipt; or</string>
 		<string>2(3) by other means not prohibited by international agreement, as the court orders.</string>
 		<string>1(g) SERVING A MINOR OR AN INCOMPETENT PERSON. A minor or an incompetent person in a judicial district of the United States must be served by following state law for serving a summons or like process on such a defendant in an action brought in the courts of general jurisdiction of the state where service is made. A minor or an incompetent person who is not within any judicial district of the United States must be served in the manner prescribed by Rule 4(f)(2)(A), (f)(2)(B), or (f)(3).</string>
-		<string>1(h) SERVING A CORPORATION, PARTNERSHIP, OR ASSOCIATION. Unless federal law provides otherwise or the defendant’s waiver has been filed, a domestic or foreign corporation, or a partnership or other unincorporated association that is subject to suit under a common name, must be served:</string>
+		<string>1(h) SERVING A CORPORATION, PARTNERSHIP, OR ASSOCIATION. Unless federal law provides otherwise or the defendant&apos;s waiver has been filed, a domestic or foreign corporation, or a partnership or other unincorporated association that is subject to suit under a common name, must be served:</string>
 		<string>2(1) in a judicial district of the United States:</string>
 		<string>3(A) in the manner prescribed by Rule 4(e)(1) for serving an individual; or</string>
 		<string>3(B) by delivering a copy of the summons and of the complaint to an officer, a managing or general agent, or any other agent authorized by appointment or by law to receive service of process and—if the agent is one authorized by statute and the statute so requires—by also mailing a copy of each to the defendant; or</string>
@@ -180,11 +180,11 @@
 		<string>1(i) SERVING THE UNITED STATES AND ITS AGENCIES, CORPORATIONS, OFFICERS, OR EMPLOYEES.</string>
 		<string>2(1) &lt;i&gt;United States.&lt;/i&gt; To serve the United States, a party must:</string>
 		<string>3(A)(i) deliver a copy of the summons and of the complaint to the United States attorney for the district where the action is brought—or to an assistant United States attorney or clerical employee whom the United States attorney designates in a writing filed with the court clerk—or</string>
-		<string>3(ii) send a copy of each by registered or certified mail to the civil-process clerk at the United States attorney’s office;</string>
+		<string>3(ii) send a copy of each by registered or certified mail to the civil-process clerk at the United States attorney&apos;s office;</string>
 		<string>3(B) send a copy of each by registered or certified mail to the Attorney General of the United States at Washington, D.C.; and</string>
 		<string>3(C) if the action challenges an order of a nonparty agency or officer of the United States, send a copy of each by registered or certified mail to the agency or officer.</string>
 		<string>2(2) &lt;i&gt;Agency; Corporation; Officer or Employee Sued in an Official Capacity.&lt;/i&gt; To serve a United States agency or corporation, or a United States officer or employee sued only in an official capacity, a party must serve the United States and also send a copy of the summons and of the complaint by registered or certified mail to the agency, corporation, officer, or employee.</string>
-		<string>2(3) &lt;i&gt;Officer or Employee Sued Individually.&lt;/i&gt; To serve a United States officer or employee sued in an individual capacity for an act or omission occurring in connection with duties performed on the United States’ behalf (whether or not the officer or employee is also sued in an official capacity), a party must serve the United States and also serve the officer or employee under Rule 4(e), (f), or (g).</string>
+		<string>2(3) &lt;i&gt;Officer or Employee Sued Individually.&lt;/i&gt; To serve a United States officer or employee sued in an individual capacity for an act or omission occurring in connection with duties performed on the United States&apos; behalf (whether or not the officer or employee is also sued in an official capacity), a party must serve the United States and also serve the officer or employee under Rule 4(e), (f), or (g).</string>
 		<string>2(4) &lt;i&gt;Extending Time.&lt;/i&gt; The court must allow a party a reasonable time to cure its failure to:</string>
 		<string>3(A) serve a person required to be served under Rule 4(i)(2), if the party has served either the United States attorney or the Attorney General of the United States; or</string>
 		<string>3(B) serve the United States under Rule 4(i)(3), if the party has served the United States officer or employee.</string>
@@ -192,17 +192,17 @@
 		<string>2(1) &lt;i&gt;Foreign State.&lt;/i&gt;A foreign state or its political subdivision, agency, or instrumentality must be served in accordance with 28 U.S.C. § 1608.</string>
 		<string>2(2) &lt;i&gt;State or Local Government.&lt;/i&gt; A state, a municipal corporation, or any other state-created governmental organization that is subject to suit must be served by:</string>
 		<string>3(A) delivering a copy of the summons and of the complaint to its chief executive officer; or</string>
-		<string>3(B) serving a copy of each in the manner prescribed by that state’s law for serving a summons or like process on such a defendant.</string>
+		<string>3(B) serving a copy of each in the manner prescribed by that state&apos;s law for serving a summons or like process on such a defendant.</string>
 		<string>1(k) TERRITORIAL LIMITS OF EFFECTIVE SERVICE.</string>
 		<string>2(1) &lt;i&gt;In General.&lt;/i&gt; Serving a summons or filing a waiver of service establishes personal jurisdiction over a defendant:</string>
 		<string>3(A) who is subject to the jurisdiction of a court of general jurisdiction in the state where the district court is located;</string>
 		<string>3(B) who is a party joined under Rule 14 or 19 and is served within a judicial district of the United States and not more than 100 miles from where the summons was issued; or</string>
 		<string>3(C) when authorized by a federal statute.</string>
 		<string>2(2) &lt;i&gt;Federal Claim Outside State-Court Jurisdiction.&lt;/i&gt; For a claim that arises under federal law, serving a summons or filing a waiver of service establishes personal jurisdiction over a defendant if:</string>
-		<string>3(A) the defendant is not subject to jurisdiction in any state’s courts of general jurisdiction; and</string>
+		<string>3(A) the defendant is not subject to jurisdiction in any state&apos;s courts of general jurisdiction; and</string>
 		<string>3(B) exercising jurisdiction is consistent with the United States Constitution and laws.</string>
 		<string>1(l) PROVING SERVICE.</string>
-		<string>2(1) &lt;i&gt;Affidavit Required.&lt;/i&gt; Unless service is waived, proof of service must be made to the court. Except for service by a United States marshal or deputy marshal, proof must be by the server’s affidavit.</string>
+		<string>2(1) &lt;i&gt;Affidavit Required.&lt;/i&gt; Unless service is waived, proof of service must be made to the court. Except for service by a United States marshal or deputy marshal, proof must be by the server&apos;s affidavit.</string>
 		<string>2(2) &lt;i&gt;Service Outside the United States.&lt;/i&gt; Service not within any judicial district of the United States must be proved as follows:</string>
 		<string>3(A) if made under Rule 4(f)(1), as provided in the applicable treaty or convention; or</string>
 		<string>3(B) if made under Rule 4(f)(2) or (f)(3), by a receipt signed by the addressee, or by other evidence satisfying the court that the summons and complaint were delivered to the addressee.</string>
@@ -210,7 +210,7 @@
 		<string>1(m) TIME LIMIT FOR SERVICE. If a defendant is not served within 90 days after the complaint is filed, the court - on motion or on its own after notice to the plaintiff - must dismiss the action without prejudice against that defendant or order that service be made within a specified time.  But if the plaintiff shows good cause for the failure, the court must extend the time for service for an appropriate period.  This subdivision (m) does not apply to service in a foreign country under Rule 4(f), 4(h)(2), or 4(j)(1), or to service of a notice under Rule 71.1(d)(3)(A).</string>
 		<string>1(n) ASSERTING JURISDICTION OVER PROPERTY OR ASSETS.</string>
 		<string>2(1) &lt;i&gt;Federal Law.&lt;/i&gt; The court may assert jurisdiction over property if authorized by a federal statute. Notice to claimants of the property must be given as provided in the statute or by serving a summons under this rule.</string>
-		<string>2(2) &lt;i&gt;State Law.&lt;/i&gt; On a showing that personal jurisdiction over a defendant cannot be obtained in the district where the action is brought by reasonable efforts to serve a summons under this rule, the court may assert jurisdiction over the defendant’s assets found in the district. Jurisdiction is acquired by seizing the assets under the circumstances and in the manner provided by state law in that district.</string>
+		<string>2(2) &lt;i&gt;State Law.&lt;/i&gt; On a showing that personal jurisdiction over a defendant cannot be obtained in the district where the action is brought by reasonable efforts to serve a summons under this rule, the court may assert jurisdiction over the defendant&apos;s assets found in the district. Jurisdiction is acquired by seizing the assets under the circumstances and in the manner provided by state law in that district.</string>
 		<string>2(As amended Jan. 21, 1963, eff. July 1, 1963; Feb. 28, 1966, eff. July 1, 1966; Apr. 29, 1980, eff. Aug. 1, 1980; Pub. L. 97–462, § 2, Jan. 12, 1983, 96 Stat. 2527, eff. Feb. 26, 1983; Mar. 2, 1987, eff. Aug. 1, 1987; Apr. 22, 1993, eff. Dec. 1, 1993; Apr. 17, 2000, eff. Dec. 1, 2000; Apr. 30, 2007, eff. Dec. 1, 2007; Apr. 29, 2015, eff. Dec. 1, 2015; Apr. 29, 2016, eff. Dec. 1, 2016; Apr. 29, 2017 eff. Dec. 1, 2017)</string>
 	</array>
 	<key>Rule4.1</key>
@@ -237,25 +237,36 @@
 		<string>2(2) &lt;i&gt;Service in General.&lt;/i&gt; A paper is served under this rule by:</string>
 		<string>3(A) handing it to the person;</string>
 		<string>3(B) leaving it:</string>
-		<string>4(i) at the person’s office with a clerk or other person in charge or, if no one is in charge, in a conspicuous place in the office; or</string>
-		<string>4(ii) if the person has no office or the office is closed, at the person’s dwelling or usual place of abode with someone of suitable age and discretion who resides there;</string>
-		<string>3(C) mailing it to the person’s last known address—in which event service is complete upon mailing;</string>
+		<string>4(i) at the person&apos;s office with a clerk or other person in charge or, if no one is in charge, in a conspicuous place in the office; or</string>
+		<string>4(ii) if the person has no office or the office is closed, at the person&apos;s dwelling or usual place of abode with someone of suitable age and discretion who resides there;</string>
+		<string>3(C) mailing it to the person&apos;s last known address—in which event service is complete upon mailing;</string>
 		<string>3(D) leaving it with the court clerk if the person has no known address;</string>
-		<string>3(E) sending it by electronic means if the person consented in writing—in which event service is complete upon transmission, but is not effective if the serving party learns that it did not reach the person to be served; or</string>
+		<string>3(E) sending it to a registered user by filing it with the court&apos;s electronic-filing system or sending it by other electronic means if the person consented to in writing—in either of which events service is complete upon filing or sending, but is not effective if the filer or sender learns that it did not reach the person to be served; or</string>
 		<string>3(F) delivering it by any other means that the person consented to in writing—in which event service is complete when the person making service delivers it to the agency designated to make delivery.</string>
-		<string>2(3) &lt;i&gt;Using Court Facilities.&lt;/i&gt; If a local rule so authorizes, a party may use the court’s transmission facilities to make service under Rule 5(b)(2)(E).</string>
+        <string>2(3) &lt;i&gt;Using Court Facilities.&lt;/i&gt; [Abrogated (Apr. __,
+            2018, eff. Dec. 1, 2018.)] </string>
 		<string>1(c) SERVING NUMEROUS DEFENDANTS.</string>
 		<string>2(1) &lt;i&gt;In General.&lt;/i&gt; If an action involves an unusually large number of defendants, the court may, on motion or on its own, order that:</string>
-		<string>3(A) defendants’ pleadings and replies to them need not be served on other defendants;</string>
+		<string>3(A) defendants&apos; pleadings and replies to them need not be served on other defendants;</string>
 		<string>3(B) any crossclaim, counterclaim, avoidance, or affirmative defense in those pleadings and replies to them will be treated as denied or avoided by all other parties; and</string>
 		<string>3(C) filing any such pleading and serving it on the plaintiff constitutes notice of the pleading to all parties.</string>
 		<string>2(2) &lt;i&gt;Notifying Parties.&lt;/i&gt; A copy of every such order must be served on the parties as the court directs.</string>
 		<string>1(d) FILING.</string>
-		<string>2(1) &lt;i&gt;Required Filings; Certificate of Service.&lt;/i&gt; Any paper after the complaint that is required to be served—together with a certificate of service—must be filed within a reasonable time after service. But disclosures under Rule 26(a)(1) or (2) and the following discovery requests and responses must not be filed until they are used in the proceeding or the court orders filing: depositions, interrogatories, requests for documents or tangible things or to permit entry onto land, and requests for admission.</string>
-		<string>2(2) &lt;i&gt;How Filing Is Made—In General.&lt;/i&gt; A paper is filed by delivering it:</string>
+		<string>2(1) &lt;i&gt;Required Filings; Certificate of Service.&lt;/i&gt;</string>
+        <string>3(A) &lt;i&gt;Papers after the Complaint&lt;/i&gt; Any paper after the complaint that is required to be served must be filed no later than a reasonable time after service. But disclosures under Rule 26(a)(1) or (2) and the following discovery requests and responses must not be filed until they are used in the proceeding or the court orders filing: depositions, interrogatories, requests for documents or tangible things or to permit entry onto land, and requests for admission.</string>
+        <string>3(B) &lt;i&gt;Certificate of Service.&lt;/i&gt; No certificate of service is required when a paper is served by filing it with the court&apos;s electronic-filing system. When a paper that is required to be served is served by other means:</string>
+        <string>4(i) if the paper is filed, a certificate of service must be filed with it or within a reasonable time after service; and</string>
+        <string>4(ii) if the paper is not filed, a certificate of service need not be filed unless filing is required by court order or by local rule.</string>
+		<string>2(2) &lt;i&gt;Nonelectronic filing.&lt;/i&gt; A paper is filed by delivering it:</string>
 		<string>3(A) to the clerk; or</string>
 		<string>3(B) to a judge who agrees to accept it for filing, and who must then note the filing date on the paper and promptly send it to the clerk.</string>
-		<string>2(3) &lt;i&gt;Electronic Filing, Signing, or Verification.&lt;/i&gt; A court may, by local rule, allow papers to be filed, signed, or verified by electronic means that are consistent with any technical standards established by the Judicial Conference of the United States. A local rule may require electronic filing only if reasonable exceptions are allowed. A paper filed electronically in compliance with a local rule is a written paper for purposes of these rules.</string>
+		<string>2(3) &lt;i&gt;Electronic Filing and Signing&lt;/i&gt;</string>
+        <string>3(A) &lt;i&gt;By a Represented Person—Generally Required; Exceptions.&lt;/i&gt; A person represented by an attorney must file electronically, unless nonelectronic filing is allowed by the court for good cause or is allowed or required by local rule.</string>
+        <string>3(B) &lt;i&gt;By an Unrepresented Person—When Allowed or Required.&lt;/i&gt; A person not represented by an attorney:</string>
+        <string>4(i) may file electronically only if allowed by court order or by local rule; and</string>
+        <string>4(ii) may be required to file electronically only by court order, or by a local rule that includes reasonable exceptions.</string>
+        <string>3(C) &lt;i&gt;Signing.&lt;/i&gt; A filing made through a person&apos;s electronic-filing account and authorized by that person, together with that person&apos;s name on a signature block, constitutes the person&apos;s signature.</string>
+        <string>3(D) &lt;i&gt;Same as a Written Paper.&lt;/i&gt; A paper filed electronically is a written paper for purposes of these rules.</string>
 		<string>2(4) &lt;i&gt;Acceptance by the Clerk.&lt;/i&gt; The clerk must not refuse to file a paper solely because it is not in the form prescribed by these rules or by a local rule or practice.</string>
 		<string>2(As amended Jan. 21, 1963, eff. July 1, 1963; Mar. 30, 1970, eff. July 1, 1970; Apr. 29, 1980, eff. Aug. 1, 1980; Mar. 2, 1987, eff. Aug. 1, 1987; Apr. 30, 1991, eff. Dec. 1, 1991; Apr. 22, 1993, eff. Dec. 1, 1993; Apr. 23, 1996, eff. Dec. 1, 1996; Apr. 17, 2000, eff. Dec. 1, 2000; Apr. 23, 2001, eff. Dec. 1, 2001; Apr. 12, 2006, eff. Dec. 1, 2006; Apr. 30, 2007, eff. Dec. 1, 2007.)</string>
 	</array>
@@ -321,7 +332,7 @@
 		<string>3(B) for filing by other means, when the clerk&apos;s office is scheduled to close.</string>
 		<string>2(5) &lt;i&gt;“Next Day” Defined.&lt;/i&gt; The “next day” is determined by continuing to count forward when the period is measured after an event and backward when measured before an event.</string>
 		<string>2(6) &lt;i&gt;.“Legal Holiday” Defined.&lt;/i&gt; “Legal holiday” means:</string>
-		<string>3(A) the day set aside by statute for observing New Year&apos;s Day, Martin Luther King Jr.&apos;s Birthday, Washington&apos;s Birthday, Memorial Day, Independence Day, Labor Day, Columbus Day, Veterans’ Day, Thanksgiving Day, or Christmas Day;</string>
+		<string>3(A) the day set aside by statute for observing New Year&apos;s Day, Martin Luther King Jr.&apos;s Birthday, Washington&apos;s Birthday, Memorial Day, Independence Day, Labor Day, Columbus Day, Veterans&apos; Day, Thanksgiving Day, or Christmas Day;</string>
 		<string>3(B) any day declared a holiday by the President or Congress; and</string>
 		<string>3(C) for periods that are measured after an event, any other day declared a holiday by the state where the district court is located.</string>
 		<string>1(b) EXTENDING TIME.</string>
@@ -472,7 +483,7 @@
 		<string>3(B) A party must serve an answer to a counterclaim or crossclaim within 21 days after being served with the pleading that states the counterclaim or crossclaim.</string>
 		<string>3(C) A party must serve a reply to an answer within 21 days after being served with an order to reply, unless the order specifies a different time.</string>
 		<string>2(2) &lt;i&gt;United States and Its Agencies, Officers, or Employees Sued in an Official Capacity.&lt;/i&gt; The United States, a United States agency, or a United States officer or employee sued only in an official capacity must serve an answer to a complaint, counterclaim, or crossclaim within 60 days after service on the United States attorney.</string>
-		<string>2(3) &lt;i&gt;United States Officers or Employees Sued in an Individual Capacity.&lt;/i&gt; A United States officer or employee sued in an individual capacity for an act or omission occurring in connection with duties performed on the United States’ behalf must serve an answer to a complaint, counterclaim, or crossclaim within 60 days after service on the officer or employee or service on the United States attorney, whichever is later.</string>
+		<string>2(3) &lt;i&gt;United States Officers or Employees Sued in an Individual Capacity.&lt;/i&gt; A United States officer or employee sued in an individual capacity for an act or omission occurring in connection with duties performed on the United States&apos; behalf must serve an answer to a complaint, counterclaim, or crossclaim within 60 days after service on the officer or employee or service on the United States attorney, whichever is later.</string>
 		<string>2(4) &lt;i&gt;Effect of a Motion.&lt;/i&gt; Unless the court sets a different time, serving a motion under this rule alters these periods as follows:</string>
 		<string>3(A) if the court denies the motion or postpones its disposition until trial, the responsive pleading must be served within 14 days after notice of the court&apos;s action; or</string>
 		<string>3(B) if the court grants a motion for a more definite statement, the responsive pleading must be served within 14 days after the more definite statement is served.</string>
@@ -559,7 +570,7 @@
 		<string>2(3) &lt;i&gt;Time to Respond.&lt;/i&gt; Unless the court orders otherwise, any required response to an amended pleading must be made within the time remaining to respond to the original pleading or within 14 days after service of the amended pleading, whichever is later.</string>
 		<string>1(b) AMENDMENTS DURING AND AFTER TRIAL.</string>
 		<string>2(1) &lt;i&gt;Based on an Objection at Trial.&lt;/i&gt; If, at trial, a party objects that evidence is not within the issues raised in the pleadings, the court may permit the pleadings to be amended. The court should freely permit an amendment when doing so will aid in presenting the merits and the objecting party fails to satisfy the court that the evidence would prejudice that party&apos;s action or defense on the merits. The court may grant a continuance to enable the objecting party to meet the evidence.</string>
-		<string>2(2) &lt;i&gt;For Issues Tried by Consent.&lt;/i&gt; When an issue not raised by the pleadings is tried by the parties’ express or implied consent, it must be treated in all respects as if raised in the pleadings. A party may move—at any time, even after judgment—to amend the pleadings to conform them to the evidence and to raise an unpleaded issue. But failure to amend does not affect the result of the trial of that issue.</string>
+		<string>2(2) &lt;i&gt;For Issues Tried by Consent.&lt;/i&gt; When an issue not raised by the pleadings is tried by the parties&apos; express or implied consent, it must be treated in all respects as if raised in the pleadings. A party may move—at any time, even after judgment—to amend the pleadings to conform them to the evidence and to raise an unpleaded issue. But failure to amend does not affect the result of the trial of that issue.</string>
 		<string>1(c) RELATION BACK OF AMENDMENTS.</string>
 		<string>2(1) &lt;i&gt;When an Amendment Relates Back.&lt;/i&gt; An amendment to a pleading relates back to the date of the original pleading when:</string>
 		<string>3(A) the law that provides the applicable statute of limitations allows relation back;</string>
@@ -659,7 +670,7 @@
 	<array>
 		<string>1&lt;b&gt;Rule 18. Joinder of Claims&lt;/b&gt;</string>
 		<string>1(a) IN GENERAL. A party asserting a claim, counterclaim, crossclaim, or third-party claim may join, as independent or alternative claims, as many claims as it has against an opposing party.</string>
-		<string>1(b) JOINDER OF CONTINGENT CLAIMS. A party may join two claims even though one of them is contingent on the disposition of the other; but the court may grant relief only in accordance with the parties’ relative substantive rights. In particular, a plaintiff may state a claim for money and a claim to set aside a conveyance that is fraudulent as to that plaintiff, without first obtaining a judgment for the money.</string>
+		<string>1(b) JOINDER OF CONTINGENT CLAIMS. A party may join two claims even though one of them is contingent on the disposition of the other; but the court may grant relief only in accordance with the parties&apos; relative substantive rights. In particular, a plaintiff may state a claim for money and a claim to set aside a conveyance that is fraudulent as to that plaintiff, without first obtaining a judgment for the money.</string>
 		<string>2(As amended Feb. 28, 1966, eff. July 1, 1966; Mar. 2, 1987, eff. Aug. 1, 1987; Apr. 30, 2007, eff. Dec. 1, 2007.)</string>
 	</array>
 	<key>Rule19</key>
@@ -732,7 +743,7 @@
 		<string>3(B) adjudications with respect to individual class members that, as a practical matter, would be dispositive of the interests of the other members not parties to the individual adjudications or would substantially impair or impede their ability to protect their interests;</string>
 		<string>2(2) the party opposing the class has acted or refused to act on grounds that apply generally to the class, so that final injunctive relief or corresponding declaratory relief is appropriate respecting the class as a whole; or</string>
 		<string>2(3) the court finds that the questions of law or fact common to class members predominate over any questions affecting only individual members, and that a class action is superior to other available methods for fairly and efficiently adjudicating the controversy. The matters pertinent to these findings include:</string>
-		<string>3(A) the class members’ interests in individually controlling the prosecution or defense of separate actions;</string>
+		<string>3(A) the class members&apos; interests in individually controlling the prosecution or defense of separate actions;</string>
 		<string>3(B) the extent and nature of any litigation concerning the controversy already begun by or against class members;</string>
 		<string>3(C) the desirability or undesirability of concentrating the litigation of the claims in the particular forum; and</string>
 		<string>3(D) the likely difficulties in managing a class action.</string>
@@ -743,7 +754,7 @@
 		<string>3(C) &lt;i&gt;Altering or Amending the Order.&lt;/i&gt; An order that grants or denies class certification may be altered or amended before final judgment.</string>
 		<string>2(2) &lt;i&gt;Notice.&lt;/i&gt;</string>
 		<string>3(A) &lt;i&gt;For (b)(1) or (b)(2) Classes.&lt;/i&gt; For any class certified under Rule 23(b)(1) or (b)(2), the court may direct appropriate notice to the class.</string>
-		<string>3(B) &lt;i&gt;For (b)(3) Classes.&lt;/i&gt; For any class certified under Rule 23(b)(3), the court must direct to class members the best notice that is practicable under the circumstances, including individual notice to all members who can be identified through reasonable effort. The notice must clearly and concisely state in plain, easily understood language:</string>
+        <string>3(B) &lt;i&gt;For (b)(3) Classes.&lt;/i&gt; For any class certified under Rule 23(b)(3)—or upon ordering notice under Rule 23(e)(1) to a class proposed to be certified for purposes of settlement under Rule 23(b)(3)—the court must direct to class members the best notice that is practicable under the circumstances, including individual notice to all members who can be identified through reasonable effort. The notice may be by one or more of the following: United States mail, electronic means, or other appropriate means. The notice must clearly and concisely state in plain, easily understood language:</string>
 		<string>4(i) the nature of the action;</string>
 		<string>4(ii) the definition of the class certified;</string>
 		<string>4(iii) the class claims, issues, or defenses;</string>
@@ -762,18 +773,36 @@
 		<string>3(B) require—to protect class members and fairly conduct the action—giving appropriate notice to some or all class members of:</string>
 		<string>4(i) any step in the action;</string>
 		<string>4(ii) the proposed extent of the judgment; or</string>
-		<string>4(iii) the members’ opportunity to signify whether they consider the representation fair and adequate, to intervene and present claims or defenses, or to otherwise come into the action;</string>
+		<string>4(iii) the members&apos; opportunity to signify whether they consider the representation fair and adequate, to intervene and present claims or defenses, or to otherwise come into the action;</string>
 		<string>3(C) impose conditions on the representative parties or on intervenors;</string>
 		<string>3(D) require that the pleadings be amended to eliminate allegations about representation of absent persons and that the action proceed accordingly; or</string>
 		<string>3(E) deal with similar procedural matters.</string>
 		<string>2(2) &lt;i&gt;Combining and Amending Orders.&lt;/i&gt; An order under Rule 23(d)(1) may be altered or amended from time to time and may be combined with an order under Rule 16.</string>
-		<string>1(e) SETTLEMENT, VOLUNTARY DISMISSAL, OR COMPROMISE. The claims, issues, or defenses of a certified class may be settled, voluntarily dismissed, or compromised only with the court&apos;s approval. The following procedures apply to a proposed settlement, voluntary dismissal, or compromise:</string>
-		<string>2(1) The court must direct notice in a reasonable manner to all class members who would be bound by the proposal.</string>
-		<string>2(2) If the proposal would bind class members, the court may approve it only after a hearing and on finding that it is fair, reasonable, and adequate.</string>
-		<string>2(3) The parties seeking approval must file a statement identifying any agreement made in connection with the proposal.</string>
-		<string>2(4) If the class action was previously certified under Rule 23(b)(3), the court may refuse to approve a settlement unless it affords a new opportunity to request exclusion to individual class members who had an earlier opportunity to request exclusion but did not do so.</string>
-		<string>2(5) Any class member may object to the proposal if it requires court approval under this subdivision (e); the objection may be withdrawn only with the court&apos;s approval.</string>
-		<string>1(f) APPEALS. A court of appeals may permit an appeal from an order granting or denying class-action certification under this rule if a petition for permission to appeal is filed with the circuit clerk within 14 days after the order is entered. An appeal does not stay proceedings in the district court unless the district judge or the court of appeals so orders.</string>
+        <string>1(e) SETTLEMENT, VOLUNTARY DISMISSAL, OR COMPROMISE. The claims, issues, or defenses of a certified class—or a class proposed to be certified for purposes of settlement—may be settled, voluntarily dismissed, or compromised only with the court&apos;s approval. The following procedures apply to a proposed settlement, voluntary dismissal, or compromise: </string>
+        <string>&lt;i&gt;2(1) Notice to the Class.&lt;/i&gt;</string>
+        <string>3(A) &lt;i&gt;Information That Parties Must Provide to the Court.&lt;/i&gt; The parties must provide the court with information sufficient to enable it to determine whether to give notice of the proposal to the class.</string>
+        <string>3(B) &lt;i&gt;Grounds for a Decision to Give Notice.&lt;/i&gt; The court must direct notice in a reasonable manner to all class members who would be bound by the proposal if giving notice is justified by the parties&apos; showing that the court will likely be able to:</string>
+        <string>4(i) approve the proposal under Rule 23(e)(2); and</string>
+        <string>4(ii) certify the class for purposes of judgment on the proposal.</string>
+        <string>2(2) &lt;i&gt;Approval of the Proposal.&lt;/i&gt; If the proposal would bind class members, the court may approve it only after a hearing and only on finding that it is fair, reasonable, and adequate after considering whether:</string>
+        <string>3(A) the class representatives and class counsel have adequately represented the class;</string>
+        <string>3(B) the proposal was negotiated at arm&apos;s length;</string>
+        <string>3(C) the relief provided for the class is adequate, taking into account:</string>
+        <string>4(i) the costs, risks, and delay of trial and appeal;</string>
+        <string>4(ii) the effectiveness of any proposed method of distributing relief to the class, including the method of processing class-member claims;</string>
+        <string>4(iii) the terms of any proposed award of attorney&apos;s fees, including timing of payment; and</string>
+        <string>4(iv) any agreement required to be identified under Rule 23(e)(3); and</string>
+        <string>3(D) the proposal treats class members equitably relative to each other.</string>
+        <string>2(3) &lt;i&gt;Identifying Agreements.&lt;/i&gt; The parties seeking approval must file a statement identifying any agreement made in connection with the proposal.</string>
+        <string>2(4) &lt;i&gt;New Opportunity to Be Excluded.&lt;/i&gt; If the class action was previously certified under Rule 23(b)(3), the court may refuse to approve a
+            settlement unless it affords a new opportunity to request exclusion to individual class members who had an earlier opportunity to request exclusion but did not do so.</string>
+        <string>2(5) &lt;i&gt;Class-Member Objections.&lt;/i&gt;</string>
+        <string>3(A) &lt;i&gt;In General.&lt;/i&gt; Any class member may object to the proposal if it requires court approval under this subdivision (e). The objection must state whether it applies only to the objector, to a specific subset of the class, or to the entire class, and also state with specificity the grounds for the objection.</string>
+        <string>3(B) &lt;i&gt;Court Approval Required for Payment in Connection with an Objection.&lt;/i&gt; Unless approved by the court after a hearing, no payment or other consideration may be provided in connection with:</string>
+        <string>4(i) forgoing or withdrawing an objection, or</string>
+        <string>4(ii) forgoing, dismissing, or abandoning an appeal from a judgment approving the proposal.</string>
+        <string>3(C) &lt;i&gt;Procedure for Approval After an Appeal.&lt;/i&gt; If approval under Rule 23(e)(5)(B) has not been obtained before an appeal is docketed in the court of appeals, the procedure of Rule 62.1 applies while the appeal remains pending.</string>
+        <string>1(f) &lt;i&gt;Appeals.&lt;/i&gt; A court of appeals may permit an appeal from an order granting or denying class-action certification under this rule, but not from an order under Rule 23(e)(1). A party must file a petition for permission to appeal with the circuit clerk within 14 days after the order is entered, or within 45 days after the order is entered if any party is the United States, a United States agency, or a United States officer or employee sued for an act or omission occurring in connection with duties performed on the United States&apos; behalf. An appeal does not stay proceedings in the district court unless the district judge or the court of appeals so orders. </string>
 		<string>1(g) CLASS COUNSEL.</string>
 		<string>2(1) &lt;i&gt;Appointing Class Counsel.&lt;/i&gt; Unless a statute provides otherwise, a court that certifies a class must appoint class counsel. In appointing class counsel, the court:</string>
 		<string>3(A) must consider:</string>
@@ -788,7 +817,7 @@
 		<string>2(2) &lt;i&gt;Standard for Appointing Class Counsel.&lt;/i&gt; When one applicant seeks appointment as class counsel, the court may appoint that applicant only if the applicant is adequate under Rule 23(g)(1) and (4). If more than one adequate applicant seeks appointment, the court must appoint the applicant best able to represent the interests of the class.</string>
 		<string>2(3) &lt;i&gt;Interim Counsel.&lt;/i&gt; The court may designate interim counsel to act on behalf of a putative class before determining whether to certify the action as a class action.</string>
 		<string>2(4) &lt;i&gt;Duty of Class Counsel.&lt;/i&gt; Class counsel must fairly and adequately represent the interests of the class.</string>
-		<string>1(h) ATTORNEY&apos;S FEES AND NONTAXABLE COSTS. In a certified class action, the court may award reasonable attorney&apos;s fees and nontaxable costs that are authorized by law or by the parties’ agreement. The following procedures apply:</string>
+		<string>1(h) ATTORNEY&apos;S FEES AND NONTAXABLE COSTS. In a certified class action, the court may award reasonable attorney&apos;s fees and nontaxable costs that are authorized by law or by the parties&apos; agreement. The following procedures apply:</string>
 		<string>2(1) A claim for an award must be made by motion under Rule 54(d)(2), subject to the provisions of this subdivision (h), at a time the court sets. Notice of the motion must be served on all parties and, for motions by class counsel, directed to class members in a reasonable manner.</string>
 		<string>2(2) A class member, or a party from whom payment is sought, may object to the motion.</string>
 		<string>2(3) The court may hold a hearing and must find the facts and state its legal conclusions under Rule 52(a).</string>
@@ -827,7 +856,7 @@
 		<string>2(2) &lt;i&gt;By a Government Officer or Agency.&lt;/i&gt; On timely motion, the court may permit a federal or state governmental officer or agency to intervene if a party&apos;s claim or defense is based on:</string>
 		<string>3(A) a statute or executive order administered by the officer or agency; or</string>
 		<string>3(B) any regulation, order, requirement, or agreement issued or made under the statute or executive order.</string>
-		<string>2(3) &lt;i&gt;Delay or Prejudice.&lt;/i&gt; In exercising its discretion, the court must consider whether the intervention will unduly delay or prejudice the adjudication of the original parties’ rights.</string>
+		<string>2(3) &lt;i&gt;Delay or Prejudice.&lt;/i&gt; In exercising its discretion, the court must consider whether the intervention will unduly delay or prejudice the adjudication of the original parties&apos; rights.</string>
 		<string>1(c) NOTICE AND PLEADING REQUIRED. A motion to intervene must be served on the parties as provided in Rule 5. The motion must state the grounds for intervention and be accompanied by a pleading that sets out the claim or defense for which intervention is sought.</string>
 		<string>2(As amended Dec. 27, 1946, eff. Mar. 19, 1948; Dec. 29, 1948, eff. Oct. 20, 1949; Jan. 21, 1963, eff. July 1, 1963; Feb. 28, 1966, eff. July 1, 1966; Mar. 2, 1987, eff. Aug. 1, 1987; Apr. 30, 1991, eff. Dec. 1, 1991; Apr. 12, 2006, eff. Dec. 1, 2006; Apr. 30, 2007, eff. Dec. 1, 2007.)</string>
 	</array>
@@ -840,7 +869,7 @@
 		<string>2(3) &lt;i&gt;Service.&lt;/i&gt; A motion to substitute, together with a notice of hearing, must be served on the parties as provided in Rule 5 and on nonparties as provided in Rule 4. A statement noting death must be served in the same manner. Service may be made in any judicial district.</string>
 		<string>1(b) INCOMPETENCY. If a party becomes incompetent, the court may, on motion, permit the action to be continued by or against the party&apos;s representative. The motion must be served as provided in Rule 25(a)(3).</string>
 		<string>1(c) TRANSFER OF INTEREST. If an interest is transferred, the action may be continued by or against the original party unless the court, on motion, orders the transferee to be substituted in the action or joined with the original party. The motion must be served as provided in Rule 25(a)(3).</string>
-		<string>1(d) PUBLIC OFFICERS; DEATH OR SEPARATION FROM OFFICE. An action does not abate when a public officer who is a party in an official capacity dies, resigns, or otherwise ceases to hold office while the action is pending. The officer&apos;s successor is automatically substituted as a party. Later proceedings should be in the substituted party&apos;s name, but any misnomer not affecting the parties’ substantial rights must be disregarded. The court may order substitution at any time, but the absence of such an order does not affect the substitution.</string>
+		<string>1(d) PUBLIC OFFICERS; DEATH OR SEPARATION FROM OFFICE. An action does not abate when a public officer who is a party in an official capacity dies, resigns, or otherwise ceases to hold office while the action is pending. The officer&apos;s successor is automatically substituted as a party. Later proceedings should be in the substituted party&apos;s name, but any misnomer not affecting the parties&apos; substantial rights must be disregarded. The court may order substitution at any time, but the absence of such an order does not affect the substitution.</string>
 		<string>2(As amended Dec. 29, 1948, eff. Oct. 20, 1949; Apr. 17, 1961, eff. July 19, 1961; Jan. 21, 1963, eff. July 1, 1963; Mar. 2, 1987, eff. Aug. 1, 1987; Apr. 30, 2007, eff. Dec. 1, 2007.)</string>
 	</array>
 	<key>Rule26</key>
@@ -863,7 +892,7 @@
 		<string>4(vii) an action by the United States to collect on a student loan guaranteed by the United States;</string>
 		<string>4(viii) a proceeding ancillary to a proceeding in another court; and</string>
 		<string>4(ix) an action to enforce an arbitration award.</string>
-		<string>3(C) &lt;i&gt;Time for Initial Disclosures—In General.&lt;/i&gt; A party must make the initial disclosures at or within 14 days after the parties’ Rule 26(f) conference unless a different time is set by stipulation or court order, or unless a party objects during the conference that initial disclosures are not appropriate in this action and states the objection in the proposed discovery plan. In ruling on the objection, the court must determine what disclosures, if any, are to be made and must set the time for disclosure.</string>
+		<string>3(C) &lt;i&gt;Time for Initial Disclosures—In General.&lt;/i&gt; A party must make the initial disclosures at or within 14 days after the parties&apos; Rule 26(f) conference unless a different time is set by stipulation or court order, or unless a party objects during the conference that initial disclosures are not appropriate in this action and states the objection in the proposed discovery plan. In ruling on the objection, the court must determine what disclosures, if any, are to be made and must set the time for disclosure.</string>
 		<string>3(D) &lt;i&gt;Time for Initial Disclosures—For Parties Served or Joined Later.&lt;/i&gt; A party that is first served or otherwise joined after the Rule 26(f) conference must make the initial disclosures within 30 days after being served or joined, unless a different time is set by stipulation or court order.</string>
 		<string>3(E) &lt;i&gt;Basis for Initial Disclosure; Unacceptable Excuses.&lt;/i&gt; A party must make its initial disclosures based on the information then reasonably available to it. A party is not excused from making its disclosures because it has not fully investigated the case or because it challenges the sufficiency of another party&apos;s disclosures or because another party has not made its disclosures.</string>
 		<string>2(2) &lt;i&gt;Disclosure of Expert Testimony.&lt;/i&gt;</string>
@@ -890,7 +919,7 @@
 		<string>3(B) &lt;i&gt;Time for Pretrial Disclosures; Objections.&lt;/i&gt; Unless the court orders otherwise, these disclosures must be made at least 30 days before trial. Within 14 days after they are made, unless the court sets a different time, a party may serve and promptly file a list of the following objections: any objections to the use under Rule 32(a) of a deposition designated by another party under Rule 26(a)(3)(A)(ii); and any objection, together with the grounds for it, that may be made to the admissibility of materials identified under Rule 26(a)(3)(A)(iii). An objection not so made—except for one under Federal Rule of Evidence 402 or 403—is waived unless excused by the court for good cause.</string>
 		<string>2(4) &lt;i&gt;Form of Disclosures.&lt;/i&gt; Unless the court orders otherwise, all disclosures under Rule 26(a) must be in writing, signed, and served.</string>
 		<string>1(b) DISCOVERY SCOPE AND LIMITS.</string>
-		<string>2(1) &lt;i&gt;Scope in General.&lt;/i&gt; Unless otherwise limited by court order, the scope of discovery is as follows: Parties may obtain discovery regarding any nonprivileged matter that is relevant to any party&apos;s claim or defense and proportional to the needs of the case, considering the importance of the issues at stake in the action, the amount in controversy, the parties’ relative access to relevant information, the parties’ resources, the importance of the discovery in resolving the issues, and whether the burden or expense of the proposed discovery outweighs its likely benefit. Information within this scope of discovery need not be admissible in evidence to be discoverable.</string>
+		<string>2(1) &lt;i&gt;Scope in General.&lt;/i&gt; Unless otherwise limited by court order, the scope of discovery is as follows: Parties may obtain discovery regarding any nonprivileged matter that is relevant to any party&apos;s claim or defense and proportional to the needs of the case, considering the importance of the issues at stake in the action, the amount in controversy, the parties&apos; relative access to relevant information, the parties&apos; resources, the importance of the discovery in resolving the issues, and whether the burden or expense of the proposed discovery outweighs its likely benefit. Information within this scope of discovery need not be admissible in evidence to be discoverable.</string>
 		<string>2(2) &lt;i&gt;Limitations on Frequency and Extent.&lt;/i&gt;</string>
 		<string>3(A) &lt;i&gt;When Permitted.&lt;/i&gt; By order, the court may alter the limits in these rules on the number of depositions and interrogatories or on the length of depositions under Rule 30. By order or local rule, the court may also limit the number of requests under Rule 36.</string>
 		<string>3(B) &lt;i&gt;Specific Limitations on Electronically Stored Information.&lt;/i&gt; A party need not provide discovery of electronically stored information from sources that the party identifies as not reasonably accessible because of undue burden or cost. On motion to compel discovery or for a protective order, the party from whom discovery is sought must show that the information is not reasonably accessible because of undue burden or cost. If that showing is made, the court may nonetheless order discovery from such sources if the requesting party shows good cause, considering the limitations of Rule 26(b)(2)(C). The court may specify conditions for the discovery.</string>
@@ -953,7 +982,7 @@
 		<string>2(2) &lt;i&gt;Expert Witness.&lt;/i&gt; For an expert whose report must be disclosed under Rule 26(a)(2)(B), the party&apos;s duty to supplement extends both to information included in the report and to information given during the expert&apos;s deposition. Any additions or changes to this information must be disclosed by the time the party&apos;s pretrial disclosures under Rule 26(a)(3) are due.</string>
 		<string>1(f) CONFERENCE OF THE PARTIES; PLANNING FOR DISCOVERY.</string>
 		<string>2(1) &lt;i&gt;Conference Timing.&lt;/i&gt; Except in a proceeding exempted from initial disclosure under Rule 26(a)(1)(B) or when the court orders otherwise, the parties must confer as soon as practicable—and in any event at least 21 days before a scheduling conference is to be held or a scheduling order is due under Rule 16(b).</string>
-		<string>2(2) &lt;i&gt;Conference Content; Parties’ Responsibilities.&lt;/i&gt; In conferring, the parties must consider the nature and basis of their claims and defenses and the possibilities for promptly settling or resolving the case; make or arrange for the disclosures required by Rule 26(a)(1); discuss any issues about preserving discoverable information; and develop a proposed discovery plan. The attorneys of record and all unrepresented parties that have appeared in the case are jointly responsible for arranging the conference, for attempting in good faith to agree on the proposed discovery plan, and for submitting to the court within 14 days after the conference a written report outlining the plan. The court may order the parties or attorneys to attend the conference in person.</string>
+		<string>2(2) &lt;i&gt;Conference Content; Parties&apos; Responsibilities.&lt;/i&gt; In conferring, the parties must consider the nature and basis of their claims and defenses and the possibilities for promptly settling or resolving the case; make or arrange for the disclosures required by Rule 26(a)(1); discuss any issues about preserving discoverable information; and develop a proposed discovery plan. The attorneys of record and all unrepresented parties that have appeared in the case are jointly responsible for arranging the conference, for attempting in good faith to agree on the proposed discovery plan, and for submitting to the court within 14 days after the conference a written report outlining the plan. The court may order the parties or attorneys to attend the conference in person.</string>
 		<string>2(3) &lt;i&gt;Discovery Plan.&lt;/i&gt; A discovery plan must state the parties&apos; views and proposals on</string>
 		<string>3(A) what changes should be made in the timing, form, or requirement for disclosures under Rule 26(a), including a statement of when initial disclosures were made or will be made;</string>
 		<string>3(B) the subjects on which discovery may be needed, when discovery should be completed, and whether discovery should be conducted in phases or be limited to or focused on particular issues;</string>
@@ -962,8 +991,8 @@
 		<string>3(E) what changes should be made in the limitations on discovery imposed under these rules or by local rule, and what other limitations should be imposed; and</string>
 		<string>3(F) any other orders that the court should issue under Rule 26(c) or under Rule 16(b) and (c).</string>
 		<string>2(4) &lt;i&gt;Expedited Schedule.&lt;/i&gt; If necessary to comply with its expedited schedule for Rule 16(b) conferences, a court may by local rule:</string>
-		<string>3(A) require the parties’ conference to occur less than 21 days before the scheduling conference is held or a scheduling order is due under Rule 16(b); and</string>
-		<string>3(B) require the written report outlining the discovery plan to be filed less than 14 days after the parties’ conference, or excuse the parties from submitting a written report and permit them to report orally on their discovery plan at the Rule 16(b) conference.</string>
+		<string>3(A) require the parties&apos; conference to occur less than 21 days before the scheduling conference is held or a scheduling order is due under Rule 16(b); and</string>
+		<string>3(B) require the written report outlining the discovery plan to be filed less than 14 days after the parties&apos; conference, or excuse the parties from submitting a written report and permit them to report orally on their discovery plan at the Rule 16(b) conference.</string>
 		<string>1(g) SIGNING DISCLOSURES AND DISCOVERY REQUESTS, RESPONSES, AND OBJECTIONS.</string>
 		<string>2(1) &lt;i&gt;Signature Required; Effect of Signature.&lt;/i&gt; Every disclosure under Rule 26(a)(1) or (a)(3) and every discovery request, response, or objection must be signed by at least one attorney of record in the attorney&apos;s own name—or by the party personally, if unrepresented—and must state the signer&apos;s address, e-mail address, and telephone number. By signing, an attorney or party certifies that to the best of the person&apos;s knowledge, information, and belief formed after a reasonable inquiry:</string>
 		<string>3(A) with respect to a disclosure, it is complete and correct as of the time it is made; and</string>
@@ -1052,7 +1081,7 @@
 		<string>4(iii) the deponent&apos;s name;</string>
 		<string>4(iv) the officer&apos;s administration of the oath or affirmation to the deponent; and</string>
 		<string>4(v) the identity of all persons present.</string>
-		<string>3(B) &lt;i&gt;Conducting the Deposition; Avoiding Distortion.&lt;/i&gt; If the deposition is recorded nonstenographically, the officer must repeat the items in Rule 30(b)(5)(A)(i)–(iii) at the beginning of each unit of the recording medium. The deponent&apos;s and attorneys’ appearance or demeanor must not be distorted through recording techniques.</string>
+		<string>3(B) &lt;i&gt;Conducting the Deposition; Avoiding Distortion.&lt;/i&gt; If the deposition is recorded nonstenographically, the officer must repeat the items in Rule 30(b)(5)(A)(i)–(iii) at the beginning of each unit of the recording medium. The deponent&apos;s and attorneys&apos; appearance or demeanor must not be distorted through recording techniques.</string>
 		<string>3(C) &lt;i&gt;After the Deposition.&lt;/i&gt; At the end of a deposition, the officer must state on the record that the deposition is complete and must set out any stipulations made by the attorneys about custody of the transcript or recording and of the exhibits, or about any other pertinent matters.</string>
 		<string>2(6) &lt;i&gt;Notice or Subpoena Directed to an Organization.&lt;/i&gt; In its notice or subpoena, a party may name as the deponent a public or private corporation, a partnership, an association, a governmental agency, or other entity and must describe with reasonable particularity the matters for examination. The named organization must then designate one or more officers, directors, or managing agents, or designate other persons who consent to testify on its behalf; and it may set out the matters on which each person designated will testify. A subpoena must advise a nonparty organization of its duty to make this designation. The persons designated must testify about information known or reasonably available to the organization. This paragraph (6) does not preclude a deposition by any other procedure allowed by these rules.</string>
 		<string>1(c) EXAMINATION AND CROSS-EXAMINATION; RECORD OF THE EXAMINATION; OBJECTIONS; WRITTEN QUESTIONS.</string>
@@ -1125,7 +1154,7 @@
 		<string>3(D) that the party offering the deposition could not procure the witness&apos;s attendance by subpoena; or</string>
 		<string>3(E) on motion and notice, that exceptional circumstances make it desirable—in the interest of justice and with due regard to the importance of live testimony in open court—to permit the deposition to be used.</string>
 		<string>2(5) &lt;i&gt;Limitations on Use.&lt;/i&gt;</string>
-		<string>3(A) &lt;i&gt;Deposition Taken on Short Notice.&lt;/i&gt; A deposition must not be used against a party who, having received less than 14 days’ notice of the deposition, promptly moved for a protective order under Rule 26(c)(1)(B) requesting that it not be taken or be taken at a different time or place—and this motion was still pending when the deposition was taken.</string>
+		<string>3(A) &lt;i&gt;Deposition Taken on Short Notice.&lt;/i&gt; A deposition must not be used against a party who, having received less than 14 days&apos; notice of the deposition, promptly moved for a protective order under Rule 26(c)(1)(B) requesting that it not be taken or be taken at a different time or place—and this motion was still pending when the deposition was taken.</string>
 		<string>3(B) &lt;i&gt;Unavailable Deponent; Party Could Not Obtain an Attorney.&lt;/i&gt; A deposition taken without leave of court under the unavailability provision of Rule 30(a)(2)(A)(iii) must not be used against a party who shows that, when served with the notice, it could not, despite diligent efforts, obtain an attorney to represent it at the deposition.</string>
 		<string>2(6) &lt;i&gt;Using Part of a Deposition.&lt;/i&gt; If a party offers in evidence only part of a deposition, an adverse party may require the offeror to introduce other parts that in fairness should be considered with the part introduced, and any party may itself introduce any other parts.</string>
 		<string>2(7) &lt;i&gt;Substituting a Party.&lt;/i&gt; Substituting a party under Rule 25 does not affect the right to use a deposition previously taken.</string>
@@ -1205,7 +1234,7 @@
 		<string>2(3) &lt;i&gt;Request by the Moving Party.&lt;/i&gt; After delivering the reports, the party who moved for the examination may request—and is entitled to receive—from the party against whom the examination order was issued like reports of all earlier or later examinations of the same condition. But those reports need not be delivered by the party with custody or control of the person examined if the party shows that it could not obtain them.</string>
 		<string>2(4) &lt;i&gt;Waiver of Privilege.&lt;/i&gt; By requesting and obtaining the examiner&apos;s report, or by deposing the examiner, the party examined waives any privilege it may have—in that action or any other action involving the same controversy—concerning testimony about all examinations of the same condition.</string>
 		<string>2(5) &lt;i&gt;Failure to Deliver a Report.&lt;/i&gt; The court on motion may order—on just terms—that a party deliver the report of an examination. If the report is not provided, the court may exclude the examiner&apos;s testimony at trial.</string>
-		<string>2(6) &lt;i&gt;Scope.&lt;/i&gt; This subdivision (b) applies also to an examination made by the parties’ agreement, unless the agreement states otherwise. This subdivision does not preclude obtaining an examiner&apos;s report or deposing an examiner under other rules.</string>
+		<string>2(6) &lt;i&gt;Scope.&lt;/i&gt; This subdivision (b) applies also to an examination made by the parties&apos; agreement, unless the agreement states otherwise. This subdivision does not preclude obtaining an examiner&apos;s report or deposing an examiner under other rules.</string>
 		<string>2(As amended Mar. 30, 1970, eff. July 1, 1970; Mar. 2, 1987, eff. Aug. 1, 1987; Pub. L. 100–690, title VII, §7047(b), Nov. 18, 1988, 102 Stat. 4401; Apr. 30, 1991, eff. Dec. 1, 1991; Apr. 30, 2007, eff. Dec. 1, 2007.)</string>
 	</array>
 	<key>Rule36</key>
@@ -1278,7 +1307,7 @@
 		<string>2(3) &lt;i&gt;Types of Sanctions.&lt;/i&gt; Sanctions may include any of the orders listed in Rule 37(b)(2)(A)(i)—(vi). Instead of or in addition to these sanctions, the court must require the party failing to act, the attorney advising that party, or both to pay the reasonable expenses, including attorney&apos;s fees, caused by the failure, unless the failure was substantially justified or other circumstances make an award of expenses unjust.</string>
 		<string>1(e) FAILURE TO PROVIDE ELECTRONICALLY STORED INFORMATION. If electronically stored information that should have been preserved in the anticipation or conduct of litigation is lost because a party failed to take reasonable steps to preserve it, and it cannot be restored or replaced through additional discovery, the court:</string>
 		<string>2(1) upon finding prejudice to another party from loss of the information, may order measures no greater than necessary to cure the prejudice; or</string>
-		<string>2(2) only upon finding that the party acted with the intent to deprive another party of the information’s use in the litigation may:</string>
+		<string>2(2) only upon finding that the party acted with the intent to deprive another party of the information&apos;s use in the litigation may:</string>
 		<string>3(A) presume that the lost information was unfavorable to the party;</string>
 		<string>3(B) instruct the jury that it may or must presume the information was unfavorable to the party; or</string>
 		<string>3(C) dismiss the action or enter a default judgment.</string>
@@ -1306,7 +1335,7 @@
 		<string>1(b) WHEN NO DEMAND IS MADE. Issues on which a jury trial is not properly demanded are to be tried by the court. But the court may, on motion, order a jury trial on any issue for which a jury might have been demanded.</string>
 		<string>1(c) ADVISORY JURY; JURY TRIAL BY CONSENT. In an action not triable of right by a jury, the court, on motion or on its own:</string>
 		<string>2(1) may try any issue with an advisory jury; or</string>
-		<string>2(2) may, with the parties’ consent, try any issue by a jury whose verdict has the same effect as if a jury trial had been a matter of right, unless the action is against the United States and a federal statute provides for a nonjury trial.</string>
+		<string>2(2) may, with the parties&apos; consent, try any issue by a jury whose verdict has the same effect as if a jury trial had been a matter of right, unless the action is against the United States and a federal statute provides for a nonjury trial.</string>
 		<string>2(As amended Apr. 30, 2007, eff. Dec. 1, 2007.)</string>
 	</array>
 	<key>Rule40</key>
@@ -1347,7 +1376,7 @@
 	<key>Rule43</key>
 	<array>
 		<string>1&lt;b&gt;Rule 43. Taking Testimony&lt;/b&gt;</string>
-		<string>1(a) IN OPEN COURT. At trial, the witnesses’ testimony must be taken in open court unless a federal statute, the Federal Rules of Evidence, these rules, or other rules adopted by the Supreme Court provide otherwise. For good cause in compelling circumstances and with appropriate safeguards, the court may permit testimony in open court by contemporaneous transmission from a different location.</string>
+		<string>1(a) IN OPEN COURT. At trial, the witnesses&apos; testimony must be taken in open court unless a federal statute, the Federal Rules of Evidence, these rules, or other rules adopted by the Supreme Court provide otherwise. For good cause in compelling circumstances and with appropriate safeguards, the court may permit testimony in open court by contemporaneous transmission from a different location.</string>
 		<string>1(b) AFFIRMATION INSTEAD OF AN OATH. When these rules require an oath, a solemn affirmation suffices.</string>
 		<string>1(c) EVIDENCE ON A MOTION. When a motion relies on facts outside the record, the court may hear the matter on affidavits or may hear it wholly or partly on oral testimony or on depositions.</string>
 		<string>1(d) INTERPRETER. The court may appoint an interpreter of its choosing; fix reasonable compensation to be paid from funds provided by law or by one or more parties; and tax the compensation as costs.</string>
@@ -1538,7 +1567,7 @@
 		<string>2(3) &lt;i&gt;For a Motion.&lt;/i&gt; The court is not required to state findings or conclusions when ruling on a motion under Rule 12 or 56 or, unless these rules provide otherwise, on any other motion.</string>
 		<string>2(4) &lt;i&gt;Effect of a Master&apos;s Findings.&lt;/i&gt; A master&apos;s findings, to the extent adopted by the court, must be considered the court&apos;s findings.</string>
 		<string>2(5) &lt;i&gt;Questioning the Evidentiary Support.&lt;/i&gt; A party may later question the sufficiency of the evidence supporting the findings, whether or not the party requested findings, objected to them, moved to amend them, or moved for partial findings.</string>
-		<string>2(6) &lt;i&gt;Setting Aside the Findings.&lt;/i&gt; Findings of fact, whether based on oral or other evidence, must not be set aside unless clearly erroneous, and the reviewing court must give due regard to the trial court&apos;s opportunity to judge the witnesses’ credibility.</string>
+		<string>2(6) &lt;i&gt;Setting Aside the Findings.&lt;/i&gt; Findings of fact, whether based on oral or other evidence, must not be set aside unless clearly erroneous, and the reviewing court must give due regard to the trial court&apos;s opportunity to judge the witnesses&apos; credibility.</string>
 		<string>1(b) AMENDED OR ADDITIONAL FINDINGS. On a party&apos;s motion filed no later than 28 days after the entry of judgment, the court may amend its findings—or make additional findings—and may amend the judgment accordingly. The motion may accompany a motion for a new trial under Rule 59.</string>
 		<string>1(c) JUDGMENT ON PARTIAL FINDINGS. If a party has been fully heard on an issue during a nonjury trial and the court finds against the party on that issue, the court may enter judgment against the party on a claim or defense that, under the controlling law, can be maintained or defeated only with a favorable finding on that issue. The court may, however, decline to render any judgment until the close of the evidence. A judgment on partial findings must be supported by findings of fact and conclusions of law as required by Rule 52(a).</string>
 		<string>2(As amended Dec. 27, 1946, eff. Mar. 19, 1948; Jan. 21, 1963, eff. July 1, 1963; Apr. 28, 1983, eff. Aug. 1, 1983; Apr. 29, 1985, eff. Aug. 1, 1985; Apr. 30, 1991, eff. Dec. 1, 1991; Apr. 22, 1993, eff. Dec. 1, 1993; Apr. 27, 1995, eff. Dec. 1, 1995; Apr. 30, 2007, eff. Dec. 1, 2007; Mar. 26, 2009, eff. Dec. 1, 2009.)</string>
@@ -1588,7 +1617,7 @@
 		<string>2(2) &lt;i&gt;Payment.&lt;/i&gt; The compensation must be paid either:</string>
 		<string>3(A) by a party or parties; or</string>
 		<string>3(B) from a fund or subject matter of the action within the court&apos;s control.</string>
-		<string>2(3) &lt;i&gt;Allocating Payment.&lt;/i&gt; The court must allocate payment among the parties after considering the nature and amount of the controversy, the parties’ means, and the extent to which any party is more responsible than other parties for the reference to a master. An interim allocation may be amended to reflect a decision on the merits.</string>
+		<string>2(3) &lt;i&gt;Allocating Payment.&lt;/i&gt; The court must allocate payment among the parties after considering the nature and amount of the controversy, the parties&apos; means, and the extent to which any party is more responsible than other parties for the reference to a master. An interim allocation may be amended to reflect a decision on the merits.</string>
 		<string>1(h) APPOINTING A MAGISTRATE JUDGE. A magistrate judge is subject to this rule only when the order referring a matter to the magistrate judge states that the reference is made under this rule.</string>
 		<string>2(As amended Feb. 28, 1966, eff. July 1, 1966; Apr. 28, 1983, eff. Aug. 1, 1983; Mar. 2, 1987, eff. Aug. 1, 1987; Apr. 30, 1991, eff. Dec. 1, 1991; Apr. 22, 1993, eff. Dec. 1, 1993; Mar. 27, 2003, eff. Dec. 1, 2003; Apr. 30, 2007, eff. Dec. 1, 2007; Mar. 26, 2009, eff. Dec. 1, 2009.)</string>
 	</array>
@@ -1596,10 +1625,10 @@
 	<array>
 		<string>1&lt;b&gt;Rule 54. Judgment; Costs&lt;/b&gt;</string>
 		<string>1(a) DEFINITION; FORM. “Judgment” as used in these rules includes a decree and any order from which an appeal lies. A judgment should not include recitals of pleadings, a master&apos;s report, or a record of prior proceedings.</string>
-		<string>1(b) JUDGMENT ON MULTIPLE CLAIMS OR INVOLVING MULTIPLE PARTIES. When an action presents more than one claim for relief—whether as a claim, counterclaim, crossclaim, or third-party claim—or when multiple parties are involved, the court may direct entry of a final judgment as to one or more, but fewer than all, claims or parties only if the court expressly determines that there is no just reason for delay. Otherwise, any order or other decision, however designated, that adjudicates fewer than all the claims or the rights and liabilities of fewer than all the parties does not end the action as to any of the claims or parties and may be revised at any time before the entry of a judgment adjudicating all the claims and all the parties’ rights and liabilities.</string>
+		<string>1(b) JUDGMENT ON MULTIPLE CLAIMS OR INVOLVING MULTIPLE PARTIES. When an action presents more than one claim for relief—whether as a claim, counterclaim, crossclaim, or third-party claim—or when multiple parties are involved, the court may direct entry of a final judgment as to one or more, but fewer than all, claims or parties only if the court expressly determines that there is no just reason for delay. Otherwise, any order or other decision, however designated, that adjudicates fewer than all the claims or the rights and liabilities of fewer than all the parties does not end the action as to any of the claims or parties and may be revised at any time before the entry of a judgment adjudicating all the claims and all the parties&apos; rights and liabilities.</string>
 		<string>1(c) DEMAND FOR JUDGMENT; RELIEF TO BE GRANTED. A default judgment must not differ in kind from, or exceed in amount, what is demanded in the pleadings. Every other final judgment should grant the relief to which each party is entitled, even if the party has not demanded that relief in its pleadings.</string>
 		<string>1(d) COSTS; ATTORNEY&apos;S FEES.</string>
-		<string>2(1) &lt;i&gt;Costs Other Than Attorney&apos;s Fees.&lt;/i&gt; Unless a federal statute, these rules, or a court order provides otherwise, costs—other than attorney&apos;s fees—should be allowed to the prevailing party. But costs against the United States, its officers, and its agencies may be imposed only to the extent allowed by law. The clerk may tax costs on 14 days’ notice. On motion served within the next 7 days, the court may review the clerk&apos;s action.</string>
+		<string>2(1) &lt;i&gt;Costs Other Than Attorney&apos;s Fees.&lt;/i&gt; Unless a federal statute, these rules, or a court order provides otherwise, costs—other than attorney&apos;s fees—should be allowed to the prevailing party. But costs against the United States, its officers, and its agencies may be imposed only to the extent allowed by law. The clerk may tax costs on 14 days&apos; notice. On motion served within the next 7 days, the court may review the clerk&apos;s action.</string>
 		<string>2(2) &lt;i&gt;Attorney&apos;s Fees.&lt;/i&gt;</string>
 		<string>3(A) &lt;i&gt;Claim to Be by Motion&lt;/i&gt;. A claim for attorney&apos;s fees and related nontaxable expenses must be made by motion unless the substantive law requires those fees to be proved at trial as an element of damages.</string>
 		<string>3(B) &lt;i&gt;Timing and Contents of the Motion.&lt;/i&gt; Unless a statute or a court order provides otherwise, the motion must:</string>
@@ -1643,7 +1672,7 @@
 		<string>2(1) defer considering the motion or deny it;</string>
 		<string>2(2) allow time to obtain affidavits or declarations or to take discovery; or</string>
 		<string>2(3) issue any other appropriate order.</string>
-		<string>1(e) FAILING TO PROPERLY SUPPORT OR ADDRESS A FACT. If a party fails to properly support an assertion of fact or fails to properly address another party’s assertion of fact as required by Rule 56(c), the court may:</string>
+		<string>1(e) FAILING TO PROPERLY SUPPORT OR ADDRESS A FACT. If a party fails to properly support an assertion of fact or fails to properly address another party&apos;s assertion of fact as required by Rule 56(c), the court may:</string>
 		<string>2(1) give an opportunity to properly support or address the fact;</string>
 		<string>2(2) consider the fact undisputed for purposes of the motion;</string>
 		<string>2(3) grant summary judgment if the motion and supporting materials — including the facts considered undisputed — show that the movant is entitled to it; or</string>
@@ -1653,7 +1682,7 @@
 		<string>2(2) grant the motion on grounds not raised by a party;or</string>
 		<string>2(3) consider summary judgment on its own after identifying for the parties material facts that may not be genuinely in dispute.</string>
 		<string>1(g) FAILING TO GRANT ALL THE REQUESTED RELIEF. If the court does not grant all the relief requested by the motion, it may enter an order stating any material fact — including an item of damages or other relief — that is not genuinely in dispute and treating the fact as established in the case.</string>
-		<string>1(h) AFFIDAVIT OR DECLARATION SUBMITTED IN BAD FAITH. If satisfied that an affidavit or declaration under this rule is submitted in bad faith or solely for delay, the court — after notice and a reasonable time to respond — may order the submitting party to pay the other party the reasonable expenses, including attorney’s fees, it incurred as a result. An offending party or attorney may also be held in contempt or subjected to other appropriate sanctions.</string>
+		<string>1(h) AFFIDAVIT OR DECLARATION SUBMITTED IN BAD FAITH. If satisfied that an affidavit or declaration under this rule is submitted in bad faith or solely for delay, the court — after notice and a reasonable time to respond — may order the submitting party to pay the other party the reasonable expenses, including attorney&apos;s fees, it incurred as a result. An offending party or attorney may also be held in contempt or subjected to other appropriate sanctions.</string>
 		<string>2(As amended Dec. 27, 1946, eff. Mar. 19, 1948; Jan. 21, 1963, eff. July 1, 1963; Mar. 2, 1987, eff. Aug. 1, 1987; Apr. 30, 2007, eff. Dec. 1, 2007; Mar. 26, 2009, eff. Dec. 1, 2009; Apr. 28, 2010, eff. Dec. 1, 2010.)</string>
 	</array>
 	<key>Rule57</key>
@@ -1732,18 +1761,14 @@
 	<key>Rule62</key>
 	<array>
 		<string>1&lt;b&gt;Rule 62. Stay of Proceedings to Enforce a Judgment&lt;/b&gt;</string>
-		<string>1(a) AUTOMATIC STAY; EXCEPTIONS FOR INJUNCTIONS, RECEIVERSHIPS, AND PATENT ACCOUNTINGS. Except as stated in this rule, no execution may issue on a judgment, nor may proceedings be taken to enforce it, until 14 days have passed after its entry. But unless the court orders otherwise, the following are not stayed after being entered, even if an appeal is taken:</string>
-		<string>2(1) an interlocutory or final judgment in an action for an injunction or a receivership; or</string>
-		<string>2(2) a judgment or order that directs an accounting in an action for patent infringement.</string>
-		<string>1(b) STAY PENDING THE DISPOSITION OF A MOTION. On appropriate terms for the opposing party&apos;s security, the court may stay the execution of a judgment—or any proceedings to enforce it—pending disposition of any of the following motions:</string>
-		<string>2(1) under Rule 50, for judgment as a matter of law;</string>
-		<string>2(2) under Rule 52(b), to amend the findings or for additional findings;</string>
-		<string>2(3) under Rule 59, for a new trial or to alter or amend a judgment; or</string>
-		<string>2(4) under Rule 60, for relief from a judgment or order.</string>
-		<string>1(c) INJUNCTION PENDING AN APPEAL. While an appeal is pending from an interlocutory order or final judgment that grants, dissolves, or denies an injunction, the court may suspend, modify, restore, or grant an injunction on terms for bond or other terms that secure the opposing party&apos;s rights. If the judgment appealed from is rendered by a statutory three-judge district court, the order must be made either:</string>
-		<string>2(1) by that court sitting in open session; or</string>
-		<string>2(2) by the assent of all its judges, as evidenced by their signatures.</string>
-		<string>1(d) STAY WITH BOND ON APPEAL. If an appeal is taken, the appellant may obtain a stay by supersedeas bond, except in an action described in Rule 62(a)(1) or (2). The bond may be given upon or after filing the notice of appeal or after obtaining the order allowing the appeal. The stay takes effect when the court approves the bond.</string>
+        <string>1(a) &lt;b&gt;Automatic Stay.&lt;/b&gt; Except as provided in Rule 62(c) and (d), execution on a judgment and proceedings to enforce it are stayed for 30 days after its entry, unless the court orders otherwise.</string>
+        <string>1(b) &lt;b&gt;Stay by Bond or Other Security.&lt;/b&gt; At any time after judgment is entered, a party may obtain a stay by providing a bond or other security. The stay takes effect when the court approves the bond or other security and remains in effect for the time specified in the bond or other security. </string>
+        <string>1(c) &lt;b&gt;Stay of an Injunction, Receivership, or Patent Accounting Order.&lt;/b&gt; Unless the court orders otherwise, the following are not stayed after being entered, even if an appeal is taken:</string>
+        <string>2(1) an interlocutory or final judgment in an action for an injunction or receivership; or</string>
+        <string>2(2) a judgment or order that directs an accounting in an action for patent infringement.</string>
+        <string>1(d) &lt;b&gt;Injunction Pending an Appeal.&lt;/b&gt; While an appeal is pending from an interlocutory order or final judgment that grants, continues, modifies, refuses, dissolves, or refuses to dissolve or modify an injunction, the court may suspend, modify, restore, or grant an injunction on terms for bond or other terms that secure the opposing party&apos;s rights. If the judgment appealed from is rendered by a statutory three-judge district court, the order must be made either:</string>
+            <string>2(1) by that court sitting in open session; or</string>
+            <string>2(2) by the assent of all its judges, as evidenced by their signatures</string>
 		<string>1(e) STAY WITHOUT BOND ON AN APPEAL BY THE UNITED STATES, ITS OFFICERS, OR ITS AGENCIES. The court must not require a bond, obligation, or other security from the appellant when granting a stay on an appeal by the United States, its officers, or its agencies or on an appeal directed by a department of the federal government.</string>
 		<string>1(f) STAY IN FAVOR OF A JUDGMENT DEBTOR UNDER STATE LAW. If a judgment is a lien on the judgment debtor&apos;s property under the law of the state where the court is located, the judgment debtor is entitled to the same stay of execution the state court would give.</string>
 		<string>1(g) APPELLATE COURT&apos;S POWER NOT LIMITED. This rule does not limit the power of the appellate court or one of its judges or justices:</string>
@@ -1794,7 +1819,7 @@
 		<string>3(B) the movant&apos;s attorney certifies in writing any efforts made to give notice and the reasons why it should not be required.</string>
 		<string>2(2) &lt;i&gt;Contents; Expiration.&lt;/i&gt; Every temporary restraining order issued without notice must state the date and hour it was issued; describe the injury and state why it is irreparable; state why the order was issued without notice; and be promptly filed in the clerk&apos;s office and entered in the record. The order expires at the time after entry—not to exceed 14 days—that the court sets, unless before that time the court, for good cause, extends it for a like period or the adverse party consents to a longer extension. The reasons for an extension must be entered in the record.</string>
 		<string>2(3) &lt;i&gt;Expediting the Preliminary-Injunction Hearing.&lt;/i&gt; If the order is issued without notice, the motion for a preliminary injunction must be set for hearing at the earliest possible time, taking precedence over all other matters except hearings on older matters of the same character. At the hearing, the party who obtained the order must proceed with the motion; if the party does not, the court must dissolve the order.</string>
-		<string>2(4) &lt;i&gt;Motion to Dissolve.&lt;/i&gt; On 2 days’ notice to the party who obtained the order without notice—or on shorter notice set by the court—the adverse party may appear and move to dissolve or modify the order. The court must then hear and decide the motion as promptly as justice requires.</string>
+		<string>2(4) &lt;i&gt;Motion to Dissolve.&lt;/i&gt; On 2 days&apos; notice to the party who obtained the order without notice—or on shorter notice set by the court—the adverse party may appear and move to dissolve or modify the order. The court must then hear and decide the motion as promptly as justice requires.</string>
 		<string>1(c) SECURITY. The court may issue a preliminary injunction or a temporary restraining order only if the movant gives security in an amount that the court considers proper to pay the costs and damages sustained by any party found to have been wrongfully enjoined or restrained. The United States, its officers, and its agencies are not required to give security.</string>
 		<string>1(d) CONTENTS AND SCOPE OF EVERY INJUNCTION AND RESTRAINING ORDER.</string>
 		<string>2(1) &lt;i&gt;Contents&lt;/i&gt;. Every order granting an injunction and every restraining order must:</string>
@@ -1803,7 +1828,7 @@
 		<string>3(C) describe in reasonable detail—and not by referring to the complaint or other document—the act or acts restrained or required.</string>
 		<string>2(2) &lt;i&gt;Persons Bound.&lt;/i&gt; The order binds only the following who receive actual notice of it by personal service or otherwise:</string>
 		<string>3(A) the parties;</string>
-		<string>3(B) the parties’ officers, agents, servants, employees, and attorneys; and</string>
+		<string>3(B) the parties&apos; officers, agents, servants, employees, and attorneys; and</string>
 		<string>3(C) other persons who are in active concert or participation with anyone described in Rule 65(d)(2)(A) or (B).</string>
 		<string>1(e) OTHER LAWS NOT MODIFIED. These rules do not modify the following:</string>
 		<string>2(1) any federal statute relating to temporary restraining orders or preliminary injunctions in actions affecting employer and employee;</string>
@@ -1815,8 +1840,8 @@
 	<key>Rule65.1</key>
 	<array>
 		<string>1&lt;b&gt;Rule 65.1. Proceedings Against a Surety&lt;/b&gt;</string>
-		<string>1Whenever these rules (including the Supplemental Rules for Admiralty or Maritime Claims and Asset Forfeiture Actions) require or allow a party to give security, and security is given through a bond or other undertaking with one or more sureties, each surety submits to the court&apos;s jurisdiction and irrevocably appoints the court clerk as its agent for receiving service of any papers that affect its liability on the bond or undertaking. The surety&apos;s liability may be enforced on motion without an independent action. The motion and any notice that the court orders may be served on the court clerk, who must promptly mail a copy of each to every surety whose address is known.</string>
-		<string>2(As added Feb. 28, 1966, eff. July 1, 1966; amended Mar. 2, 1987, eff. Aug. 1, 1987; Apr. 12, 2006, eff. Dec. 1, 2006; Apr. 30, 2007, eff. Dec. 1, 2007.)</string>
+        <string>1Whenever these rules (including the Supplemental Rules for Admiralty or Maritime Claims and Asset Forfeiture Actions) require or allow a party to give security, and security is given with one or more security providers, each provider submits to the court&apos;s jurisdiction and irrevocably appoints the court clerk as its agent for receiving service of any papers that affect its liability on the security. The security provider&apos;s liability may be enforced on motion without an independent action. The motion and any notice that the court orders may be served on the court clerk, who must promptly send a copy of each to every security provider whose address is known. </string>
+        <string>2(As added Feb. 28, 1966, eff. July 1, 1966; amended Mar. 2, 1987, eff. Aug. 1, 1987; Apr. 12, 2006, eff. Dec. 1, 2006; Apr. 30, 2007, eff. Dec. 1, 2007; Apr. 26, 2018, eff. Dec. 1, 2018.)</string>
 	</array>
 	<key>Rule66</key>
 	<array>
@@ -1880,7 +1905,7 @@
 		<string>3(E) for each piece of property, a designation of each defendant who has been joined as an owner or owner of an interest in it.</string>
 		<string>2(3) &lt;i&gt;Parties.&lt;/i&gt; When the action commences, the plaintiff need join as defendants only those persons who have or claim an interest in the property and whose names are then known. But before any hearing on compensation, the plaintiff must add as defendants all those persons who have or claim an interest and whose names have become known or can be found by a reasonably diligent search of the records, considering both the property&apos;s character and value and the interests to be acquired. All others may be made defendants under the designation “Unknown Owners.”</string>
 		<string>2(4) &lt;i&gt;Procedure.&lt;/i&gt; Notice must be served on all defendants as provided in Rule 71.1(d), whether they were named as defendants when the action commenced or were added later. A defendant may answer as provided in Rule 71.1(e). The court, meanwhile, may order any distribution of a deposit that the facts warrant.</string>
-		<string>2(5) &lt;i&gt;Filing; Additional Copies.&lt;/i&gt; In addition to filing the complaint, the plaintiff must give the clerk at least one copy for the defendants’ use and additional copies at the request of the clerk or a defendant.</string>
+		<string>2(5) &lt;i&gt;Filing; Additional Copies.&lt;/i&gt; In addition to filing the complaint, the plaintiff must give the clerk at least one copy for the defendants&apos; use and additional copies at the request of the clerk or a defendant.</string>
 		<string>1(d) PROCESS.</string>
 		<string>2(1) DELIVERING NOTICE TO THE CLERK. On filing a complaint, the plaintiff must promptly deliver to the clerk joint or several notices directed to the named defendants. When adding defendants, the plaintiff must deliver to the clerk additional notices directed to the new defendants.</string>
 		<string>2(2) &lt;i&gt;Contents of the Notice.&lt;/i&gt;</string>
@@ -1907,7 +1932,7 @@
 		<string>3(B) state the nature and extent of the interest; and</string>
 		<string>3(C) state all the defendant&apos;s objections and defenses to the taking.</string>
 		<string>2(3) &lt;i&gt;Waiver of Other Objections and Defenses; Evidence on Compensation.&lt;/i&gt; A defendant waives all objections and defenses not stated in its answer. No other pleading or motion asserting an additional objection or defense is allowed. But at the trial on compensation, a defendant—whether or not it has previously appeared or answered—may present evidence on the amount of compensation to be paid and may share in the award.</string>
-		<string>1(f) AMENDING PLEADINGS. Without leave of court, the plaintiff may—as often as it wants—amend the complaint at any time before the trial on compensation. But no amendment may be made if it would result in a dismissal inconsistent with Rule 71.1(i)(1) or (2). The plaintiff need not serve a copy of an amendment, but must serve notice of the filing, as provided in Rule 5(b), on every affected party who has appeared and, as provided in Rule 71.1(d), on every affected party who has not appeared. In addition, the plaintiff must give the clerk at least one copy of each amendment for the defendants’ use, and additional copies at the request of the clerk or a defendant. A defendant may appear or answer in the time and manner and with the same effect as provided in Rule 71.1(e).</string>
+		<string>1(f) AMENDING PLEADINGS. Without leave of court, the plaintiff may—as often as it wants—amend the complaint at any time before the trial on compensation. But no amendment may be made if it would result in a dismissal inconsistent with Rule 71.1(i)(1) or (2). The plaintiff need not serve a copy of an amendment, but must serve notice of the filing, as provided in Rule 5(b), on every affected party who has appeared and, as provided in Rule 71.1(d), on every affected party who has not appeared. In addition, the plaintiff must give the clerk at least one copy of each amendment for the defendants&apos; use, and additional copies at the request of the clerk or a defendant. A defendant may appear or answer in the time and manner and with the same effect as provided in Rule 71.1(e).</string>
 		<string>1(g) SUBSTITUTING PARTIES. If a defendant dies, becomes incompetent, or transfers an interest after being joined, the court may, on motion and notice of hearing, order that the proper party be substituted. Service of the motion and notice on a nonparty must be made as provided in Rule 71.1(d)(3).</string>
 		<string>1(h) TRIAL OF THE ISSUES.</string>
 		<string>2(1) &lt;i&gt;Issues Other Than Compensation; Compensation.&lt;/i&gt; In an action involving eminent domain under federal law, the court tries all issues, including compensation, except when compensation must be determined:</string>
@@ -1937,7 +1962,7 @@
 		<string>1&lt;b&gt;Rule 72. Magistrate Judges: Pretrial Order&lt;/b&gt;</string>
 		<string>1(a) NONDISPOSITIVE MATTERS. When a pretrial matter not dispositive of a party&apos;s claim or defense is referred to a magistrate judge to hear and decide, the magistrate judge must promptly conduct the required proceedings and, when appropriate, issue a written order stating the decision. A party may serve and file objections to the order within 14 days after being served with a copy. A party may not assign as error a defect in the order not timely objected to. The district judge in the case must consider timely objections and modify or set aside any part of the order that is clearly erroneous or is contrary to law.</string>
 		<string>1(b) DISPOSITIVE MOTIONS AND PRISONER PETITIONS.</string>
-		<string>2(1) &lt;i&gt;Findings and Recommendations.&lt;/i&gt; A magistrate judge must promptly conduct the required proceedings when assigned, without the parties’ consent, to hear a pretrial matter dispositive of a claim or defense or a prisoner petition challenging the conditions of confinement. A record must be made of all evidentiary proceedings and may, at the magistrate judge&apos;s discretion, be made of any other proceedings. The magistrate judge must enter a recommended disposition, including, if appropriate, proposed findings of fact. The clerk must promptly mail a copy to each party.</string>
+		<string>2(1) &lt;i&gt;Findings and Recommendations.&lt;/i&gt; A magistrate judge must promptly conduct the required proceedings when assigned, without the parties&apos; consent, to hear a pretrial matter dispositive of a claim or defense or a prisoner petition challenging the conditions of confinement. A record must be made of all evidentiary proceedings and may, at the magistrate judge&apos;s discretion, be made of any other proceedings. The magistrate judge must enter a recommended disposition, including, if appropriate, proposed findings of fact. The clerk must promptly mail a copy to each party.</string>
 		<string>2(2) &lt;i&gt;Objections.&lt;/i&gt; Within 14 days after being served with a copy of the recommended disposition, a party may serve and file specific written objections to the proposed findings and recommendations. A party may respond to another party&apos;s objections within 14 days after being served with a copy. Unless the district judge orders otherwise, the objecting party must promptly arrange for transcribing the record, or whatever portions of it the parties agree to or the magistrate judge considers sufficient.</string>
 		<string>2(3) &lt;i&gt;Resolving Objections.&lt;/i&gt; The district judge must determine de novo any part of the magistrate judge&apos;s disposition that has been properly objected to. The district judge may accept, reject, or modify the recommended disposition; receive further evidence; or return the matter to the magistrate judge with instructions.</string>
 		<string>2(As added Apr. 28, 1983, eff. Aug. 1, 1983; amended Apr. 30, 1991, eff. Dec. 1, 1991; Apr. 22, 1993, eff. Dec. 1, 1993; Apr. 30, 2007, eff. Dec. 1, 2007; Mar. 26, 2009, eff. Dec. 1, 2009.)</string>
@@ -2029,7 +2054,7 @@
 		<string>3(C) 15 U.S.C. \u00A7522, for reviewing an order of the Secretary of the Interior;</string>
 		<string>3(D) 15 U.S.C. \u00A7715d(c), for reviewing an order denying a certificate of clearance;</string>
 		<string>3(E) 29 U.S.C. \u00A7\u00A7159, 160, for enforcing an order of the National Labor Relations Board;</string>
-		<string>3(F) 33 U.S.C. \u00A7\u00A7918, 921, for enforcing or reviewing a compensation order under the Longshore and Harbor Workers’ Compensation Act; and</string>
+		<string>3(F) 33 U.S.C. \u00A7\u00A7918, 921, for enforcing or reviewing a compensation order under the Longshore and Harbor Workers&apos; Compensation Act; and</string>
 		<string>3(G) 45 U.S.C. \u00A7159, for reviewing an arbitration award in a railway-labor dispute.</string>
 		<string>1(b) SCIRE FACIAS AND MANDAMUS. The writs of scire facias and mandamus are abolished. Relief previously available through them may be obtained by appropriate action or motion under these rules.</string>
 		<string>1(c) REMOVED ACTIONS.</string>
